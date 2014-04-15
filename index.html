@@ -1,13 +1,38 @@
 ---
 layout: default
-title: Kaylee Hubbartt
 ---
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div>
+
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Kaylee Mann</h1>
+        <p>I'm a researcher, uGSI, and third year undergraduate studying electrical engineering and computer science at the University of California Berkeley.</p>
+        <!--<p><a class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p>-->
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Research Publications</h2>
+          <p><a href="http://embc.embs.org/files/2013/2664_FI.pdf">An ocellar-based flight control system for flying insects. <super>*</super></a></p>
+          <p>A Wearable Wireless Platform for Optically Stimulating Neurons in Small Flying Insects. (Pending Review)</p>
+          <p style="font-size:10px;float:right;margin-right:30px;color:#aaa;"><super>*</super>Acknowledged under different name.</p>
+        </div>
+        <div class="col-md-4">
+          <h2>Curriculum Vitae</h2>
+          <p>Teaching Experience as uGSI for CS61A:The Structure and Interpretation of Computer Programs</p>
+          <p>Intern on Global Hawk Program at Northrop Grumman</p>
+          <p>Research experience in Maharbiz group at UC Berkeley.</p>
+          <p>Proficient in PCB Design, Python, C, Embedded Development, Linux, and more.</p>
+          <p><a class="btn btn-default" href="resume.pdf" role="button">See Full CV &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Links</h2>
+          <p><a href ="http://maharbizgroup.wordpress.com/">Maharbiz Research Group.</a></p>
+          <p><a href ="https://www.linkedin.com/profile/view?id=338033614">Linked In.</a></p>
+        </div>
+      </div>

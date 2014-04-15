@@ -1,46 +1,57 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }}</title>
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
+    <!-- Bootstrap -->
+    <link href="css/boot/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
 
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
+  <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">Kaylee Mann</a>
+      </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+              <li class="resume.pdf"><a href="#">Resume</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="http://tepsilon.herokuapp.com">Comics</a></li>
+        </ul>
+      </div><!--/.navbar-collapse -->
 
-    </head>
-    <body>
+    </div>
+  </div>
 
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/">home</a>
-            <a class="extra" href="/about.html">about</a>
-            <a class="extra" href="/contact.html">contact</a>
-          </div>
+{{content}}
 
-          {{ content }}
+      <hr>
+    <div class=container>
+      <footer>
+        <p style="float:right">
+          Self-hosted<br/>
+          <a href="https://www.statuscake.com" title="Website Uptime Monitoring"><img src="https://www.statuscake.com/App/button/index.php?Track=ICFH6fsUGz&Days=1&Design=1" /></a>
+        </p>
+        <p>&copy; Kaylee Mann</p>
+      </footer>
+    </div> <!-- /container -->
 
-          <div class="footer">
-            <div class="contact">
-              <p>
-                Kaylee Hubbartt<br />
-                TA and Research Assistant at the University of California Berkeley<br />
-                <!--<a href="">Contact Me!</a>-->
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <!--<a href="https://github.com/kayleehubbartt">github.com/yourusername</a><br />-->
-                <!--<a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br />-->
-              </p>
-            </div>
-          </div>
-        </div>
 
-    </body>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+  </body>
 </html>
