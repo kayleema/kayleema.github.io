@@ -1,0 +1,21 @@
+.jumbotron{
+	 background:
+	 -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 80%,rgba(0,0,0,0.1) 100%),
+	 url(/tex/skulls.png)  repeat 0 0;
+}
+
+.jumbotron h1{
+    font-size: 48px;
+    line-height: 70px;
+    font-weight: bold;
+}
+
+.jumbotron, .navbar{
+    font-family: 'Arvo', Georgia, Times, serif;
+}
+
+body{
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    /*line-height: 25px;*/
+}
