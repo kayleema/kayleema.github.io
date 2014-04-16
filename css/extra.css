@@ -1,6 +1,17 @@
 .jumbotron{
+    background: url(/tex/skulls.png)  repeat 0 0;
+
 	 background:
 	 -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 80%,rgba(0,0,0,0.1) 100%),
+	 url(/tex/skulls.png)  repeat 0 0;
+	 background:
+	 -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 80%,rgba(0,0,0,0.1) 100%),
+	 url(/tex/skulls.png)  repeat 0 0;
+	 background:
+	 -moz-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 80%,rgba(0,0,0,0.1) 100%),
+	 url(/tex/skulls.png)  repeat 0 0;
+	 background:
+	 linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 80%,rgba(0,0,0,0.1) 100%),
 	 url(/tex/skulls.png)  repeat 0 0;
 }
 
