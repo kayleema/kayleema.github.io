@@ -1,3 +1,5 @@
 name: Kaylee Mann
-markdown: redcarpet
+markdown: kramdown
 pygments: true
+description: Awesome posts about technology
+url: http://www.kayleemann.com

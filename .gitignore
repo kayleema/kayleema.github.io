@@ -1,3 +1,5 @@
 _site
 __MACOS*
 *~
+publish.sh
+.DS_Store

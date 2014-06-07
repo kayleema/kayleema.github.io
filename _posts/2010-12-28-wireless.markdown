@@ -1,0 +1,82 @@
+---
+layout: post
+title:  "Wireless Modules with Arduino"
+summary:  "Tutorial on how to use cheap wireless modules with Arduino"
+---
+
+{% include /image-right.html url="http://keeganmann.files.wordpress.com/2010/12/08950-03-l_i_ma.jpg" description="Wireless Transmitter and Receiver Modules" href="http://keeganmann.files.wordpress.com/2010/12/08950-03-l_i_ma.jpg" %}
+
+I recently ordered a wireless transmitter and receiver, from Sparkfun.  They are super cheap, but getting them to work is a little tricky.
+
+<div class="alert alert-warning"><strong>Important Note:</strong>  It's been a <i>long time</i> since I've written this, so keep in mind that some things could be improved.  In particular, it would be a good idea to implement some form of <a href="http://en.wikipedia.org/wiki/Run_Length_Limited">run-length limiting</a></div>
+
+<!--more-->
+
+Circuits
+=========
+Here is the transmitter circuit.  In my case, I had to remove the antenna in order to make it work.
+
+{% include /image.html url="http://keeganmann.files.wordpress.com/2010/12/wirelessa.png?w=300" description="Transmitter Circuit Diagram" href="http://keeganmann.files.wordpress.com/2010/12/wirelessa.png" %}
+
+Here's the general receiver circuit.
+
+
+{% include /image.html url="http://keeganmann.files.wordpress.com/2010/12/wirelessc.png?w=300" 	description="Receiver Circuit Diagram" href="http://keeganmann.files.wordpress.com/2010/12/wirelessc.png" %}
+
+However, if you are using an Arduino microcontroller board with a built in USB to serial converter, it will pull the Rx pin of the Arduino high through a 1K resistor overpowering the Receiver module.
+
+One solution is to use a different Arduino pin as a serial input and use the softwareserial library to receive data.
+
+If you still want to use the Arduino's hardware UART, you can add a buffer between the wireless module and the Arduino so that the receiver can overcome the USB to serial connection's pull-up effect:
+
+{% include /image.html url="http://keeganmann.files.wordpress.com/2010/12/wirelessb.png?w=300" description="Wireless Receiver Circuit Diagram with Buffer" href="http://keeganmann.files.wordpress.com/2010/12/wirelessb.png" %}
+
+You could also use a transistor or op-amp as a buffer.
+
+Code
+============
+### Packet Format ###
+
+Data is sent in packets which consist of the following
+
+<table class="table table-striped tabel-condensed table-bordered">
+<tbody>
+<tr>
+<td>Byte #</td>
+<td>Description</td>
+</tr>
+<tr>
+<td>1</td>
+<td>0xAA Preamble</td>
+</tr>
+<tr>
+<td>2</td>
+<td>0x55 Preamble</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Length (number of bytes in data Block)</td>
+</tr>
+<tr>
+<td>4 ... n</td>
+<td>Data</td>
+</tr>
+<tr>
+<td>n+1</td>
+<td>Checksum (data bytes summed and truncated)</td>
+</tr>
+</tbody>
+</table>
+
+First the microcontroller looks for the preamble bytes which mark the start of the packet in the random stream of data the microcontroller is receiving, then the microcontroller reads the length byte so that it knows how many bytes to read.  Last, the receiving microcontroller reads the checksum and compares it to the one calculated for the data it received.  If the checksums don't match, then it knows that something was corrupted.
+
+The checksum is calculated by summing the data bytes and truncating the result to one byte:
+
+![modules](/images/latex-checksum.gif ".")
+
+### Sample Transmitter Code ###
+<script src="https://gist.github.com/d4a51a7d4f1016b35a0a.js"></script>
+
+
+### Sample Receiver Code (with hardware UART) ###
+<script src="https://gist.github.com/2302b8217a65c5c14a15.js"></script>

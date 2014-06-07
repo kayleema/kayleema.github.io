@@ -4,15 +4,22 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ page.title }}</title>
+    <title>Kaylee - {{ page.title }}</title>
 
     <!-- Bootstrap -->
-    <link href="css/boot/css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/extra.css" rel="stylesheet">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/extra.css" rel="stylesheet">
 
     <!--fonts-->
-<link href="http://fonts.googleapis.com/css?family=Arvo" rel="stylesheet" type="text/css">
-<link href="http://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Arvo" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet" type="text/css">
+    <link rel="alternate" type="application/rss+xml" title="Posts"
+      href="/feed.xml">
+
+    <!--more meta-->
+    <meta name="description" content="{{ page.summary }}">
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+    <link rel="author" href="https://plus.google.com/103030007168098159665"/>
   </head>
   <body>
 
@@ -25,14 +32,14 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="index.html">Kaylee Mann</a>
+        <a class="navbar-brand" href="/index.html">Kaylee Mann</a>
       </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
-              <li><a href="resume.pdf">Resume</a></li>
-              <li><a href="contact.html">Contact</a></li>
-              <li><a href="http://tepsilon.herokuapp.com">Comics</a></li>
+              <li><a href="/resume.pdf">Resume</a></li>
+              <li><a href="/contact.html">Contact</a></li>
+              <!--<li><a href="http://tepsilon.herokuapp.com">Comics</a></li>-->
         </ul>
       </div><!--/.navbar-collapse -->
 
@@ -57,6 +64,16 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-50771417-1', 'kayleemann.com');
+  ga('send', 'pageview');
+
+</script>
   </body>
 </html>
