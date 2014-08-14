@@ -31,7 +31,7 @@ Tracking
 Exporting
 ------------
 
-* [Download the export script from GitHub](https://gist.github.com/7b96bba85ed81aba864a)  (You can alternatively run `git clone https://gist.github.com/7b96bba85ed81aba864a.git` in a terminal)
+* [Download the export script from GitHub](https://gist.github.com/7b96bba85ed81aba864a)  (Alternatively, you can run `git clone https://gist.github.com/7b96bba85ed81aba864a.git` in a terminal)
 * Change the editor type for the right-side area to "Text Editor", by opening the menu on the lower-right of the right-hand-side pane.  ![editor type dropdown](/images/blender3.png)
 * Click the "Open" button on the bottom of the text editor to open the markers.py file downloaded above.
 * In the text editor change the line `OUT_DIR = '/tmp'` to refer to the directory where you want to save your output files.  Do not include a trailing slash in your directory path.
