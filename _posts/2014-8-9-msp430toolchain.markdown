@@ -4,6 +4,8 @@ title:  "MSP430 Toolchain on OSX Mavericks"
 summary:  "Developing for the MSP430 and the TI Launchpad Development Kit on OSX"
 ---
 
+![Mavericks MSP430](/images/mav.jpg "MSP430")
+
 * Install XCode through the OSX App Store
 * Open XCode, complete installation
 * ``$ xcode-select --install     #installs the xcode command line utilities``
