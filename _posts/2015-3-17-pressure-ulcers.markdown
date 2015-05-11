@@ -28,7 +28,7 @@ Media
 * [‘Smart bandage’ detects bedsores before they are visible to doctors](http://newscenter.berkeley.edu/2015/03/17/smart-bandages-detect-bedsores/) from the Berkeley News Center
 * ['Smart Bandage' Detects Bed Sores] from Product Design and Development
 * [‘Smart’ Bandage Sees Wounds Before They’re Visible](http://www.theepochtimes.com/n3/1289430-smart-bandage-sees-wounds-before-theyre-visible/) from Epoch Times
-
+* [Vendaje "inteligente" capaz de una detección precoz de formación de llagas en pacientes acostados](http://noticiasdelaciencia.com/not/13999/vendaje-ldquo-inteligente-rdquo-capaz-de-una-deteccion-precoz-de-formacion-de-llagas-en-pacientes-acostados/) Noticias de la Ciencia y la Tecnología (Amazings / NCYT).
 
 
 
