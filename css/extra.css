@@ -1,3 +1,9 @@
+
+a.list-group-item h4.pub-title{
+  font-weight:bold;
+  color: #428bca;
+}
+
 .jumbotron{
     background: url(/tex/skulls.png)  repeat 0 0;
 
