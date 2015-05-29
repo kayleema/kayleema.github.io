@@ -1,16 +1,17 @@
 ---
 layout: page
-title: Posts
-subtext: "Just some random articles I've put up for fun. Some of them are from a really long time ago."
+title: 私のブログ
+subtext: "時々ここで記事（きじ）を書きます。たくさん古い記事（きじ）があります。"
+lang: jp
 ---
 <div class="container">
 	<ul class="list-group">
 	    {% for post in site.posts %}
-	        {% if post.lang %}
-	        {% else %}
+	        {% if post.lang == "jp" %}
+	        
 			<li class="list-group-item">
 				<!--<span class="badge">14</span>-->
-				<span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a> <a href="{{site.url}}{{post.url}}#disqus_thread" style="float:right;font-size:12px;"></a>
+				<span>{{ post.date | date: "%Y年%-m月%-d日" }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a> <a href="{{site.url}}{{post.url}}#disqus_thread" style="float:right;font-size:12px;"></a>
 				<p style="color:#999;padding-left:30px;font-size:14px;">{{ post.summary }}</p>
 			</li>
 		    {% endif %}

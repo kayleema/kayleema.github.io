@@ -4,11 +4,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{% if page.lang == "ja" %}ケイリー・{% else %}Kaylee - {% endif %}{{ page.title }}</title>
+    <title>{% if page.lang == "jp" %}ケイリー・{% else %}Kaylee - {% endif %}{{ page.title }}</title>
 
     <!-- Bootstrap -->
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <link href="/css/extra.css" rel="stylesheet">
+        {% if page.lang == "jp" %}
+        <link href="/css/jp.css" rel="stylesheet">
+        {% endif %}
 
     <!--fonts-->
     <link href="http://fonts.googleapis.com/css?family=Arvo" rel="stylesheet" type="text/css">
@@ -32,18 +35,16 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="/index.html">{% if page.lang == "ja" %}ケイリー・マン{% else %}Kaylee Mann{% endif %}</a>
+        <a class="navbar-brand" href="{% if page.lang == "jp" %}/jp{% endif %}/index.html">{% if page.lang == "jp" %}ケイリー・マン{% else %}Kaylee Mann{% endif %}</a>
       </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
-              <li><a href="/resume.pdf">{% if page.lang == "ja" %}履歴書{% else %}Resume{% endif %}</a></li>
-              <li><a href="/contact.html">{% if page.lang == "ja" %}電子メール{% else %}Contact{% endif %}</a></li>
-              <!--<li><a href="/posts.html">Posts</a></li>-->
-              <!--<li><a href="http://tepsilon.herokuapp.com">Comics</a></li>-->
+              <li><a href="/resume.pdf">{% if page.lang == "jp" %}履歴書{% else %}Resume{% endif %}</a></li>
+              <li><a href="/contact.html">{% if page.lang == "jp" %}電子メール{% else %}Contact{% endif %}</a></li>
         </ul>
 	<ul class="nav navbar-nav navbar-right">
-	  <li><a href="/ja/" style="color:#000;">日本語</a></li>
+	  <li><a href="/jp/" style="color:#444;">日本語</a></li>
 	</ul>
       </div><!--/.navbar-collapse -->
 
