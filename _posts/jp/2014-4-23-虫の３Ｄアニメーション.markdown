@@ -1,0 +1,34 @@
+---
+layout: post
+title:  "虫の３Ｄアニメーション"
+summary:  "私が作ったアニメーション"
+lang: jp
+categories:
+    - jp
+---
+
+[ＢＬＥＮＤＥＲ３Ｄ](http://www.blender.org/)でこの虫を作りました。このビデオを見て下さい。
+
+<iframe width="420" height="315" src="//www.youtube.com/embed/QjdupUKZq7M" frameborder="0" allowfullscreen></iframe>
+
+<br/>
+それから電話でビデオをしました。 
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/h6bOxoXQoQ4" frameborder="0" allowfullscreen></iframe>
+
+<br/>
+このビデオは一番おもしろいだと思います。
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/n9rnMVnPe1I" frameborder="0" allowfullscreen></iframe>
+
+<br/>
+とても楽しいでしたよ〜！
+
+ファイル
+================
+
+ * <a href="https://docs.google.com/file/d/0B2ZbLCPalrgEY1FNNzFCck9nQms/edit?usp=sharing">虫の体</a>
+
+ * <a href="https://docs.google.com/file/d/0B2ZbLCPalrgETDBRMm5iT0ZEbjA/edit?usp=sharing">虫の例アニメーション</a><br/>
+
+**あんなたがこのファイルをつくりなら、私にお洒落をして下さい！＾＿＾**

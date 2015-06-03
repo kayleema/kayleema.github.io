@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Nature Communications の 研究発表（けんきゅうかっぴょう）"
+title: "Nature Communicationsの研究発表（けんきゅうかっぴょう）"
 summary: "電気バンドエイド"
 lang: jp
 categories:
