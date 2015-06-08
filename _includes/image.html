@@ -1,6 +1,9 @@
 <figure>
   <a href="{{ include.href }}">
-    <img 
+    <img class="img-responsive"
+    	{% if include.limit %}
+    	style="max-width:400px;"
+    	{% endif %}
     	src = "{{ include.url }}"
     	alt = "{{ include.description }}"
     />

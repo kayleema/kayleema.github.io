@@ -1,20 +1,61 @@
 ---
 layout: post
-title: "火曜日：日本に来た"
-summary: "よかった！"
+title: "木曜日曜日から日曜日まで"
+summary: "楽しかった！"
 lang: jp
 categories:
     - jp
 ---
 
-<img
-	class="pull-left"
-	style="max-width:300px;"
-	width = "50%"
-	src = "http://lowcostcarrier.net/wp-content/uploads/2012/09/ana-B787-002.jpg"
-/>
-
+木曜日：飛行機で日本に来ます
+==============
 
 三日ぐらい前、私は電車でバークレーからサンディエゴから行った。あそこで、お父さんと弟と一緒に遊びました。明日、お父さんは私にロスアンゼルスへ運転をしてあげました。今日、飛行機でロスアンゼルスから東京まで来た。日本に入るときにシャさんとリンリンさんを会いました。それから、電車で行ってホームステイのお父さんに会った。私達はとても疲れたから、早く寝ました。
+
+{% include /image.html url="/images/来た.jpg" description="" href="/images/来た.jpg" %}
+
+* * *
+
+金曜日：渋谷と秋葉原と原宿
+==============
+
+渋谷（しぶや）でリンリンさんとシャさんはCDを買いました。
+
+秋葉原（あきはばら）で買い物をしました。シャとリンリンはたくさんアニメ物をかった。でも、私は何も買わないだった。
+
+{% include /image.html url="/images/秋葉原.jpg" description="" href="/images/秋葉原.jpg" %}
+
+原宿（はらじゅく）でかわいい服（ふく）を見た。あそこで、クレープを食べた。とてもおいしかった！
+
+{% include /image.html url="/images/クレープ.jpg" description="" href="/images/クレープ.jpg" limit=true %}
+
+土曜日：新宿
+==============
+
+新宿（はらじゅく）に行った。
+
+{% include /image.html url="/images/新宿.jpg" description="" href="/images/新宿.jpg" limit=true %}
+
+新宿の公園（こうえん）に行った。きれいだった。
+
+{% include /image.html url="/images/新宿のこえん.jpg" description="" href="/images/新宿のこえん.jpg" %}
+
+おいしい回転寿司（かいてんずし）を食べた。
+
+スペンゴと日本語でおしゃべりをした。このエベントは楽しかった！！新しい友達が多い会いました。「[www.meetup.com](http://www.meetup.com)」をみってください！
+
+日曜日：川越
+==============
+
+{% include /image.html url="/images/川越.jpg" description="" href="/images/川越.jpg" %}
+
+川越（かわごえ）に行った。食べ物が多いい食べた。ここに古いことが多いあります。着物屋（きものや）で私達は着物を買いました。この着物は千円だった！とても安かった！「clearance・sale」だった。私は弟にキャンディを買ってあげた。
+
+{% include /image.html url="/images/着物.jpg" description="" href="/images/着物.jpg" limit=true %}
+
+神社（じんじゃ）に行った。
+
+{% include /image.html url="/images/神社.jpg" description="" href="/images/神社.jpg" limit=true %}
+
 
 <br/>
