@@ -57,5 +57,6 @@ categories:
 
 {% include /image.html url="/images/神社.jpg" description="" href="/images/神社.jpg" limit=true %}
 
+やきとりした。
 
 <br/>
