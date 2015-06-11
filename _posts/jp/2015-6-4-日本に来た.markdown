@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "木曜日曜日から日曜日まで"
-summary: "楽しかった！"
+title: "にほんで：木曜日曜日から日曜日まで"
+summary: "日本にはいりました！"
 lang: jp
 categories:
     - jp
