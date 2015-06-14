@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "にほんで：木曜日曜日から日曜日まで"
+title: "日本で：木曜日曜日から日曜日まで"
 summary: "日本にはいりました！"
 lang: jp
 categories:

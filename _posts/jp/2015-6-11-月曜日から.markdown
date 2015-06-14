@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "にほんで：月曜日曜日から水曜日まで"
+title: "日本で：月曜日曜日から水曜日まで"
 summary: "日本に入った！"
 lang: jp
 categories:
@@ -20,7 +20,11 @@ categories:
 火曜日：銀座（ぎんざ）
 ==================
 
+{% include /image.html url="/images/かぶき.jpg" description="" href="/images/かぶき.jpg" %}
+
 歌舞伎（かぶき）を見た。おもしろかったが、ちょっとつまらなかった。
+
+{% include /image.html url="/images/かぶき２.jpg" description="" href="/images/かぶき２.jpg" %}
 
 ユニクロでふくを買った。ユニクロの中でわ銀座のユニクロは一番大きいだ。十二階あった！
 
@@ -31,7 +35,11 @@ categories:
 
 そうして、私達はメイド喫茶店に行った。萌えでかわいくて楽しかった！
 
-リンリンの友達はしのとかほだった。
+{% include /image.html url="/images/メイド.jpg" description="" href="/images/メイド.jpg" limit=true %}
+
+リンリンの友達は「しの」と「かほ」だった。
+
+おもしろい　音楽　
 
 リンディ・ホップをした。
 
@@ -42,10 +50,39 @@ categories:
 
 あさくさ　の　お寺。浅草寺に行った。
 
+{% include /image.html url="/images/お寺.jpg" description="" href="/images/お寺.jpg" limit=false %}
+
 しながわ駅　の近くに回転寿司店（かいてんずしてん）がある。
 
-金曜日
+金曜日：リンリンの先生
 ====================
 
-リンリンの先生に会うつもりだ。
+リンリンの先生に会う。クラスに行った。
 
+{% include /image.html url="/images/クラス.jpg" description="" href="/images/クラス.jpg" %}
+
+新宿
+
+大戸屋で食べた
+
+土曜日：みなとみらい
+====================
+
+よこはま
+
+* ポケモンセンター
+
+* みなとみらいで観覧車。
+
+{% include /image.html url="/images/snap.png" description="" href="/images/snap.png" limit=false %}
+
+秋葉原で晩御飯
+
+日曜日：はらじゅく　と　お好み焼き
+====================
+
+原宿で買い物
+
+{% include /image.html url="/images/原宿２.png" description="" href="/images/原宿２.png" limit=true %}
+
+そうして、帰ってお好み焼き
