@@ -16,4 +16,5 @@ figcaption small{
 
 [lang="en-x-mtfrom-ja"] img.ssec{
 	visibility: hidden;
+	height:0px;
 }

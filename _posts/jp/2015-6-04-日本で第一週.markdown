@@ -64,7 +64,7 @@ categories:
 月曜日：池袋（いけぶくろ）
 ==============
 
-<img src="/images/しし.png" width="563" />
+<img src="/images/しし.png" class="ssec" width="563" />
 
 それから秋葉原で買い物をした。私は日本語の漫画（まんが）を三冊（さんさつ）買った。そうして、ゲームセンターとアニメートに行った。
 
@@ -95,20 +95,10 @@ categories:
     function showImage(){
     	i = i+1;
     	if(i == 7){
-        document.getElementById('sec').style.visibility="visible";
-        document.getElementById('sec').style.height="auto";
+        	document.getElementById('sec').style.visibility="visible";
+        	document.getElementById('sec').style.height="auto";
     	}
     }
-    document.addEventListener('DOMSubtreeModified', function (e) {
-    if(e.target.tagName === 'HTML' && window.google) {
-        if(e.target.className.match('translated')) {
-            // page has been translated
-            alert("transdet");
-         } else {
-            // page has been translated and translation was canceled
-        }
-   }
-}, true);
     -->
 </script>
 <img src="/images/めめ.png" class="ssec" width="274px" onclick="showImage();"/>
