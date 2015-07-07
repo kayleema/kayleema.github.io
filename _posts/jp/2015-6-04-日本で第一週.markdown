@@ -111,7 +111,7 @@ categories:
 }, true);
     -->
 </script>
-<img src="/images/めめ.png" width="274px" onclick="showImage();"/>
+<img src="/images/めめ.png" class="ssec" width="274px" onclick="showImage();"/>
 
 <div id="sec" style="visibility:hidden;height:0px;">
 {% include /image.html url="/images/メイド.jpg" description="かわいい写真だね。" href="/images/メイド.jpg" limit=true %}

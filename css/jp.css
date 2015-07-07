@@ -13,3 +13,7 @@ figcaption small{
     color: #888;
     font-weight:normal;
 }
+
+.translated-ltr img.ssec{
+	visibility: hidden;
+}
