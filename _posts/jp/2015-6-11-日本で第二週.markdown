@@ -1,0 +1,77 @@
+---
+layout: post
+title: "日本で：第二週"
+summary: "日本で遊んでいる！"
+lang: jp
+categories:
+    - jp
+---
+
+
+木曜日：築地（つきじ）と…（１１日）
+===================
+
+つきじ　（魚屋）
+
+あさくさのお寺：浅草寺に行った。
+
+{% include /image.html url="/images/お寺.jpg" description="" href="/images/お寺.jpg" limit=false %}
+
+しながわ駅の近くに回転寿司店（かいてんずしてん）がある。そこで晩御飯を食べた。
+
+金曜日：リンリンの先生（１２日）
+====================
+
+リンリンの先生に会う。先生のクラスに行った。おもしろいだった。でも、先生の日本語は分かるにくい。
+
+{% include /image.html url="/images/クラス.jpg" description="" href="/images/クラス.jpg" %}
+
+新宿の大戸屋で晩御飯を食べた。
+
+土曜日：みなとみらい（日）
+====================
+
+よこはま
+
+* リンリンさんはポケモンセンターにいった。
+
+* みなとみらいで観覧車をしました。リンリンはこの観覧車がこわいと思いた。
+
+{% include /image.html url="/images/snap.png" description="リンリンさんは「怖い!」と言います。" href="/images/snap.png" limit=false %}
+
+秋葉原で晩御飯を食べた。
+
+日曜日：はらじゅく　と　お好み焼き（十四日）
+====================
+
+原宿で買い物をした。
+
+{% include /image.html url="/images/原宿２.png" description="" href="/images/原宿２.png" limit=true %}
+
+そうして、帰ってホストファミリーと一緒にお好み焼きを作った。おいしかった！ホストファミリーの友達も来た。
+
+月曜日：リンリンさんの友達（六月十五日）
+====================
+
+リンリンさんの友達のご家族を会いた。この友達は日本人だ。家でとんかつを食べました。
+
+そうして、私とリンリンさんはこの友達の中学校のせいふくを着て見た。	
+
+{% include /image.html url="/images/制服.jpg" description="制服を着ている！" href="/images/制服.jpg" limit=false %}
+
+火曜日：ディズニーシー（六月十六日）
+====================
+
+東京ディズニーシーに行った。楽しかった。ショーを見て、アトラクションに行った。面白かった。たくさんロリファッションを見ました。
+
+{% include /image.html url="/images/インディ.jpg" description="インディジョンズのアトラクション" href="/images/インディ.jpg" limit=true %}
+
+水曜日：原宿とカフェと東京タワー（六月十七日）
+====================
+
+もう一度、原宿に行った。そうして、さむらいのカフェに行って昼ご飯（ひるごはん）を食べました。その晩、東京タワーに行った。綺麗（きれい）でした。🗼
+
+{% include /image.html url="/images/東京タワー.jpg" description="東京タワーのルックダウンウィンドウ" href="/images/東京タワー.jpg" limit=false %}
+
+{% include /image.html url="/images/東京タワーの下.jpg" description="東京タワーの下から" href="/images/東京タワーの下.jpg" limit=true %}
+

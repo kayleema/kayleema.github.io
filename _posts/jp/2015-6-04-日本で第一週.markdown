@@ -1,0 +1,128 @@
+---
+layout: post
+title: "日本で：第一週"
+summary: "日本にはいりました！"
+lang: jp
+categories:
+    - jp
+---
+
+木曜日：飛行機で日本に来ます
+==============
+
+三日ぐらい前、私は電車でバークレーからサンディエゴから行った。あそこで、お父さんと弟と一緒に遊びました。明日、お父さんは私にロスアンゼルスへ運転をしてあげました。今日、飛行機でロスアンゼルスから東京まで来た。日本に入るときにシャさんとリンリンさんを会いました。それから、電車で行ってホームステイのお父さんに会った。私達はとても疲れたから、早く寝ました。
+
+{% include /image.html url="/images/来た.jpg" description="" href="/images/来た.jpg" %}
+
+* * *
+
+金曜日：渋谷と秋葉原と原宿
+==============
+
+渋谷（しぶや）でリンリンさんとシャさんはCDを買いました。
+
+秋葉原（あきはばら）で買い物をしました。シャとリンリンはたくさんアニメ物をかった。でも、私は何も買わないだった。
+
+{% include /image.html url="/images/秋葉原.jpg" description="" href="/images/秋葉原.jpg" %}
+
+原宿（はらじゅく）でかわいい服（ふく）を見た。あそこで、クレープを食べた。とてもおいしかった！
+
+{% include /image.html url="/images/クレープ.jpg" description="" href="/images/クレープ.jpg" limit=true %}
+
+土曜日：新宿
+==============
+
+新宿（はらじゅく）に行った。
+
+{% include /image.html url="/images/新宿.jpg" description="" href="/images/新宿.jpg" limit=true %}
+
+新宿の公園（こうえん）に行った。きれいだった。
+
+{% include /image.html url="/images/新宿のこえん.jpg" description="" href="/images/新宿のこえん.jpg" %}
+
+おいしい回転寿司（かいてんずし）を食べた。🍣
+
+スペンゴと日本語でおしゃべりをした。このエベントは楽しかった！！新しい友達が多い会いました。「[www.meetup.com](http://www.meetup.com)」をみってください！
+
+日曜日：川越
+==============
+
+{% include /image.html url="/images/川越.jpg" description="" href="/images/川越.jpg" %}
+
+川越（かわごえ）に行った。食べ物が多いい食べた。ここに古いことが多いあります。着物屋（きものや）で私達は着物を買いました。この着物は千円だった！とても安かった！「clearance・sale」だった。私は弟にキャンディを買ってあげた。👘
+
+{% include /image.html url="/images/着物.jpg" description="" href="/images/着物.jpg" limit=true %}
+
+神社（じんじゃ）に行った。
+
+{% include /image.html url="/images/神社.jpg" description="" href="/images/神社.jpg" limit=true %}
+
+やきとりした。
+
+<br/>
+
+月曜日：池袋（いけぶくろ）
+==============
+
+<img src="/images/しし.png" width="563" />
+
+それから秋葉原で買い物をした。私は日本語の漫画（まんが）を三冊（さんさつ）買った。そうして、ゲームセンターとアニメートに行った。
+
+{% include /image.html url="/images/池袋.jpg" description="" href="/images/池袋.jpg" limit=true %}
+
+火曜日：銀座（ぎんざ）
+==================
+
+{% include /image.html url="/images/かぶき.jpg" description="" href="/images/かぶき.jpg" %}
+
+歌舞伎（かぶき）を見た。おもしろかったが、ちょっとつまらなかった。でも、きれいだった。
+
+{% include /image.html url="/images/かぶき２.jpg" description="" href="/images/かぶき２.jpg" %}
+
+ユニクロでふくを買った。ユニクロの中でわ銀座のユニクロは一番大きいだ。十二階あった！
+
+水曜日：秋葉原（あきはばら）（１０日）
+===================
+
+一つ、秋葉原駅でリンリンさんの友達を会った。そうして、レストランで一緒に昼ご飯（ひるごはん）を食べた。リンリンさんの友達はかっこいい！
+
+<!--
+そうして、私達はメイド喫茶店に行った。萌えでかわいくて楽しかった！
+-->
+<script type="text/javascript">
+<!--
+	var i = 0;
+    function showImage(){
+    	i = i+1;
+    	if(i == 7){
+        document.getElementById('sec').style.visibility="visible";
+        document.getElementById('sec').style.height="auto";
+    	}
+    }
+    document.addEventListener('DOMSubtreeModified', function (e) {
+    if(e.target.tagName === 'HTML' && window.google) {
+        if(e.target.className.match('translated')) {
+            // page has been translated
+            alert("transdet");
+         } else {
+            // page has been translated and translation was canceled
+        }
+   }
+}, true);
+    -->
+</script>
+<img src="/images/めめ.png" width="274px" onclick="showImage();"/>
+
+<div id="sec" style="visibility:hidden;height:0px;">
+{% include /image.html url="/images/メイド.jpg" description="かわいい写真だね。" href="/images/メイド.jpg" limit=true %}
+</div>
+
+リンリンの友達の「しの」と「かほ」を会った。一緒に日本語を練習できた。
+
+リンディ・ホップをした。このグループだった：「[swingcats.jp](http://www.swingcats.jp)」
+
+<!--そうして、しぶや駅でおもしろい音楽会った。-->
+
+<br/>
+
+

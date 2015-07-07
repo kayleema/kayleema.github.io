@@ -1,0 +1,73 @@
+---
+layout: post
+title: "日本で：第三週"
+summary: "東京から京都と大阪まで"
+lang: jp
+categories:
+    - jp
+---
+
+
+木曜日：（六月十八日）
+====================
+
+金曜日の朝、リンリンさんは飛行機でアメリカに帰って、私とシャさんは一緒に新幹線で京都へ行った。新幹線は便利で早くでした。🚄
+
+{% include /image.html url="/images/新幹線のホーム.jpg" description="新幹線のホーム" href="/images/新幹線のホーム.jpg" limit=false %}
+
+金曜日：伏見稲荷大社（六月十九日）
+===================
+
+伏見稲荷大社に行った。伏見稲荷大社は神社です。鳥居が多いありました。
+稲荷山（いなりやま）の山頂（さんちょう：山の上）に行った。そうして、ちょっと疲れた。
+
+{% include /image.html url="/images/鳥居一.jpg" description="鳥居が多い" href="/images/鳥居一.jpg" limit=false %}
+
+{% include /image.html url="/images/鳥居二.jpg" description="" href="/images/鳥居二.jpg" limit=false %}
+
+{% include /image.html url="/images/稲荷山.jpg" description="稲荷山から。京都はきれいだよね！" href="/images/稲荷山.jpg" limit=false %}
+
+{% include /image.html url="/images/稲荷寿し.jpg" description="見て！" href="/images/稲荷寿し.jpg" limit=false %}
+
+土曜日：二条城　と　京都御苑（六月二十日）
+==================
+[二条城](https://ja.wikipedia.org/wiki/二条城)（にじょうじょう）に行った。二の丸御殿（にのまるごてん）に入れる！🏯
+
+{% include /image.html url="/images/二条城.jpg" description="このビルに入ることができました！<br/> <small>Nijo-jo Ninomaru-goten 2009 by Wiiii - 投稿者自身による作品. Licensed under CC 表示-継承 3.0 via ウィキメディア・コモンズ</small>" href="https://commons.wikimedia.org/wiki/File:Nijo-jo_Ninomaru-goten_2009.jpg#/media/File:Nijo-jo_Ninomaru-goten_2009.jpg" limit=false %}
+
+{% include /image.html url="/images/二条城二.jpg" description="これは私の写真です" href="/images/二条城二.jpg" limit=false %}
+
+そうして、京都御苑（きょうとぎょえん）で休みました。
+
+日曜日：大阪へ（六月二十一日）
+==================
+
+新幹線で大阪に行った。
+
+月曜日：（六月二十二日）
+==================
+
+[四天王寺](https://ja.wikipedia.org/wiki/四天王寺)（してんのうじ）に行った。あのタワーの上に行くことができました。
+
+{% include /image.html url="/images/四天王寺.jpg" description="このタワーの上に行くことができました。<br/> <small>「Shitennoji03s3200」 by 663highland - 663highland. Licensed under CC 表示 2.5 via ウィキメディア・コモンズ - </small>" href="https://commons.wikimedia.org/wiki/File:Shitennoji03s3200.jpg#/media/File:Shitennoji03s3200.jpg" limit=false %}
+
+その晩、[道頓堀](https://ja.wikipedia.org/wiki/道頓堀)で晩御飯を食べました。
+
+{% include /image.html url="/images/道頓堀.jpg" description="道頓堀" href="/images/道頓堀.jpg" limit=false %}
+
+
+火曜日：（六月二十三日）
+==================
+
+新幹線で東京に行った。
+
+水曜日：（六月二十四日）
+==================
+
+その朝、東京スカイツリーに行った。楽しかった。
+
+{% include /image.html url="/images/東京スカイツリー.jpg" description="東京スカイツリー" href="/images/東京スカイツリー.jpg" limit=false %}
+
+{% include /image.html url="/images/ルックダウンウィンドウ.jpg" description="東京スカイツリールックダウンウィンドウ" href="/images/ルックダウンウィンドウ.jpg" limit=true %}
+
+そうして、飛行機でアメリカに帰りました。😢〜
