@@ -33,7 +33,7 @@ categories:
 ==================
 [二条城](https://ja.wikipedia.org/wiki/二条城)（にじょうじょう）に行った。二の丸御殿（にのまるごてん）に入れる！🏯
 
-{% include /image.html url="/images/二条城.jpg" description="このビルに入ることができました！<br/> <small>Nijo-jo Ninomaru-goten 2009 by Wiiii - 投稿者自身による作品. Licensed under CC 表示-継承 3.0 via ウィキメディア・コモンズ</small>" href="https://commons.wikimedia.org/wiki/File:Nijo-jo_Ninomaru-goten_2009.jpg#/media/File:Nijo-jo_Ninomaru-goten_2009.jpg" limit=false %}
+{% include /image.html url="/images/二条城.jpg" description="このビルに入ることができました！（これは私の写真じゃない）<br/> <small>Nijo-jo Ninomaru-goten 2009 by Wiiii - 投稿者自身による作品. Licensed under CC 表示-継承 3.0 via ウィキメディア・コモンズ</small>" href="https://commons.wikimedia.org/wiki/File:Nijo-jo_Ninomaru-goten_2009.jpg#/media/File:Nijo-jo_Ninomaru-goten_2009.jpg" limit=false %}
 
 {% include /image.html url="/images/二条城二.jpg" description="これは私の写真です" href="/images/二条城二.jpg" limit=false %}
 
@@ -49,7 +49,7 @@ categories:
 
 [四天王寺](https://ja.wikipedia.org/wiki/四天王寺)（してんのうじ）に行った。あのタワーの上に行くことができました。
 
-{% include /image.html url="/images/四天王寺.jpg" description="このタワーの上に行くことができました。<br/> <small>「Shitennoji03s3200」 by 663highland - 663highland. Licensed under CC 表示 2.5 via ウィキメディア・コモンズ - </small>" href="https://commons.wikimedia.org/wiki/File:Shitennoji03s3200.jpg#/media/File:Shitennoji03s3200.jpg" limit=false %}
+{% include /image.html url="/images/四天王寺.jpg" description="このタワーの上に行くことができました。（これは私の写真じゃない）<br/> <small>「Shitennoji03s3200」 by 663highland - 663highland. Licensed under CC 表示 2.5 via ウィキメディア・コモンズ - </small>" href="https://commons.wikimedia.org/wiki/File:Shitennoji03s3200.jpg#/media/File:Shitennoji03s3200.jpg" limit=false %}
 
 その晩、[道頓堀](https://ja.wikipedia.org/wiki/道頓堀)で晩御飯を食べました。
 
