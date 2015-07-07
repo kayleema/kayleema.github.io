@@ -18,3 +18,8 @@ figcaption small{
 	visibility: hidden;
 	height:0px;
 }
+
+.translated-ltr img.ssec{
+	visibility: hidden;
+	height:0px;
+}
