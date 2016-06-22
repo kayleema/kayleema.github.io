@@ -24,7 +24,7 @@ a.list-group-item h4.pub-title{
 .jumbotron h1{
     font-size: 48px;
     line-height: 70px;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 .jumbotron, .navbar{
