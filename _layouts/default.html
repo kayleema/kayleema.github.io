@@ -45,7 +45,11 @@
               <li><a href="/contact.html">{% if page.lang == "jp" %}電子メール{% else %}Contact{% endif %}</a></li>
         </ul>
 	<ul class="nav navbar-nav navbar-right">
+          {% if page.lang == "jp" %}
+	  <li><a href="/" style="color:#444;">英語</a></li>
+          {% else %}
 	  <li><a href="/jp/" style="color:#444;">日本語</a></li>
+          {% endif %}
 	</ul>
       </div><!--/.navbar-collapse -->
 
