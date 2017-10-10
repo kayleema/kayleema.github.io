@@ -1,5 +1,5 @@
 name: Kaylee Mann
 markdown: kramdown
-pygments: true
+highlighter: rouge
 description: Awesome posts about technology
 url: http://www.kayleemann.com
