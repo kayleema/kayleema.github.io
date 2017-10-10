@@ -25,7 +25,7 @@ Compiling and Uploading Test Code to the TI Launchpad
 Create the folowing files in a new directory
 
 File ``main.c`` (text program code)
-```
+```c
 #include  <msp430g2553.h>
 
 volatile unsigned int i = 0;
