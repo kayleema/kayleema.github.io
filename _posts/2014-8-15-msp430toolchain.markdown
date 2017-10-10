@@ -83,7 +83,7 @@ Change the ``DEVICE`` variable to match the one on the TI Launchpad
 
 Compile the program:
 
-```bash
+```terminal
 $ make
 $ make flash
 $ make verify
