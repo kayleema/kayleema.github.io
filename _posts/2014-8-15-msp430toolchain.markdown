@@ -83,8 +83,10 @@ Change the ``DEVICE`` variable to match the one on the TI Launchpad
 
 Compile the program:
 
-    $ make
-    $ make flash
-    $ make verify
+```bash
+$ make
+$ make flash
+$ make verify
+```
 
 You're done!  The program running on the microcontroller should now be blinking the LED on the Launchpad.
