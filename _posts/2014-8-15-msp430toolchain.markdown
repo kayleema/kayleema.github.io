@@ -43,7 +43,7 @@ void main(void){
 
 File ``Makefile`` (Defines compilation of the code)
 
-```
+```make
 DEVICE=msp430g2452
 CC=msp430-gcc
 CFLAGS=-Os -Wall -g -mmcu=$(DEVICE)
