@@ -25,56 +25,59 @@ Compiling and Uploading Test Code to the TI Launchpad
 Create the folowing files in a new directory
 
 File ``main.c`` (text program code)
+```
+#include  <msp430g2553.h>
 
-	#include  <msp430g2553.h>
+volatile unsigned int i = 0;
 
-	volatile unsigned int i = 0;
-
-	void main(void){
-	    WDTCTL = WDTPW + WDTHOLD;
-	    P1DIR |= 0x01;
-	    for (;;){
-	 		P1OUT ^= 0x01;                          
-			for(i=0; i< 20000; i++){
-			}
-	    }
-	}
+void main(void){
+    WDTCTL = WDTPW + WDTHOLD;
+    P1DIR |= 0x01;
+    for (;;){
+        P1OUT ^= 0x01;                          
+        for(i=0; i< 20000; i++){
+        }
+    }
+}
+```
 
 File ``Makefile`` (Defines compilation of the code)
 
-	DEVICE=msp430g2452
-	CC=msp430-gcc
-	CFLAGS=-Os -Wall -g -mmcu=$(DEVICE)
-	OBJS=main.o
-	SRCS=main.c
+```
+DEVICE=msp430g2452
+CC=msp430-gcc
+CFLAGS=-Os -Wall -g -mmcu=$(DEVICE)
+OBJS=main.o
+SRCS=main.c
 
-	all:main.elf
+all:main.elf
 
-	main.c:watchdog.h
+main.c:watchdog.h
 
-	main.elf: $(OBJS)
-		$(CC) $(CFLAGS) -o main.elf $(OBJS)
+main.elf: $(OBJS)
+	$(CC) $(CFLAGS) -o main.elf $(OBJS)
 
-	%.o: %.c
-		$(CC) $(CFLAGS) -c $<
+%.o: %.c
+	$(CC) $(CFLAGS) -c $<
 
-	clean:
-		rm -fr main.elf $(OBJS)
+clean:
+	rm -fr main.elf $(OBJS)
 
-	flash: main.elf
-		mspdebug rf2500 "prog main.elf"
+flash: main.elf
+	mspdebug rf2500 "prog main.elf"
 
-	size: main.elf
-		msp430-size main.elf
+size: main.elf
+	msp430-size main.elf
 
-	#for managing header file dependencies
-	depend: .depend
+#for managing header file dependencies
+depend: .depend
 
-	.depend: $(SRCS)
-		rm -f ./.depend
-		$(CC) $(CFLAGS) -MM $^ -MF  ./.depend;
+.depend: $(SRCS)
+	rm -f ./.depend
+	$(CC) $(CFLAGS) -MM $^ -MF  ./.depend;
 
-	include .depend
+include .depend
+```
 
 Change the ``DEVICE`` variable to match the one on the TI Launchpad
 
