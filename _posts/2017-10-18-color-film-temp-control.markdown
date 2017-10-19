@@ -20,6 +20,6 @@ Tools
 
 Wiring
 ------
-![wiring diagram](/images/bathwiring.png)
+![wiring diagram](/images/bathwiring.png | width=100%)
 
 * TO BE CONTINUED *
