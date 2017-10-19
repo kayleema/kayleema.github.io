@@ -30,4 +30,4 @@ You should now be able to test the setup by inserting the temperature sensor and
 
 Full Setup
 ----------
-
+![physical setup diagram](/images/bathstruct.png)
