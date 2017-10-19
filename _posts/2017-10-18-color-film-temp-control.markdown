@@ -22,4 +22,12 @@ Wiring
 ------
 ![wiring diagram](/images/bathwiring.png)
 
-* TO BE CONTINUED *
+Wire the pieces together as shown. You will need an additional piece of wire for the middle red connection, but you can also cut this from the power cable. 
+
+Small Scale Test
+----------------
+You should now be able to test the setup by inserting the temperature sensor and heating element in a small cup of water and setting the controller to a temperature following the instructions that come with the temperature controller. At this point you should be able to observe the system keeping the water at a stable temperature.
+
+Full Setup
+----------
+
