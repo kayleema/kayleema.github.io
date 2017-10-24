@@ -44,4 +44,15 @@ summary:  "Awesome fully procedural materials for 3d animation with Blender"
       <a href="/dl/mat_slate.blend" class="card-link">Download .blend File</a>
     </div>
   </div>
+
+  <div class="card">
+    <img class="card-img-top" src="/images/mat_striped.jpg" alt="Striped Material">
+    <div class="card-body">
+      <h4 class="card-title">Striped</h4>
+      <p class="card-text">
+        Similar material but with stripes based on the geometry normal.
+      </p>
+      <a href="/dl/mat_striped.blend" class="card-link">Download .blend File</a>
+    </div>
+  </div>
 </div>
