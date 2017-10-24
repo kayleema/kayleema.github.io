@@ -24,7 +24,7 @@ Video
 Media
 ----------------------------
 
-###Selected News Articles:
+### Selected News Articles:
 * [‘Smart bandage’ detects bedsores before they are visible to doctors](http://newscenter.berkeley.edu/2015/03/17/smart-bandages-detect-bedsores/) from the Berkeley News Center
 * ['Smart Bandage' Detects Bed Sores] from Product Design and Development
 * [‘Smart’ Bandage Sees Wounds Before They’re Visible](http://www.theepochtimes.com/n3/1289430-smart-bandage-sees-wounds-before-theyre-visible/) from Epoch Times
