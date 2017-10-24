@@ -4,7 +4,7 @@ title:  "Blender 3D Materials for Scratched Metal, Ice, and Tile"
 summary:  "Awesome fully procedural materials for 3d animation with Blender"
 ---
 
-<div class="card-deck">
+<div class="card-columns">
   <div class="card">
     <img class="card-img-top" src="/images/mat_metal.jpg" alt="Metal Material" />
     <div class="card-body">
