@@ -50,9 +50,9 @@ CFLAGS=-Os -Wall -g -mmcu=$(DEVICE)
 OBJS=main.o
 SRCS=main.c
 
-all:main.elf
+all: main.elf
 
-main.c:watchdog.h
+main.c: watchdog.h
 
 main.elf: $(OBJS)
 	$(CC) $(CFLAGS) -o main.elf $(OBJS)
