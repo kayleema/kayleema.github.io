@@ -5,7 +5,7 @@ summary:  "Awesome fully procedural materials for 3d animation with Blender"
 ---
 
 <div class="row">
-  <div class="col-md-3">
+  <div class="col-md-4">
     <div class="card">
       <img class="card-img-top" src="/images/mat_metal.jpg" alt="Metal Material" />
       <div class="card-body">
@@ -15,7 +15,7 @@ summary:  "Awesome fully procedural materials for 3d animation with Blender"
       </div>
     </div>
   </div>
-  <div class="col-md-3">
+  <div class="col-md-4">
     <div class="card">
       <img class="card-img-top" src="/images/mat_scratch.jpg" alt="Scratched Metal Material">
       <div class="card-body">
@@ -25,7 +25,7 @@ summary:  "Awesome fully procedural materials for 3d animation with Blender"
       </div>
     </div>
   </div>
-  <div class="col-md-3">
+  <div class="col-md-4">
     <div class="card">
       <img class="card-img-top" src="/images/mat_ice.jpg" alt="Ice Material">
       <div class="card-body">
