@@ -58,23 +58,19 @@
           <li class="nav-item active">
             <a class="nav-link" href="/resume.pdf">{% if page.lang == "jp" %}履歴書{% else %}Resume{% endif %}</a>
           </li>
-        </ul>
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="/contact.html">{% if page.lang == "jp" %}メール{% else %}Contact{% endif %}</a>
           </li>
-        </ul>
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="/posts.html">{% if page.lang == "jp" %}ブログ{% else %}Posts{% endif %}</a>
           </li>
         </ul>
-        <ul class="nav navbar-nav navbar-right">
-        {% if page.lang == "jp" %}
-        <li><a href="/" style="color:#444;">英語</a></li>
-        {% else %}
-        <li><a href="/jp/" style="color:#444;">日本語</a></li>
-        {% endif %}
+        <ul class="nav justify-content-end">
+          {% if page.lang == "jp" %}
+            <li class="nav-item"><a class="nav-link style="color:#444;">英語</a></li>
+          {% else %}
+            <li class="nav-item"><a class="nav-link style="color:#444;">日本語</a></li>
+          {% endif %}
         </ul>
       </div>
     </nav>
