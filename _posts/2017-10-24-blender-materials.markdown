@@ -7,15 +7,15 @@ summary:  "Awesome fully procedural materials for 3d animation with Blender"
 <div class="row">
   <div class="col-md-3">
     <div class="card">
-      <img class="card-img-top" src="/images/mat_metal.jpg" alt="Metal Material">
+      <img class="card-img-top" src="/images/mat_metal.jpg" alt="Metal Material" />
       <div class="card-body">
         <h4 class="card-title">Coroded Metal</h4>
         <p class="card-text">Fully procedural. Glossy with pits and scuffs.</p>
         <a href="/dl/mat_metal.blend" class="card-link">Download .blend File</a>
       </div>
     </div>
-  <div class="col-md-3">
   </div>
+  <div class="col-md-3">
     <div class="card">
       <img class="card-img-top" src="/images/mat_scratch.jpg" alt="Scratched Metal Material">
       <div class="card-body">
@@ -24,8 +24,8 @@ summary:  "Awesome fully procedural materials for 3d animation with Blender"
         <a href="/dl/mat_scratch.blend" class="card-link">Download .blend File</a>
       </div>
     </div>
-  <div class="col-md-3">
   </div>
+  <div class="col-md-3">
     <div class="card">
       <img class="card-img-top" src="/images/mat_ice.jpg" alt="Ice Material">
       <div class="card-body">
