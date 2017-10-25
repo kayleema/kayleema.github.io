@@ -1,9 +1,9 @@
 pre.highlight {
   padding: 15px;
   border-radius: .25rem;
+  background: #eeeedd;
 }
 .highlight .hll { background-color: #ffffcc }
-.highlight  { background: #eeeedd; }
 .highlight .c { color: #228B22 } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
 .highlight .k { color: #8B008B; font-weight: bold } /* Keyword */
