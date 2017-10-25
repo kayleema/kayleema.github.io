@@ -1,7 +1,6 @@
-div.highlight {
+pre.highlight {
   padding: 15px;
   border-radius: .25rem;
-  border: 1px solid #1e889b;
 }
 .highlight .hll { background-color: #ffffcc }
 .highlight  { background: #eeeedd; }
