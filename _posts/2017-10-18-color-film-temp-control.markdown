@@ -24,7 +24,7 @@ Tools
 
 Wiring
 ------
-![wiring diagram](/images/bathwiring.png)
+<img alt="wiring diagram" src="/images/bathwiring.png" class="img-fluid" />
 
 Wire the pieces together as shown. You will need an additional piece of wire for the middle red connection, but you can also cut this from the power cable. 
 
@@ -34,7 +34,7 @@ You should now be able to test the setup by inserting the temperature sensor and
 
 Full Setup
 ----------
-![physical setup diagram](/images/bathstruct.png)
+<img alt="physical setup diagram" src="/images/bathstruct.png" class="img-fluid" />
 
 Now that you have the full setup, you're ready to develop with relative ease! Yay!
 
