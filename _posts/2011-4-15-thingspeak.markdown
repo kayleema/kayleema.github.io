@@ -17,13 +17,9 @@ First, I made a simple program to learn how to send an HTTP GET request to thing
 
 Then I made the circuit to interface the light sensor to the Arduino.
 
-<div class="row">
-  <div class="col-xs-6 col-md-3">
-{% include /image.html url="http://www.ladyada.net/images/sensors/cdsanasch.gif" description="Connecting the light sensitive resistor to the Arduino." href="http://www.ladyada.net/images/sensors/cdsanasch.gif" %}
-</div>
-<div class="col-xs-6 col-md-3">
-{% include /image.html url="http://keeganmann.files.wordpress.com/2011/04/photo.jpg?w=300" description="Closeup of the finished circuit." href="http://keeganmann.files.wordpress.com/2011/04/photo.jpg" %}
-</div>
+<div>
+{% include /image-left.html url="http://www.ladyada.net/images/sensors/cdsanasch.gif" description="Connecting the light sensitive resistor to the Arduino." href="http://www.ladyada.net/images/sensors/cdsanasch.gif" %}
+{% include /image-left.html url="http://keeganmann.files.wordpress.com/2011/04/photo.jpg?w=300" description="Closeup of the finished circuit." href="http://keeganmann.files.wordpress.com/2011/04/photo.jpg" %}
 </div>
 
 
