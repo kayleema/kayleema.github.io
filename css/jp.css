@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Pomeranian';
-  src: url('/Pomeranian-Regular.ttf')  format('truetype') /* Safari, Android, iOS */
+  src: url('/font/Pomeranian-Regular.ttf')  format('truetype') /* Safari, Android, iOS */
 }
 
 body {
