@@ -3,7 +3,7 @@
   src: url('/font/Pomeranian-Regular.ttf')  format('truetype') /* Safari, Android, iOS */
 }
 
-h1 {
+h1, h2 {
   font-family: 'Pomeranian';
 }
 
