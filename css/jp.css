@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Pomeranian';
+  src: url('/Pomeranian-Regular.ttf')  format('truetype') /* Safari, Android, iOS */
+}
+
+body {
+  font-family: 'Pomeranian';
+}
 
 #post-container{
     font-size: 18px;
