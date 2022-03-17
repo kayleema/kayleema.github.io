@@ -4,3 +4,5 @@ __MACOS*
 publish.sh
 .DS_Store
 Gemfile.lock
+.bundle/
+vendor/
