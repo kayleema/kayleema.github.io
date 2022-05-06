@@ -11,7 +11,7 @@ categories:
 ==================
 「絵文字タイム」は絵文字しか使えないSNSです。練習するために作りましたので色んな面白いテクノロジを使いました。
 
-<a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6943923&isnumber=6943513" role="button" class="btn btn-primary btn-lg">
+<a href="https://emoji.kaylee.jp" role="button" class="btn btn-primary btn-lg">
   本番のウエブサイトはこちら！【emoji.kaylee.jp】
 </a>
 

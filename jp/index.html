@@ -5,52 +5,92 @@ lang: jp
 ---
 
 
-
-<!-- Main jumbotron for a primary marketing message or call to action -->
 <div class="jumbotron" id="main-jumbo">
 <div class="container">
-  <h1>ケイリー・マン</h1>
+  <h1>Kaylee Mann（ケイリー・マン）</h1>
   <p>
-    私はバークレー大学に卒業した人です。コンピュータサイエンスと電気工学を勉強しました。
-    今ピボタル東京で働いています。
-    質問があれば上の「メール」をクリックをして下さい。
+    コンピュータサイエンスと電気工学の専門でバークレー大学に卒業しました。
+    今ピボタル東京で開発者で働いています。
   </p>
 </div>
 </div>
 
 <div class="container">
-<!-- Example row of columns -->
+
+
 <div class="row">
-  <div class="col-md-4">
-        {% include publications.html %}
+  <div class="col-md-6">
+    <h2>My Apps</h2>
+    <ul class="list-unstyled">
+    <li class="media">
+      <img src="/images/kankaku.svg" width="64px" class="mr-3" style="background: white;">
+      <div class="media-body">
+        <a href="https://kankaku.kaylee.jp">
+          <h5>Kankaku <img width="16px" style="margin-bottom:5px;" src="/images/favicons/favicon-megane.png" /> </h5>
+        </a>
+        <p>
+          間隔反復学習アプリ<br/>
+          A spaced repetition flashcard app.<br/>
+          <em><a href="https://kankaku.kaylee.jp">今すぐ使ってみる kankaku.kaylee.jp</a></em><br/>
+          <em>Source code at <a href="https://github.com/kayleema/django-flashcards">kayleema/django-flashcards</a></em>
+        </p>
+      </div>
+    </p>
+    <li class="media">
+      <img src="/images/tanuki.svg" width="64px" class="mr-3" style="background: white;">
+      <div class="media-body">
+        <a href="https://github.com/kayleema/tanuki">
+          <h5>狸語・TanukiGo <img width="16px" style="margin-bottom:5px;" src="/images/favicons/favicon-tanuki.png" /></h5>
+        </a>
+        <p>
+          狸語日本語のプログラミング言語<br/>
+          Tanukigo, A Japanese Programming Language.<br/>
+          公式ウエブサイト<a href="https://tanuki.kaylee.jp">tanuki.kaylee.jp</a><br/>
+          <em>ソースコード <a href="https://github.com/kayleema/tanuki">github.com/kayleema/tanuki</a></em>
+        </p>
+      </div>
+    </p>
+    <li class="media">
+      <img src="/images/heart.svg" width="64px" class="mr-3" style="background: white;">
+      <div class="media-body">
+        <a href="https://emoji.kaylee.jp">
+          <h5>絵文字タイム・EmojiTime <img width="16px" style="margin-bottom:5px;" src="/images/favicons/favicon-emojitime.png" /></h5>
+        </a>
+        <p>
+          絵文字タイムは絵文字しか使えないSNSです。<br/>✨An Emoji-only social network.✨<br/>
+          <em><a href="https://emoji.kaylee.jp">今すぐ使ってみる https://emoji.kaylee.jp</a></em><br/>
+          <em>Code available at <a href="https://github.com/kayleema/emoji-chat">github.com/kayleema/emoji-chat</a></em>
+        </p>
+      </div>
+    </p>
+  </ul>
+</div>
+<div class="col-md-6">
+  <h2>リンク一覧</h2>
+  <p><a href="https://github.com/kayleema">私のGitHub</a></p>
+  <p><a href="https://www.linkedin.com/profile/view?id=338033614">LinkedInのプロファイル</a></p>
+  <p><a href="./posts.html">ブログ</a></p>
+  <p><a href="https://scholar.google.com/citations?user=octX3FQAAAAJ&hl=ja">ググルScholarのプロフィール</a></p>
+  <p><a href="http://maharbizgroup.wordpress.com/">Maharbizのグループ（英語）</a></p>
+  <p><a href="http://www-bsac.eecs.berkeley.edu/directory/zoom.php?PersonID=1369774039">Berkeley Sensor and Actuator Center（英語）</a></p>
+</div>
+
+<div class="row">
+  <div class="col-md-6">
+    {% include publications.html %}
   </div>
-  <div class="col-md-4">
+  <div class="col-md-6">
     <h2>履歴書</h2>
-    <p>ピボタル東京のソフトウェアエンジニア：２０１８年から今）</p>
-    <p>ググルのソフトウェアエンジニア：２０１５年から２０１８）</p>
-    <p>ノースロップ・グラマンの<a href="http://ja.wikipedia.org/wiki/RQ-4">ＲＱー４</a>のインターンシップ：２０１１年</p>
+    <p>ピボタル東京でソフトウェアエンジニア：２０１８年から今まで（2020年ヴィエムウエアに買収されました。）</p>
+    <p>ググル本社でソフトウェアエンジニア：２０１５年から２０１８</p>
+    <p>ノースロップ・グラマンのＲＱー４計画のインターンシップ：２０１１年</p>
     <p><a href="http://www-inst.eecs.berkeley.edu/~cs61a">
       CS61A</a>（五学期分）とEE42/100（一学期分）とEE20（一学期分）のｕＧＳＩ（学部学生のインストラクター）
     </a></p>
     <p><a href="http://maharbizgroup.wordpress.com/">Maharbizのグループ</a>で研究しました。</p>
-    <p>PCBやPythonやC/C++やマイクロコントローラのプログラミングやUNIXなどできます。</p>
+    <p>PCB、Python、C/C++、マイクロコントローラ、UNIX、Java、Kotlin</p>
     <p>…</p>
     <p><a class="btn btn-primary" href="/rirekisho.pdf" role="button">日本語の履歴書はこちらへ　&raquo;</a></p>
     <p><a class="btn btn-default" href="/resume.pdf" role="button">　英語の履歴書はこちらへ　&raquo;</a></p>
-  </div>
-  <div class="col-md-4">
-    <h2>リンク一覧</h2>
-    <p><a href="https://tanuki.kaylee.jp/">
-      tanuki.kaylee.jp 狸語：日本語のプログラミング言語
-    </a></p>
-    <p><a href="http://emoji.kaylee.jp/">
-      emoji.kaylee.jp 絵文字タイム：絵文字しか使えないSNS🌟
-    </a></p>
-    <p><a href="https://github.com/kayleema">GitHub Profile</a></p>
-    <p><a href="https://www.linkedin.com/profile/view?id=338033614">LinkedInのプロファイル</a></p>
-    <p><a href="./posts.html">私のブログ</a></p>
-    <p><a href="https://scholar.google.com/citations?user=octX3FQAAAAJ&hl=ja">ググルScholarのプロフィール</a></p>
-    <p><a href="http://maharbizgroup.wordpress.com/">Maharbizのグループ（英語）</a></p>
-    <p><a href="http://www-bsac.eecs.berkeley.edu/directory/zoom.php?PersonID=1369774039">Berkeley Sensor and Actuator Center（英語）</a></p>
   </div>
 </div>

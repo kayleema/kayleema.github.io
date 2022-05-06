@@ -7,14 +7,8 @@ categories:
     - jp
 ---
 
-<img
-	class="pull-left"
-	style="max-width:300px;"
-	width = "50%"
-	src = "http://www.ttrinity.jp/_img/product/28/28448/1534617/design_img_f_1534617_s.png"
-/>
-
-
+<p><em><strong>《 このポストは２０１４年作成です。》</strong></em></p>
+<hr/>
+<p>
 こんにしは！私の名前はケイリー・マンです。先月、私はバクレ大学に卒業しました。専門はコンピューターサイエンスと電気工学でした。二年間、私は日本語を勉強していたから、日本語を練習したいです。
-
-<br/>
+</p>
