@@ -38,7 +38,7 @@ categories:
 		background: #eee;
 		border: 1px solid black;
 		text-align: center;
-		box-shadow: 0px 3px black;
+		box-shadow: 0px 3px 0 0px black;
 	}
 	td.s, td.t, td.a, td.p {
 		color: white;
@@ -106,7 +106,7 @@ categories:
 	<td class="n">福井</td>
 	<td rowspan="2" class="a">岐阜</td>
 	<td rowspan="2" class="t">長野</td>
-	<td class="a">岐阜</td>
+	<td class="a">群馬</td>
 	<td class="t">栃木</td>
 </tr>
 <tr>	
@@ -163,3 +163,4 @@ categories:
 <p style="text-align: right;">
 2023年1月25日 更新
 </p>
+	

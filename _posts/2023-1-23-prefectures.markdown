@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Listing the Prefectures I Have Been To"
+title:  "Listing the Prefectures I've Been To"
 summary:  "Table of my travels"
 ---
 
@@ -104,7 +104,7 @@ summary:  "Table of my travels"
 	<td class="n">福井</td>
 	<td rowspan="2" class="a">岐阜</td>
 	<td rowspan="2" class="t">長野</td>
-	<td class="a">岐阜</td>
+	<td class="a">群馬</td>
 	<td class="t">栃木</td>
 </tr>
 <tr>	
