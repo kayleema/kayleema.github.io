@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "【A Review】Suzume no Tojimari Novel by Makoto Shinkai: I Had a great time reading"
+title:  "【A Review】\"Suzume no Tojimari\" Novel by Makoto Shinkai: I Had a great time reading"
 summary:  "すずめの戸締り 新海誠"
 ---
 

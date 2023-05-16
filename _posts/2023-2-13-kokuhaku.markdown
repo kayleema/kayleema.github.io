@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "【A Review】Confessions Novel by Minato Kanae：Captivating from start to finish"
+title:  "【A Review】\"Confessions\" Novel by Minato Kanae：Captivating from start to finish"
 summary:  "告白 湊かなえ"
 ---
 

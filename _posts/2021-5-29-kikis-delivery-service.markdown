@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "【A Review】Kiki's Delivery Service Novel by Eiko Kadono : The Perfect First Novel for a Japanese Learner"
+title:  "【A Review】\"Kiki's Delivery Service\" Novel by Eiko Kadono : The Perfect First Novel for a Japanese Learner"
 summary:  "魔女の宅急便 角野栄子"
 ---
 
@@ -9,7 +9,7 @@ summary:  "魔女の宅急便 角野栄子"
 *a.k.a. Majo no Takkyubin*
 
 
-**[日本語で読む](/jp/2023/02/13/kikis-delivery-service.html)**
+**[日本語で読む](/jp/2021/05/29/majo1.html)**
 
 This was the first true novel I read from start to finish in Japanese. Though a childrens novel, I think it makes a fun read for all ages.  It's so cute---I love it! It includes some flowery language and lots of onomotopoeia which is great for learning.  I know I'll eventually read the rest of the series, though for now I'm moving on to some more challenging novels.
 

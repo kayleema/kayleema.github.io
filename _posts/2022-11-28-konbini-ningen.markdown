@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "【A Review】Convenience Store Woman by Sayaka Murata: Maybe not the right novel for me"
+title:  "【A Review】\"Convenience Store Woman\" by Sayaka Murata: Maybe not the right novel for me"
 summary:  "コンビニ人間 村田沙耶香"
 ---
 
