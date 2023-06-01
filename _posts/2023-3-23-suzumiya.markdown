@@ -4,7 +4,7 @@ title:  "【A Review】\"The Melancholy of Haruhi Suzumiya\" by Nagaru Tanigawa�
 summary:  "涼宮ハルヒの憂鬱 谷川流"
 ---
 
-<img src="/images/suzumiya.jpg" class="float-md-right ml-3"/>
+<img src="/images/suzumiya.jpeg" class="float-md-right ml-3"/>
 
 *a.k.a Suzumiya Haruhi no Yuutsu*
 
