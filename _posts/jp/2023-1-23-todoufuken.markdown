@@ -28,6 +28,7 @@ categories:
 		width: 150px;
 		text-align: left;
 		box-shadow: none;
+		padding: 3px 6px;
 	}
 	td {
 		height: 30px;
@@ -86,7 +87,7 @@ categories:
 </tr>
 <tr>	
 	<td colspan="12"></td>
-	<td class="n">秋田</td>
+	<td class="t">秋田</td>
 	<td class="n">岩手</td>
 </tr>
 <tr>	
@@ -161,6 +162,6 @@ categories:
 
 <br/><br/>
 <p style="text-align: right;">
-2023年1月25日 更新
+2023年8月2日 更新
 </p>
 	

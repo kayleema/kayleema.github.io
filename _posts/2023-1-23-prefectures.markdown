@@ -84,7 +84,7 @@ summary:  "Table of my travels"
 </tr>
 <tr>	
 	<td colspan="12"></td>
-	<td class="n">秋田</td>
+	<td class="t">秋田</td>
 	<td class="n">岩手</td>
 </tr>
 <tr>	
@@ -159,5 +159,5 @@ summary:  "Table of my travels"
 
 <br/><br/>
 <p style="text-align: right;">
-Updated 2023-1-25
+Updated 2023-8-2
 </p>
