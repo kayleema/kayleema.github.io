@@ -6,3 +6,6 @@ publish.sh
 Gemfile.lock
 .bundle/
 vendor/
+.idea/
+env/
+out.txt
