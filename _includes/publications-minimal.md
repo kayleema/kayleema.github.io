@@ -1,4 +1,4 @@
-## <img width="32px" class="favicon" src="/images/favicons/link.png" style="filter: hue-rotate(120deg);" /> {% if page.lang == "jp" %}研究発表{% else %}Publications {% endif %}
+## <img width="32px" class="favicon" src="/images/favicons/publications.png" /> {% if page.lang == "jp" %}研究発表{% else %}Publications {% endif %}
 
 * ["Impedance Sensing Device Enables Early Detection of Pressure Ulcers in Vivo"](http://www.nature.com/ncomms/2015/150317/ncomms7575/full/ncomms7575.html)
   {% if page.lang == "jp" %}１７日３月<br/>２０１５年{% else %}17 Mar. 2015{% endif %}

@@ -50,7 +50,7 @@ title: Home
 
 {% include publications-minimal.md %}
 
-## <img width="32px" class="favicon" src="/images/favicons/link.png"  style="filter: hue-rotate(-120deg);"  /> Curriculum Vitae
+## <img width="32px" class="favicon" src="/images/favicons/cv.png" /> Curriculum Vitae
 * Software engineer at Pivotal Labs Tokyo 2018-present
 * Software engineer at Google Inc. Query Understanding 2015-2018
 * Teaching Experience as uGSI for [CS61A](http://www-inst.eecs.berkeley.edu/~cs61a): The Structure and Interpretation of Computer Programs (5 semesters), EE42/100 (one semester), and EE20 (one semester).
