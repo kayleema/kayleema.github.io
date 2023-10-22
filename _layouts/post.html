@@ -1,6 +1,50 @@
 ---
-layout: default
 ---
+
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-52221111-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-52221111-1');
+    </script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.lang == "jp" %}ケイリー・{% else %}Kaylee - {% endif %}{{ page.title }}</title>
+
+    <!-- Bootstrap -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/extra.css" rel="stylesheet">
+    <link href="/css/syntax.css" rel="stylesheet">
+    {% if page.lang == "jp" %}
+    <link href="/css/jp.css" rel="stylesheet">
+    {% endif %}
+
+    <!--fonts-->
+    <link href="http://fonts.googleapis.com/css?family=Arvo" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet" type="text/css">
+    <link rel="alternate" type="application/rss+xml" title="Posts"
+          href="/feed.xml">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+
+    <!--more meta-->
+    <meta name="description" content="{{ page.summary }}">
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+    <link rel="author" href="https://plus.google.com/103030007168098159665"/>
+
+    <!--for google adsense-->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9272561114330078"
+            crossorigin="anonymous"></script>
+</head>
+<body>
+
 
 <div class="jumbotron" id="main-jumbo">
   <div class="container">
@@ -28,16 +72,6 @@ layout: default
 <!--  </script>-->
 <!--  <br/>-->
 <!--</div>-->
-
-<div class="container">
-  <br/>
-  <p style="font-weight:bold;">
-    <a href="{% if page.lang == "jp" %}/jp{% endif %}/posts.html" class="btn btn-secondary">
-      &laquo; {% if page.lang == "jp" %}ブログ一覧へ帰る{% else %}Back to Posts{% endif %}
-    </a>
-  </p>
-  <br/>
-</div>
 
 <div class="container" id="post-container">
   {{ content }}
@@ -77,3 +111,6 @@ layout: default
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
+
+</body>
+</html>

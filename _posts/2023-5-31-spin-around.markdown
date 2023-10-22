@@ -1,10 +1,16 @@
 ---
-layout: post
+layout: minimal-post
 title: "CSS Spinners of all Shapes and Sizes"
-summary: "A bespoke collection"
+summary: "A Bespoke Collection"
 ---
 
-Let's spin round and round！ (*´∀`)♪
+<style>
+h2 {
+    border-top: 2px solid #8888;
+}
+</style>
+
+<em>Let's spin round and round！</em> (*´∀`)♪
 
 # Design Constraints
 
@@ -35,13 +41,10 @@ to keep the required CSS clean, short, and free of ugly hacks.
 </style>
 <div class="minimal1"></div>
 
-<p><br/>
-  <a class="btn btn-light" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-    View Code
-  </a>
-</p>
-<div class="collapse" id="collapseExample">
-  <pre class="card card-body">
+<br/>
+<details>
+  <summary role="button" class="secondary">View Code</summary>
+  <pre>
     .minimal1 {
         width: 50px;
         height: 50px;
@@ -59,11 +62,9 @@ to keep the required CSS clean, short, and free of ugly hacks.
         transform: rotate(360deg);
       }
     }
-
   </pre>
-</div>
+</details>
 
-<hr/>
 
 ## Double whirl
 
@@ -79,13 +80,10 @@ to keep the required CSS clean, short, and free of ugly hacks.
 </style>
 <div class="minimal"></div>
 
-<p><br/>
-  <a class="btn btn-light" data-toggle="collapse" href="#minimalcode" role="button" aria-expanded="false" aria-controls="collapseExample">
-    View Code
-  </a>
-</p>
-<div class="collapse" id="minimalcode">
-  <pre class="card card-body">
+<br/>
+<details>
+  <summary role="button" class="secondary">View Code</summary>
+  <pre>
     .minimal {
         width: 50px;
         height: 50px;
@@ -105,10 +103,7 @@ to keep the required CSS clean, short, and free of ugly hacks.
     }
 
   </pre>
-</div>
-
-<hr/>
-
+</details>
 
 
 ## Pinwheel
@@ -134,13 +129,10 @@ to keep the required CSS clean, short, and free of ugly hacks.
 </style>
 <div class="pinwheel"></div>
 
-<p><br/>
-  <a class="btn btn-light" data-toggle="collapse" href="#pinwheelcode" role="button" aria-expanded="false" aria-controls="collapseExample">
-    View Code
-  </a>
-</p>
-<div class="collapse" id="pinwheelcode">
-  <pre class="card card-body">
+<br/>
+<details>
+  <summary role="button" class="secondary">View Code</summary>
+  <pre>
 
     .pinwheel {
         width: 0px;
@@ -161,9 +153,7 @@ to keep the required CSS clean, short, and free of ugly hacks.
     }
 
   </pre>
-</div>
-
-<hr/>
+</details>
 
 
 ## Beachball
@@ -189,14 +179,10 @@ to keep the required CSS clean, short, and free of ugly hacks.
 </style>
 <div class="beachball"></div>
 
-<p><br/>
-  <a class="btn btn-light" data-toggle="collapse" href="#beachpinwheelcode" role="button" aria-expanded="false" aria-controls="collapseExample">
-    View Code
-  </a>
-</p>
-<div class="collapse" id="beachpinwheelcode">
-  <pre class="card card-body">
-
+<br/>
+<details>
+  <summary role="button" class="secondary">View Code</summary>
+  <pre>
     .beachball {
         width: 0px;
         height: 0px;
@@ -215,9 +201,7 @@ to keep the required CSS clean, short, and free of ugly hacks.
       }
     }
   </pre>
-</div>
-
-<hr/>
+</details>
 
 ## Comet
 
@@ -235,13 +219,10 @@ to keep the required CSS clean, short, and free of ugly hacks.
 <div class="whirlpool"></div>
 
 
-<p><br/>
-  <a class="btn btn-light" data-toggle="collapse" href="#minimalwhirlpool" role="button" aria-expanded="false" aria-controls="collapseExample">
-    View Code
-  </a>
-</p>
-<div class="collapse" id="minimalwhirlpool">
-  <pre class="card card-body">
+<br/>
+<details>
+  <summary role="button" class="secondary">View Code</summary>
+  <pre>
     .whirlpool {
         width: 50px;
         height: 50px;
@@ -262,9 +243,7 @@ to keep the required CSS clean, short, and free of ugly hacks.
     }
 
   </pre>
-</div>
-
-<hr/>
+</details>
 
 ## Whirlpool
 
@@ -284,13 +263,10 @@ to keep the required CSS clean, short, and free of ugly hacks.
 <div class="whirlpool2"></div>
 
 
-<p><br/>
-  <a class="btn btn-light" data-toggle="collapse" href="#whirlpool2code" role="button" aria-expanded="false" aria-controls="collapseExample">
-    View Code
-  </a>
-</p>
-<div class="collapse" id="whirlpool2code">
-  <pre class="card card-body">
+<br/>
+<details>
+  <summary role="button" class="secondary">View Code</summary>
+  <pre>
     .whirlpool2 {
         width: 50px;
         height: 50px;
@@ -311,9 +287,7 @@ to keep the required CSS clean, short, and free of ugly hacks.
     }
 
   </pre>
-</div>
-
-<hr/>
+</details>
 
 ## Spinning on track
 
@@ -330,13 +304,10 @@ to keep the required CSS clean, short, and free of ugly hacks.
 <div class="track"></div>
 
 
-<p><br/>
-  <a class="btn btn-light" data-toggle="collapse" href="#trackcode" role="button" aria-expanded="false" aria-controls="collapseExample">
-    View Code
-  </a>
-</p>
-<div class="collapse" id="trackcode">
-  <pre class="card card-body">
+<br/>
+<details>
+  <summary role="button" class="secondary">View Code</summary>
+  <pre>
     .track {
         width: 50px;
         height: 50px;
@@ -356,9 +327,8 @@ to keep the required CSS clean, short, and free of ugly hacks.
     }
 
   </pre>
-</div>
+</details>
 
-<hr/>
 
 ## Flash
 
@@ -380,13 +350,10 @@ to keep the required CSS clean, short, and free of ugly hacks.
 </style>
 <div class="blinker">loading...</div>
 
-<p><br/>
-  <a class="btn btn-light" data-toggle="collapse" href="#blinkercode" role="button" aria-expanded="false" aria-controls="collapseExample">
-    View Code
-  </a>
-</p>
-<div class="collapse" id="blinkercode">
-  <pre class="card card-body">
+<br/>
+<details>
+  <summary role="button" class="secondary">View Code</summary>
+  <pre>
 
     .blinker {
         display: inline-block;
@@ -404,9 +371,8 @@ to keep the required CSS clean, short, and free of ugly hacks.
     }
 
   </pre>
-</div>
+</details>
 
-<hr/>
 
 ## Triple fade
 
@@ -437,13 +403,10 @@ to keep the required CSS clean, short, and free of ugly hacks.
 </style>
 <div class="triplefade"></div>
 
-<p><br/>
-  <a class="btn btn-light" data-toggle="collapse" href="#triplefadecode" role="button" aria-expanded="false" aria-controls="collapseExample">
-    View Code
-  </a>
-</p>
-<div class="collapse" id="triplefadecode">
-  <pre class="card card-body">
+<br/>
+<details>
+  <summary role="button" class="secondary">View Code</summary>
+  <pre>
     .triplefade {
         display: block;
         width: 20px;
@@ -469,9 +432,8 @@ to keep the required CSS clean, short, and free of ugly hacks.
     }
 
   </pre>
-</div>
+</details>
 
-<hr/>
 
 ## Triple Bounce
 
@@ -502,13 +464,10 @@ to keep the required CSS clean, short, and free of ugly hacks.
 </style>
 <div class="quadbounce"></div>
 
-<p><br/>
-  <a class="btn btn-light" data-toggle="collapse" href="#quadbouncecode" role="button" aria-expanded="false" aria-controls="collapseExample">
-    View Code
-  </a>
-</p>
-<div class="collapse" id="quadbouncecode">
-  <pre class="card card-body">
+<br/>
+<details>
+  <summary role="button" class="secondary">View Code</summary>
+  <pre>
     .quadbounce {
         display: block;
         width: 20px;
@@ -533,9 +492,8 @@ to keep the required CSS clean, short, and free of ugly hacks.
       }
     }
   </pre>
-</div>
+</details>
 
-<hr/>
 
 ## Thinking Rectangles Ripple
 
@@ -573,13 +531,10 @@ to keep the required CSS clean, short, and free of ugly hacks.
 </style>
 <div class="rectripple"></div>
 
-<p><br/>
-  <a class="btn btn-light" data-toggle="collapse" href="#rectripplecode" role="button" aria-expanded="false" aria-controls="collapseExample">
-    View Code
-  </a>
-</p>
-<div class="collapse" id="rectripplecode">
-  <pre class="card card-body">
+<br/>
+<details>
+  <summary role="button" class="secondary">View Code</summary>
+  <pre>
     .rectripple, .rectripple:before, .rectripple:after {
         height: 10px;
         margin-bottom: 30px;
@@ -611,9 +566,8 @@ to keep the required CSS clean, short, and free of ugly hacks.
       }
     }
   </pre>
-</div>
+</details>
 
-<hr/>
 
 ## Dots
 
@@ -633,13 +587,10 @@ to keep the required CSS clean, short, and free of ugly hacks.
 </style>
 <div class="dots"></div>
 
-<p><br/>
-  <a class="btn btn-light" data-toggle="collapse" href="#dotscode" role="button" aria-expanded="false" aria-controls="collapseExample">
-    View Code
-  </a>
-</p>
-<div class="collapse" id="dotscode">
-  <pre class="card card-body">
+<br/>
+<details>
+  <summary role="button" class="secondary">View Code</summary>
+  <pre>
     .dots {
         margin: 50px;
         width: 10px;
@@ -663,9 +614,8 @@ to keep the required CSS clean, short, and free of ugly hacks.
     }
 
   </pre>
-</div>
+</details>
 
-<hr/>
 
 ## Dots Extra
 
@@ -689,13 +639,10 @@ to keep the required CSS clean, short, and free of ugly hacks.
 </style>
 <div class="dotsExtra"></div>
 
-<p><br/>
-  <a class="btn btn-light" data-toggle="collapse" href="#dotsextracode" role="button" aria-expanded="false" aria-controls="collapseExample">
-    View Code
-  </a>
-</p>
-<div class="collapse" id="dotsextracode">
-  <pre class="card card-body">
+<br/>
+<details>
+  <summary role="button" class="secondary">View Code</summary>
+  <pre>
     .dotsExtra {
         margin: 50px;
         width: 10px;
@@ -723,9 +670,7 @@ to keep the required CSS clean, short, and free of ugly hacks.
     }
 
   </pre>
-</div>
-
-<hr/>
+</details>
 
 ## Dazzling spinner of many colors
 
@@ -738,7 +683,7 @@ to keep the required CSS clean, short, and free of ugly hacks.
         border-radius: 100%;
         box-shadow: red  20px  20px,
                     orange -20px -20px,
-                    yellow  20px -20px,
+                    #e7e700  20px -20px,
                     green -20px  20px,
                     blue 0 27px,
                     purple 27px 0,
@@ -758,13 +703,10 @@ to keep the required CSS clean, short, and free of ugly hacks.
 </style>
 <div class="dotsDazzle"></div>
 
-<p><br/>
-  <a class="btn btn-light" data-toggle="collapse" href="#dotsDazzlecode" role="button" aria-expanded="false" aria-controls="collapseExample">
-    View Code
-  </a>
-</p>
-<div class="collapse" id="dotsDazzlecode">
-  <pre class="card card-body">
+<br/>
+<details>
+  <summary role="button" class="secondary">View Code</summary>
+  <pre>
     .dotsDazzle {
         margin: 50px;
         width: 10px;
@@ -773,7 +715,7 @@ to keep the required CSS clean, short, and free of ugly hacks.
         border-radius: 100%;
         box-shadow: red  20px  20px,
                     orange -20px -20px,
-                    yellow  20px -20px,
+                    #e7e700  20px -20px,
                     green -20px  20px,
                     blue 0 27px,
                     purple 27px 0,
@@ -792,9 +734,7 @@ to keep the required CSS clean, short, and free of ugly hacks.
     }
 
   </pre>
-</div>
-
-<hr/>
+</details>
 
 ## Flip
 
@@ -820,13 +760,10 @@ to keep the required CSS clean, short, and free of ugly hacks.
 </style>
 <div class="flip"></div>
 
-<p><br/>
-  <a class="btn btn-light" data-toggle="collapse" href="#flipcode" role="button" aria-expanded="false" aria-controls="collapseExample">
-    View Code
-  </a>
-</p>
-<div class="collapse" id="flipcode">
-  <pre class="card card-body">
+<br/>
+<details>
+  <summary role="button" class="secondary">View Code</summary>
+  <pre>
     .flip {
         margin: 50px;
         width: 50px;
@@ -846,9 +783,7 @@ to keep the required CSS clean, short, and free of ugly hacks.
     }
 
   </pre>
-</div>
-
-<hr/>
+</details>
 
 ## Flip Colors
 
@@ -882,14 +817,10 @@ to keep the required CSS clean, short, and free of ugly hacks.
 </style>
 <div class="flipcolors"></div>
 
-<p><br/>
-  <a class="btn btn-light" data-toggle="collapse" href="#flipcolorscode" role="button" aria-expanded="false" aria-controls="collapseExample">
-    View Code
-  </a>
-</p>
-<div class="collapse" id="flipcolorscode">
-  <pre class="card card-body">
-
+<br/>
+<details>
+  <summary role="button" class="secondary">View Code</summary>
+  <pre>
     .flipcolors {
         margin: 50px;
         width: 50px;
@@ -918,9 +849,8 @@ to keep the required CSS clean, short, and free of ugly hacks.
     }
 
   </pre>
-</div>
+</details>
 
-<hr/>
 
 ## Timepiece
 
@@ -937,7 +867,7 @@ to keep the required CSS clean, short, and free of ugly hacks.
     border-radius: 50%;
     content: "";
     display: block;
-position: absolute;
+    position: absolute;
     background: #888;
     margin-top: 18px;
     margin-left: 20px;
@@ -961,14 +891,10 @@ position: absolute;
 <div class="times"></div>
 
 
-<p><br/>
-  <a class="btn btn-light" data-toggle="collapse" href="#timepiececode" role="button" aria-expanded="false" aria-controls="collapseExample">
-    View Code
-  </a>
-</p>
-<div class="collapse" id="timepiececode">
-  <pre class="card card-body">
-
+<br/>
+<details>
+  <summary role="button" class="secondary">View Code</summary>
+  <pre>
     .times {
         width: 50px;
         height: 50px;
@@ -1012,9 +938,7 @@ position: absolute;
     }
 
   </pre>
-</div>
-
-<hr/>
+</details>
 
 ## Emoji Spin
 
@@ -1036,13 +960,10 @@ position: absolute;
 </style>
 <div class="emoji">⚙️</div>
 
-<p><br/>
-  <a class="btn btn-light" data-toggle="collapse" href="#emojispincode" role="button" aria-expanded="false" aria-controls="collapseExample">
-    View Code
-  </a>
-</p>
-<div class="collapse" id="emojispincode">
-  <pre class="card card-body">
+<br/>
+<details>
+  <summary role="button" class="secondary">View Code</summary>
+  <pre>
     .emoji {
         display: inline-block;
         animation: spin 2s infinite linear;
@@ -1059,9 +980,8 @@ position: absolute;
     }
 
   </pre>
-</div>
+</details>
 
-<hr/>
 
 ## Emoji Flip
 
@@ -1084,14 +1004,10 @@ position: absolute;
 </style>
 <div class="emojiflip">🤔</div>
 
-<p><br/>
-  <a class="btn btn-light" data-toggle="collapse" href="#emojiflipcode" role="button" aria-expanded="false" aria-controls="collapseExample">
-    View Code
-  </a>
-</p>
-<div class="collapse" id="emojiflipcode">
-  <pre class="card card-body">
-
+<br/>
+<details>
+  <summary role="button" class="secondary">View Code</summary>
+  <pre>
     .emojiflip {
         display: inline-block;
         animation: flipy 2s infinite ease-in-out;
@@ -1109,9 +1025,7 @@ position: absolute;
     }
 
   </pre>
-</div>
-
-<hr/>
+</details>
 
 ## Emoji Bounce
 
@@ -1134,14 +1048,10 @@ position: absolute;
 </style>
 <div class="emojibounce">❤️</div>
 
-<p><br/>
-  <a class="btn btn-light" data-toggle="collapse" href="#emojibouncecode" role="button" aria-expanded="false" aria-controls="collapseExample">
-    View Code
-  </a>
-</p>
-<div class="collapse" id="emojibouncecode">
-  <pre class="card card-body">
-
+<br/>
+<details>
+  <summary role="button" class="secondary">View Code</summary>
+  <pre>
     .emojibounce {
         display: inline-block;
         animation: bounce 1s infinite ease-in-out;
@@ -1159,9 +1069,8 @@ position: absolute;
     }
 
   </pre>
-</div>
+</details>
 
-<hr/>
 
 ## Emoji Rock
 
@@ -1183,14 +1092,10 @@ position: absolute;
 </style>
 <div class="emojitremble">🚀</div>
 
-<p><br/>
-  <a class="btn btn-light" data-toggle="collapse" href="#emojitremblecode" role="button" aria-expanded="false" aria-controls="collapseExample">
-    View Code
-  </a>
-</p>
-<div class="collapse" id="emojitremblecode">
-  <pre class="card card-body">
-
+<br/>
+<details>
+  <summary role="button" class="secondary">View Code</summary>
+  <pre>
     .emojitremble {
         display: inline-block;
         animation: tremble 1s infinite ease-in-out;
@@ -1207,9 +1112,7 @@ position: absolute;
     }
 
   </pre>
-</div>
-
-<hr/>
+</details>
 
 ## Space
 
@@ -1248,14 +1151,10 @@ position: absolute;
 </style>
 <div class="sol"></div>
 
-<p><br/>
-  <a class="btn btn-light" data-toggle="collapse" href="#solcode" role="button" aria-expanded="false" aria-controls="collapseExample">
-    View Code
-  </a>
-</p>
-<div class="collapse" id="solcode">
-  <pre class="card card-body">
-
+<br/>
+<details>
+  <summary role="button" class="secondary">View Code</summary>
+  <pre>
     .sol {
         margin: 90px;
         width: 10px;
@@ -1298,9 +1197,7 @@ position: absolute;
     }
 
   </pre>
-</div>
-
-<hr/>
+</details>
 
 ## Faded swipe
 
@@ -1334,6 +1231,12 @@ position: absolute;
   bottom: 0;
   right: 0;
 }
+
+@media (prefers-color-scheme: dark){
+    .fadedSwipe:after {
+      background: #222;
+    }
+}
     
 @keyframes spin {
   0% {
@@ -1347,13 +1250,10 @@ position: absolute;
 
 <div class="fadedSwipe"></div>
 
-<p><br/>
-  <a class="btn btn-light" data-toggle="collapse" href="#fadedSwipecode" role="button" aria-expanded="false" aria-controls="collapseExample">
-    View Code
-  </a>
-</p>
-<div class="collapse" id="fadedSwipecode">
-  <pre class="card card-body">
+<br/>
+<details>
+  <summary role="button" class="secondary">View Code</summary>
+  <pre>
     .fadedSwipe {
         width: 50px;
         height: 50px;
@@ -1394,69 +1294,13 @@ position: absolute;
     }
 
   </pre>
-</div>
-
-
-<hr/>
-
-
-## Rings
-
-<style>
-.rings {
-  width: 50px;
-  height: 100px;
-  border-radius: 50%;
-  border: 2px dotted #8888;
-  animation: spin 1.928731s infinite linear 3s;
-  margin: 50px;
-}
-.rings:before {
-content: "";
-display: block;
-  position: absolute;
-  width: 50px;
-  height: 100px;
-  border-radius: 50%;
-  border: 2px dashed #8888;
-  animation: spin 2.7123s infinite linear 9s;
-  /*margin: 20px;*/
-top: 0;
-left: 0;
-}
-.rings:after {
-  position: absolute;
-content: "";
-display: block;
-  width: 50px;
-  height: 100px;
-  border-radius: 50%;
-  border: 1px solid #8888;
-  animation: spin 3.319782s infinite linear 2s;
-  /*margin: 20px;*/
-top: 0;
-left: 0;
-}
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-</style>
-
-<div class="rings"></div>
-
-<hr/>
+</details>
 
 ## Retro
 
 <style>
 .retro {
   width: 75px;
-  height: 30px;
   border: 5px solid #888;
 }
 .retro:before {
@@ -1489,7 +1333,7 @@ display: block;
 </style>
 
 <div class="retro"></div>
-<hr/>
+
 
 ## Bounce
 
@@ -1523,9 +1367,8 @@ display: block;
 </style>
 
 <div class="bounce"></div>
-<hr/>
 
-## drop
+## Relaxing Ripple
 
 <style>
 .shapes {

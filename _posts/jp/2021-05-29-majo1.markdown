@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: minimal-post
 title:  "【書評】魔女の宅急便　角野栄子：日本語学習者の最初の小説として最適"
 summary:  "Kiki's Delivery Service"
 lang: jp
@@ -7,7 +7,10 @@ categories:
     - jp
 ---
 
-<img src="/images/majo1.jpg" class="float-md-right ml-3" width="50%"/>
+
+<figure class="right">
+<img src="/images/majo1.jpg" />
+</figure>
 
 **[Read in English](/2021/05/29/kikis-delivery-service.html)**
 

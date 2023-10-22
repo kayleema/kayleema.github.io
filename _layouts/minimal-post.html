@@ -1,0 +1,34 @@
+---
+layout: minimal
+---
+
+<style>
+    figure.right {
+        float:right;
+        margin: 0 0 30px 30px;
+        max-width: 50%;
+    }
+    figure img {
+        max-width: 100%;
+    }
+</style>
+
+<hgroup>
+    <h1>{{page.title}}</h1>
+    <h2>
+        {{page.summary}}
+        <span style="float:right;">
+        {% if page.lang == "jp" %}
+        {{ page.date | date: "%Y年%-m月%-d日" }}
+        {% else %}
+        {{ page.date | date_to_string }}
+        {% endif %}
+        </span>
+    </h2>
+</hgroup>
+
+{{content}}
+
+
+<hr/>
+

@@ -1,10 +1,12 @@
 ---
-layout: post
-title: "【A Review】\"The Sigh of Haruhi Suzumiya\" by Nagaru Tanigawa：More fun antics"
+layout: minimal-post
+title: "【Book Review】\"The Sigh of Haruhi Suzumiya\" by Nagaru Tanigawa：More fun antics"
 summary: "涼宮ハルヒの溜息 谷川流"
 ---
 
-<img src="http://127.0.0.1:4000/images/suzumiya-sigh.jpeg" class="float-md-right ml-3"/>
+<figure class="right">
+<img src="/images/suzumiya-sigh.jpeg"/>
+</figure>
 
 *a.k.a Suzumiya Haruhi no Tameiki*
 
@@ -19,7 +21,7 @@ their heads as well.
 
 From my experience watching the anime I was worried that the novel would feel too slow paced as it largely only
 covers <Spoiler>the SOS団's production of the movie for the 文化祭</Spoiler> but I found the story to be sufficiently
-interesting throughout to keep me interested.
+compelling throughout to keep me interested.
 
 This book is a light novel published by 角川スニーカー文庫, but there is also a 角川文庫 version of the novel that has
 slightly larger font and removes illustrations. The 角川文庫 version has largely the same content, but in place of the

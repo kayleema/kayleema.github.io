@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "【A Review】\"Confessions\" Novel by Minato Kanae：Captivating from start to finish"
+title:  "【Book Review】\"Confessions\" Novel by Minato Kanae：Captivating from start to finish"
 summary:  "告白 湊かなえ"
 ---
 
@@ -8,6 +8,8 @@ summary:  "告白 湊かなえ"
 
 *a.k.a Kokuhaku*
 
-It was an easier read than I expected. I'm not sure if the first chapter is truly difficult or just intimidating as it is a stream of consciousness with few paragraph breaks. As others have noted, after the first chapter, it gets easier. During the second chapter in particular, I felt like I was flying through the pages. 
+It was an easier read than I expected. I'm not sure if the first chapter is truly difficult or just intimidating as it 
+is a stream of consciousness with few paragraph breaks. As others have noted, after the first chapter, it gets easier. 
+During the second chapter in particular, I felt like I was flying through the pages. 
 
 Captivating from start to finish. 

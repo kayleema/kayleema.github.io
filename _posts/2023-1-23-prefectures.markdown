@@ -95,7 +95,7 @@ summary:  "Table of my travels"
 <tr>	
 	<td colspan="9"></td>
 	<td class="n">石川</td>
-	<td class="n">福山</td>
+	<td class="n">富山</td>
 	<td class="n">新潟</td>
 	<td colspan="2" class="n">福島</td>
 </tr>
@@ -142,7 +142,7 @@ summary:  "Table of my travels"
 	<td colspan="2" class="n">和歌山</td>
 	<td colspan="2"></td>
 	<td class="t">静岡</td>
-	<td class="t">神奈川</td>
+	<td class="s">神奈川</td>
 </tr>
 <tr>	
 	<td/><td/><td/><td/><td/>
