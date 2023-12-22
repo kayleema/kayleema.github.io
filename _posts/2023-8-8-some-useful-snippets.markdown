@@ -44,3 +44,15 @@ to generate 10 of them
 for run in {1..10}; do uuidgen; done
 ```
 
+## Enable OBS Virtual Cameras for Discord/Zoom on Mac OSX
+For Discord:
+```shell
+sudo codesign --remove-signature "/Applications/Discord.app/Contents/Frameworks/Discord Helper (Renderer).app"
+sudo codesign --sign -           "/Applications/Discord.app/Contents/Frameworks/Discord Helper (Renderer).app"
+```
+
+For Zoom:
+```shell
+sudo codesign --remove-signature "/Applications/zoom.us.app"
+sudo codesign --sign -           "/Applications/zoom.us.app"
+```
