@@ -99,7 +99,7 @@ categories:
 	<td colspan="9"></td>
 	<td class="n">石川</td>
 	<td class="n">富山</td>
-	<td class="n">新潟</td>
+	<td class="t">新潟</td>
 	<td colspan="2" class="n">福島</td>
 </tr>
 <tr>	
@@ -132,7 +132,7 @@ categories:
 	<td class="n">広島</td>
 	<td class="a">岡山</td>
 	<td class="t">大阪</td>
-	<td class="a">奈良</td>
+	<td class="t">奈良</td>
 	<td class="n">三重</td>
 	<td class="t">愛知</td>
 	<td class="t">山梨</td>
