@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "【Book Review】\"The Tunnel to Summer, the Exit of Goodbyes\" Light Novel by Mei Hachimoku"
+title:  "Book Review：\"The Tunnel to Summer, the Exit of Goodbyes\" Light Novel by Mei Hachimoku"
 summary:  "夏へのトンネルさよならの出口　八目迷"
+icon: "/images/favicons/bookiconsmall.png"
 ---
 
 <img src="/images/natutunnel.jpg" class="float-md-right ml-3"/>

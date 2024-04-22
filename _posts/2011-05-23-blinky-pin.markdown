@@ -2,6 +2,7 @@
 layout: post
 title:  "Blinky Pin!"
 summary:  "A fun blinky pin circuit using a 555 timer."
+icon: "/images/favicons/chipicon.png"
 ---
 It's fun to make a permanent electronic circuit you can use even if its a painfully simple circuit like this one.  I added blinking lights to a pin from my FIRST Robotics Competition team.  It turns out that a 9-volt battery is too heavy for a pin, so I ended up making it into a necklace.
 

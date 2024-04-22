@@ -2,6 +2,7 @@
 layout: minimal-post
 title: "AI Hackathon with 100% AI-Generated Idea and Code"
 summary: "Final product is deployed and available to try out now"
+icon: "/images/favicons/apps.png"
 ---
 
 <img src="/images/merryiconround.png" width="64px" style="float:right; image-rendering: pixelated;" />
@@ -54,3 +55,12 @@ constellations, and MerryMixer is their celestial navigator, guiding them throug
 stars of shared success. Enter the domain where fun is not just promised; it is orchestrated with the precision of a 
 maestro, in a symphony of experiences that will resonate through the hearts and minds of all who partake. Behold, the 
 dawn of MerryMixer is upon us, and it is nothing short of spectacular!"*
+
+＃# Japanese AI-Generated Presentation
+
+[Watch 「MerryMixerの構築・テクノロジーの旅」 on YouTube](https://www.youtube.com/watch?v=PrprxstisJ8)
+<iframe width="100%" height="480px"
+src="https://www.youtube.com/embed/PrprxstisJ8">
+</iframe>
+
+

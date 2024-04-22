@@ -2,6 +2,7 @@
 layout: post
 title:  "A Fantastically Fun Favicon Family"
 summary:  "Just a bunch of cute animal favicons I made"
+icon: "/images/favicons/favicon-megane.png"
 ---
 
 

@@ -2,6 +2,7 @@
 layout: post
 title:  "DIY Quadrature Encoder"
 summary:  "A quadrature encoder I hacked together for a personal project"
+icon: "/images/favicons/chipicon.png"
 ---
 
 

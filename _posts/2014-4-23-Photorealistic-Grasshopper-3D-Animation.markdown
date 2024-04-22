@@ -2,6 +2,7 @@
 layout: post
 title:  "Photorealistic Grasshopper 3D Animation and Compositing"
 summary:  "Photoreal Grasshopper/Locust Created with Blender3D!"
+icon: "/images/favicons/3d.png"
 ---
 
 I modeled, textured and rigged a locust/grasshopper in blender.  Here's my first attempt at animating it:

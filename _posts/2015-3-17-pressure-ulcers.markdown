@@ -2,6 +2,7 @@
 layout: post
 title:  "Impedance sensing device enables early detection of pressure ulcers in vivo"
 summary:  "Publication With Nature Communications"
+icon: "/images/favicons/publications.png"
 ---
 
 Abstract

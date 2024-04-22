@@ -5,6 +5,7 @@ summary:  "絵文字しか使えないSNS"
 lang: jp
 categories:
     - jp
+icon: "/images/favicons/apps.png"
 ---
 
 😄 絵文字の世界に入りましょう‼︎

@@ -2,6 +2,7 @@
 layout: post
 title:  "An Interrupt-Driven UART Library for the Attiny10"
 summary:  "An efficient way to implement serial communications on one of the smallest microcontrollers"
+icon: "/images/favicons/chipicon.png"
 ---
 
 The ATtiny10 lacks any hardware communication capabilities. My library solves

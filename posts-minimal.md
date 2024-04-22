@@ -13,8 +13,21 @@ subtext: "Just some random articles I've put up for fun. Some of them are from a
 {% if post.lang %}
 {% else %}
 <li>
-<span class="date">{{ post.date | date_to_string }} &raquo;</span> <a href="{{ post.url }}">{{ post.title }}</a><br/>
-<span class="subtitle">{{ post.summary }}</span>
+
+<span class="date">{{ post.date | date: "%Y-%m-%d" }}</span>
+
+{% if post.icon %}
+<img src="{{ post.icon }}"           />
+{% else %}
+<img src="/images/favicons/link.png" />
+{% endif %}
+
+
+<span>
+    <a href="{{ post.url }}">{{ post.title }}</a><br/>
+    <span class="subtitle">{{ post.summary }}</span>
+</span>
+
 </li>
 {% endif %}
 {% endfor %}

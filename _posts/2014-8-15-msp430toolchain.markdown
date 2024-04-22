@@ -2,6 +2,7 @@
 layout: post
 title:  "MSP430 Toolchain on OSX Mavericks"
 summary:  "Developing for the MSP430 and the TI Launchpad Development Kit on OSX"
+icon: "/images/favicons/chipicon.png"
 ---
 
 ![Mavericks MSP430](/images/mav.jpg "MSP430")

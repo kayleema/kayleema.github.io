@@ -2,6 +2,7 @@
 layout: post
 title:  "Blender 3D Materials for Scratched Metal, Ice, Tile, Cardboard, and Knit"
 summary:  "Awesome fully procedural materials for 3d animation with Blender"
+icon: "/images/favicons/3d.png"
 ---
 
 <div class="card-columns">

@@ -1,7 +1,8 @@
 ---
 layout: minimal-post
-title: "【Book Review】\"Ascendance of a Bookworm: Heishi no Musume: Part 1\" by Miya Kazuki："
+title: "Book Review：\"Ascendance of a Bookworm: Heishi no Musume: Part 1\" by Miya Kazuki："
 summary: "本好きの下剋上~司書になるためには手段を選んでいられません~第一部「兵士の娘1」 香月美夜"
+icon: "/images/favicons/bookiconsmall.png"
 ---
 
 <figure class="right">

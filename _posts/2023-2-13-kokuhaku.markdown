@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "【Book Review】\"Confessions\" Novel by Minato Kanae：Captivating from start to finish"
+title:  "Book Review：\"Confessions\" Novel by Minato Kanae：Captivating from start to finish"
 summary:  "告白 湊かなえ"
+icon: "/images/favicons/bookiconsmall.png"
 ---
 
 <img src="/images/kokuhaku.jpg" class="float-md-right ml-3"/>

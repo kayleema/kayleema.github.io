@@ -2,6 +2,7 @@
 layout: post
 title:  "Wireless Modules with Arduino"
 summary:  "Tutorial on how to use cheap wireless modules with Arduino"
+icon: "/images/favicons/chipicon.png"
 ---
 
 {% include /image-right.html url="http://keeganmann.files.wordpress.com/2010/12/08950-03-l_i_ma.jpg" description="Wireless Transmitter and Receiver Modules" href="http://keeganmann.files.wordpress.com/2010/12/08950-03-l_i_ma.jpg" %}

@@ -2,6 +2,7 @@
 layout: post
 title:  "DIY Temperature Control Water Bath for Color Analog Film and Paper Development"
 summary:  "No more worrying about monitoring your temperature all the time!"
+icon: "/images/favicons/chipicon.png"
 ---
 
 Motivation

@@ -2,6 +2,7 @@
 layout: post
 title:  "It's Emoji Time"
 summary:  "A Social Network where you can only use emoji!"
+icon: "/images/favicons/favicon-emojitime.png"
 ---
 
 😄 Welcome to the World of emoji

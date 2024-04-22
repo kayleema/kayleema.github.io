@@ -5,6 +5,7 @@ summary:  "オートミールだから麦チョコみたいな味がする"
 lang: jp
 categories:
     - jp
+icon: "/images/favicons/cookie.png"
 ---
 
 オートミールだから麦チョコみたいな味がする。英語の名前はunbakiesまたはunbaked cookiesです。

@@ -2,6 +2,7 @@
 layout: post
 title:  "Recipe for Unbakies - Unbaked Chocolate Cookies"
 summary:  "Chewy Chocolatey Oatmeal"
+icon: "/images/favicons/cookie.png"
 ---
 
 <br/>

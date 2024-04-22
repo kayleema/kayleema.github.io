@@ -2,6 +2,7 @@
 layout: post
 title:  "Simple LED Bank Circuit"
 summary:  "Driving several strings of LEDs from a single low-voltage digital IO pin."
+icon: "/images/favicons/chipicon.png"
 ---
 
 {% include /image-left.html url="http://i.imgur.com/TtEnjD6.png" description="Circuit Diagram" href="http://i.imgur.com/TtEnjD6.png" %}

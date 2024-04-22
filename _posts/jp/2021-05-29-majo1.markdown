@@ -5,6 +5,7 @@ summary:  "Kiki's Delivery Service"
 lang: jp
 categories:
     - jp
+icon: "/images/favicons/bookiconsmall.png"
 ---
 
 

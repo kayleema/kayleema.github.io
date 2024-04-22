@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "【Book Review】\"To Every You I've Loved Before\" by Yomoji Otono：Cute sci-fi and a fun easy read"
+title:  "Book Review：\"To Every You I've Loved Before\" by Yomoji Otono：Cute sci-fi and a fun easy read"
 summary:  "僕が愛したすべての君へ 乙野四方字"
+icon: "/images/favicons/bookiconsmall.png"
 ---
 
 <img src="/images/bokuai.jpg" class="float-md-right ml-3"/>

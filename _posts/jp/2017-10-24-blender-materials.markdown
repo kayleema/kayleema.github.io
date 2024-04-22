@@ -5,6 +5,7 @@ summary:  "3dアニメーションのための材質（マテリアル）セッ�
 lang: jp
 categories:
     - jp
+icon: "/images/favicons/3d.png"
 ---
 
 <div class="card-columns">

@@ -5,6 +5,7 @@ summary:  "継続的に気温チェック必要ない"
 lang: jp
 categories:
     - jp
+icon: "/images/favicons/chipicon.png"
 ---
 
 [英語版はこちらです](http://www.kaylee.jp/2017/10/18/color-film-temp-control.html)

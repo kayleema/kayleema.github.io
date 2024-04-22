@@ -2,6 +2,7 @@
 layout: minimal-post
 title: "Use Wanikani API to List all Kanji by Date Burned"
 summary: "In Python"
+icon: "/images/favicons/apps.png"
 ---
 
 <link href="/css/syntax.css" rel="stylesheet">

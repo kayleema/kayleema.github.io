@@ -1,7 +1,8 @@
 ---
 layout: minimal-post
-title: "【Book Review】\"The Boredom of Haruhi Suzumiya\" by Nagaru Tanigawa："
+title: "Book Review：\"The Boredom of Haruhi Suzumiya\" by Nagaru Tanigawa："
 summary: "涼宮ハルヒの退屈 谷川 流"
+icon: "/images/favicons/bookiconsmall.png"
 ---
 
 <figure class="right">

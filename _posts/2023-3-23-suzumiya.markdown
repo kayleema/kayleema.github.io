@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "【Book Review】\"The Melancholy of Haruhi Suzumiya\" by Nagaru Tanigawa：The fun read I was hoping for"
+title:  "Book Review：\"The Melancholy of Haruhi Suzumiya\" by Nagaru Tanigawa：The fun read I was hoping for"
 summary:  "涼宮ハルヒの憂鬱 谷川流"
+icon: "/images/favicons/bookiconsmall.png"
 ---
 
 <img src="/images/suzumiya.jpeg" class="float-md-right ml-3"/>

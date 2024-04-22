@@ -1,7 +1,8 @@
 ---
 layout: minimal-post
-title: "【Book Review】\"I want to eat your pancreas\" by Yoru Sumino："
+title: "Book Review：\"I want to eat your pancreas\" by Yoru Sumino："
 summary: "君の膵臓をたべたい 住野 よる"
+icon: "/images/favicons/bookiconsmall.png"
 ---
 
 <figure class="right">

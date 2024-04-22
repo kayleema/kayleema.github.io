@@ -1,6 +1,41 @@
 ---
 ---
 
+$brandPrimary: #7d39b6;
+$brandBright: #6400bd;
+$brandLight:  #cfa7ff;
+$brandDark: #3f2b52;
+$themeGradient: linear-gradient(0.25turn, $brandDark, $brandDark, $brandPrimary);
+
+
+@mixin darkness {
+  body {
+    background: #333 repeat url("/tex/low_contrast_linen.png");
+    font-family: "UD デジタル 教科書体 N-R", "BIZ UDゴシック Regular", "Hiragino Kaku Gothic ProN", sans-serif;
+    color: #eee;
+  }
+
+  a {
+    color: $brandLight;
+  }
+  .container {
+    background: #222;
+    border: none;
+  }
+  input, textarea {
+    background: black;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme: dark)  {
+  :root:not([data-theme="light"]):not([data-theme="classical"]) {
+    @include darkness;
+  }
+}
+:root[data-theme="dark"] {
+  @include darkness;
+}
 
 body {
   background: repeat url("/tex/asanoha-400px.png");
@@ -19,9 +54,8 @@ body {
   box-shadow: 0px 5px 20px #0006;
 }
 
-
 nav, nav.container {
-  background: linear-gradient(0.25turn, #3f2b52, #3f2b52, #7d39b6) !important;
+  background: $themeGradient !important;
   display: flex;
   flex-direction: row;
   padding: 0;
@@ -35,17 +69,17 @@ nav, nav.container {
     padding: 4px 10px;
     cursor: pointer;
     text-decoration: none;
-    color: #cfa7ff;
+    color: $brandLight;
   }
   a:hover, summary:hover {
     background: #000000;
     color: #ffff;
     text-decoration: none;
   }
-  li:first-child a {
+  > ul > li:first-child > a {
     border-radius: 10px 0 0 0;
   }
-  details li {
+  details ul li {
     a {
       border-radius: 0 0 0 0;
     }
@@ -56,44 +90,29 @@ nav, nav.container {
       border-radius: 0 0 10px 0;
     }
   }
-}
-
-div.switcher {
-  display: inline-block;
-  padding:  3px 10px;
-  border: 2px dotted #fff8;
-  border-radius: 5px;
-  float: right;
-  color: white;
-  a {
-    color: #cfa7ff;
+  ul {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin:0;
+  }
+  li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
   }
 }
 
-h2 {
-  margin-bottom: 5px;
-  padding-bottom: 0;
-}
-
-h3 {
-  margin-left: 10px;
-  padding-bottom: 0;
-  margin-bottom: 0;
-}
-
-nav ul {
-  display: flex;
-  flex-direction: row;
-  padding: 0;
-  margin:0;
-}
-
-nav li {
+.switcher {
   display: inline-block;
-  margin: 0;
-  padding: 0;
+  padding:  3px 10px;
+  border: 2px dotted #888a;
+  border-radius: 5px;
+  float: right;
+  a {
+    color: $brandLight;
+  }
 }
-
 
 hgroup {
   h1 {
@@ -107,8 +126,8 @@ hgroup {
     font-weight: normal;
     margin-top: 0
   }
-  border-bottom: 5px solid #4f286e;
-  background: linear-gradient(0.5turn, #3c1f50,  #3c1f50,  #3c1f50);;
+  border-bottom: 5px solid $brandPrimary;
+  background: $brandDark;
   margin: 0;
   padding: 10px 30px;
   margin: 0px -30px;
@@ -117,11 +136,22 @@ hgroup {
   color: white;
 }
 
+h2 {
+  margin-bottom: 5px;
+  padding-bottom: 0;
+}
+
+h3 {
+  margin-left: 0px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
 a {
-  color: #6d26b2;
+  color: $brandPrimary;
   text-decoration: none;
   &:hover {
-    color: #6400bd;
+    color: $brandBright;
     text-decoration: underline;
   }
 }
@@ -157,19 +187,34 @@ ul.listbox {
 
 ul.posts {
   li {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: left;
     list-style-type: none;
     padding: 5px 0;
+    img {
+      padding-right: 10px;
+      padding-top: 2px;
+      flex-grow: 0;
+      display: block;
+      object-fit: cover;
+      width: 32px;
+      height: 32px;
+      image-rendering: pixelated;
+    }
     a {
       font-weight: 600;
     }
     .date {
       opacity: 0.5;
+      margin-right: 10px;
+      min-width: 80px;
       font-size: 0.8rem;
+      font-family: monospace;
     }
     .subtitle {
       opacity: 0.9;
-      font-size: 0.9rem;
-      margin-left: 20px;
     }
   }
 }
@@ -178,8 +223,6 @@ ul[role="listbox"] {
   background: linear-gradient(0.25turn, #3f2b52, #3f2b52, #7d39b6);
   position: absolute;
   z-index: 11;
-  a {
-  }
   box-shadow: 0px 5px 20px #0008;
   border-radius: 0 0 15px 15px;
 }
@@ -240,52 +283,38 @@ hr {
   background: linear-gradient(0.25turn, #3f2b52, #3f2b52, #7d39b6);
 }
 
-@media (prefers-color-scheme: dark){
-  :root:not([data-theme="light"]) {
-    body {
-      background: #333 repeat url("/tex/low_contrast_linen.png");
-      font-family: "UD デジタル 教科書体 N-R", "BIZ UDゴシック Regular", "Hiragino Kaku Gothic ProN", sans-serif;
-      color: #eee;
+table {
+  margin: 40px 0;
+  border-collapse: collapse;
+  font-size: 0.8rem;
+  width: 100%;
+  tr {
+    td, th {
+      border-bottom: 1px solid #888;
+      padding: 3px 10px;
+      //&.linkcell {
+      //  padding: 0;
+      //  a {
+      //    background: $brandPrimary;
+      //    padding: 3px 10px;
+      //    margin: 0;
+      //    height: 100%;
+      //    display: block;
+      //    color: white !important;
+      //    &:hover {
+      //      color: white !important;
+      //      background: $brandBright;
+      //      text-decoration: none;
+      //    }
+      //  }
+      //}
     }
-
-    .container {
-      background: #222;
-
-      a {
-        color: #cfa7ff;
-      }
-
-      border: none;
+    th {
+      text-align: left;
+      border-width: 4px;
     }
-
-    h1, h2 {
-      color: #efe0ff;
+    &:hover td {
+        background: #8882;
     }
-    input, textarea {
-      background: black;
-      color: white;
-    }
-  }
-}
-
-:root[data-theme="dark"] {
-  body {
-    background: #333 repeat url("/tex/low_contrast_linen.png");;
-    font-family: "UD デジタル 教科書体 N-R", "BIZ UDゴシック Regular", "Hiragino Kaku Gothic ProN", sans-serif;
-    color: #eee;
-  }
-  .container {
-    background: #222;
-    a {
-      color: #cfa7ff;
-    }
-    border: none;
-  }
-  h1, h2 {
-    color: #efe0ff;
-  }
-  input, textarea {
-    background: black;
-    color: white;
   }
 }

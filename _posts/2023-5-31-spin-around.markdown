@@ -2,6 +2,7 @@
 layout: minimal-post
 title: "CSS Spinners of all Shapes and Sizes"
 summary: "A Bespoke Collection"
+icon: "/images/favicons/apps.png"
 ---
 
 <style>

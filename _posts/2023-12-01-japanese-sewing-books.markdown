@@ -2,6 +2,7 @@
 layout: minimal-post
 title: "Great Japanese Sewing Books"
 summary: "日本語ソーイング本"
+icon: "/images/favicons/bookiconsmall.png"
 ---
 
 <style>

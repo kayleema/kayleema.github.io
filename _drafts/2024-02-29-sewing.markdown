@@ -1,0 +1,100 @@
+---
+layout: minimal-post
+title: "Sewing Projects　一覧"
+summary: "作った洋服"
+categories:
+  - jp
+  - en
+icon: "/images/favicons/sewing.png"
+---
+
+<style>
+img.sewingIllustration {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+div.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+.card {
+    display: inline-block;
+    width: 32%;
+    margin: 0;
+    padding: 1px;
+    background: #ddd3;
+    aspect-ratio: 4 / 5;
+    box-sizing: border-box;
+    overflow: clip;
+    position: relative;
+}
+.card h3 {
+    font-family: Georgia, serif;
+    display: inline-block;
+    margin: 0;
+    padding: 10px;
+    position: absolute;
+    background: #000c;
+}
+.card p {
+    font-size: 0.8em;
+    opacity: 0;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    background: #000c;
+    margin: 0;
+    padding: 10px;
+    transition: 0.5s;
+    width: 100%;
+    box-sizing: border-box;
+}
+.card:hover p {
+    font-family: Georgia, serif;
+    opacity: 1;
+    color: white;
+}
+</style>
+
+<table>
+    <tr>
+        <th>＃</th>
+        <th>Name</th>
+        <th>名称</th>
+        <th>参照</th>
+        <th>アクセサリー</th>
+    </tr>
+    {% for row in site.data.youfuku %}
+        <tr>
+            {% if row["写真"] and row["写真"] != "" %}
+                <td class="linkcell">
+                    <a href="#detail-{{row["番号"]}}">
+                        <strong>{{row["番号"]}}</strong>
+                    </a>
+                </td>
+                {% else %}
+                <td>
+                    {{row["番号"]}}
+                </td>
+            {% endif %} 
+            <td><em>{{row["Name"]}}</em></td>
+            <td><strong>{{row["名称"]}}</strong></td>
+            <td>{{row["参照"]}}</td>
+            <td>{{row["アクセサリー"]}}</td>
+        </tr>
+    {% endfor %}
+</table>
+
+<div class="cardContainer">
+{% for row in site.data.youfuku %}
+{% if row["写真"] and row["写真"] != "" %}
+<a class="card" href="/images/youfuku/{{row["番号"]}}.jpeg">
+<h3 id="detail-{{row["番号"]}}">{{row["番号"]}}</h3>
+<img src="/images/youfuku/{{row["番号"]}}.jpeg" alt="{{row["Name"]}}" class="sewingIllustration" />
+<p><strong>{{row["Name"]}}：{{row["名称"]}}</strong><br/>{{row["写真"]}}</p>
+</a>
+{% endif %}
+{% endfor %}
+</div>

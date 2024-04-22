@@ -2,6 +2,7 @@
 layout: post
 title:  "Scientific Motion Tracking with Blender"
 summary:  "Motion tracking with a python csv export script."
+icon: "/images/favicons/3d.png"
 ---
 
 The following details a method for tracking the rotation and translation of a single object in 2D with Blender.

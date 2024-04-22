@@ -5,6 +5,7 @@ summary:  "私の作ったfavicon.icoファイル（白猫、金色ハート猫�
 lang: jp
 categories:
     - jp
+icon: "/images/favicons/favicon-megane.png"
 ---
 
 

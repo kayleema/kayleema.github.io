@@ -2,6 +2,7 @@
 layout: post
 title:  "Python Video Tutorials - Setting up Python on OSX"
 summary:  "Some video tutorials I made for the class I TA. They describe how to set up a python programming environment"
+icon: "/images/favicons/apps.png"
 ---
 
 Here are some video tutorials I created as a TA for CS61A.

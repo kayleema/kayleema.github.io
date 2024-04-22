@@ -5,6 +5,7 @@ summary:  "IEEEの研究発表"
 lang: jp
 categories:
     - jp
+icon: "/images/favicons/publications.png"
 ---
 
 私達はサイボーグ虫を作りかたを勉強しています。おもしろいですね！

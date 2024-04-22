@@ -5,6 +5,7 @@ summary:  "私が作ったアニメーション"
 lang: jp
 categories:
     - jp
+icon: "/images/favicons/3d.png"
 ---
 
 [ＢＬＥＮＤＥＲ３Ｄ](http://www.blender.org/)でこの虫を作りました。このビデオを見て下さい。

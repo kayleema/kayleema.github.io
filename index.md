@@ -3,12 +3,11 @@ layout: minimal
 title: Home
 ---
 
-<div class="switcher">
-<span>English</span>・<a href="/jp/index.html">日本語</a>
-</div>
-
 
 <hgroup>
+    <div class="switcher">
+        <span>English</span>・<a href="/jp/index.html">日本語</a>
+    </div>
     <h1>Kaylee Mann</h1>
     <h2>
         I'm a software engineer at Pivotal Labs Tokyo,

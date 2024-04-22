@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "【Book Review】\"Convenience Store Woman\" by Sayaka Murata: Maybe not the right novel for me"
+title:  "Book Review：\"Convenience Store Woman\" by Sayaka Murata: Maybe not the right novel for me"
 summary:  "コンビニ人間 村田沙耶香"
+icon: "/images/favicons/bookiconsmall.png"
 ---
 
 <img src="/images/konbininingen.jpg" class="float-md-right ml-3"/>

@@ -1,7 +1,8 @@
 ---
 layout: minimal-post
-title: "【Book Review】\"The Sigh of Haruhi Suzumiya\" by Nagaru Tanigawa：More fun antics"
+title: "Book Review：\"The Sigh of Haruhi Suzumiya\" by Nagaru Tanigawa：More fun antics"
 summary: "涼宮ハルヒの溜息 谷川流"
+icon: "/images/favicons/bookiconsmall.png"
 ---
 
 <figure class="right">

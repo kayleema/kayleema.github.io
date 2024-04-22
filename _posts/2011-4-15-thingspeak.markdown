@@ -2,6 +2,7 @@
 layout: post
 title:  "ThingSpeak with Arduino and Processing"
 summary:  "Light Sensor and Motion Sensor Using ThingSpeak, Arduino, and Processing"
+icon: "/images/favicons/chipicon.png"
 ---
 
 ["Thingspeak.com"](http://www.thingspeak.com) allows one to post information gathered by a networked device in real time.  I decided that I would test out the system with a simple light sensor.  Then, I went further by developing a new Processing application which detects motion using a webcam and posts it to a ThingSpeak channel.

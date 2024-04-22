@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "【Book Review】\"Suzume no Tojimari\" Novel by Makoto Shinkai: I Had a great time reading"
+title:  "Book Review：\"Suzume no Tojimari\" Novel by Makoto Shinkai: I Had a great time reading"
 summary:  "すずめの戸締り 新海誠"
+icon: "/images/favicons/bookiconsmall.png"
 ---
 
 <img src="/images/suzume.jpg" class="float-md-right ml-3"/>

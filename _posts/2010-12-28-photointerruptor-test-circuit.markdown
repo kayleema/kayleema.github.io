@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Photointerruptor Test Circuit"
+icon: "/images/favicons/chipicon.png"
 ---
 
 I made a circuit to test phototransistors I will be using for the encoder.  I'm using <a title="these" href="http://search.digikey.com/scripts/DkSearch/dksus.dll?keywords=425-2050-5-ND" target="_blank">these</a> phototransistors.  Here's the schematic.

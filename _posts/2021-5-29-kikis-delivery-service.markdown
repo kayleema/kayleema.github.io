@@ -1,7 +1,9 @@
 ---
 layout: post
-title:  "【Book Review】\"Kiki's Delivery Service\" Novel by Eiko Kadono : The Perfect First Novel for a Japanese Learner"
+title:  "Book Review：\"Kiki's Delivery Service\" Novel by Eiko Kadono : The Perfect First Novel for a Japanese Learner"
 summary:  "魔女の宅急便 角野栄子"
+icon: "/images/favicons/bookiconsmall.png"
+
 ---
 
 <img src="/images/majo1.jpg" class="float-md-right ml-3" width="50%"/>

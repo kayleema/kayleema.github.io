@@ -5,6 +5,7 @@ summary: "電気バンドエイド"
 lang: jp
 categories:
     - jp
+icon: "/images/favicons/publications.png"
 ---
 
 これはおもしろいとおもいます。私達はいっしょにほれを書きました。

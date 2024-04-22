@@ -2,6 +2,7 @@
 layout: minimal-post
 title: "All the Kanji I've ever seen"
 summary: "in the order I first saw them."
+icon: "/images/favicons/kanjijirusi.png"
 ---
 
 

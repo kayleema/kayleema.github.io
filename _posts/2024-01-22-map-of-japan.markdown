@@ -2,6 +2,7 @@
 layout: minimal-post
 title: "Map of Japan and USA Made Using CSS Grid"
 summary: "Using just HTML and CSS"
+icon: "/images/favicons/apps.png"
 ---
 
 I've seen lots of maps in Japan using a simplified minimal boxy design and I think it looks kind of nice in an elegant
@@ -282,13 +283,13 @@ grid-auto-flow: column;
 } .MI { grid-row-end: 5; }
 .WA, .ID, .MT, .ND, .MN, .WI, .PA, .CT, .RI {
     grid-row: 4;
-} .WA, .MT, .MN, .WI,.PA,  .RI { grid-row-end: 6; } .ID { grid-row-end: 8; }
+} .WA, .MT, .MN, .WI,.PA { grid-row-end: 6; } .ID { grid-row-end: 8; }
 .SD, .OH, .NJ {
     grid-row: 5;
 } .SD, .OH { grid-row-end: 7; }
 .OR, .WY, .IA, .IL, .IN, .WV, .MD, .DE {
     grid-row: 6;
-} .OR, .WY, .IA, .IL, .DE { grid-row-end: 8; }
+} .OR, .WY, .IA, .IL { grid-row-end: 8; }
 .NE, .KY, .VA {
     grid-row: 7;
 }
@@ -315,13 +316,13 @@ grid-auto-flow: column;
 .HI, .CA, .AK, .HI, .FL, .TX {
     border-bottom-left-radius: 20px;
 }
-.HI, .AK, .FL, .TX, .ME, .DE, .SC {
+.HI, .AK, .FL, .TX, .ME, .DE, .SC, .RI {
     border-bottom-right-radius: 20px;
 }
 .HI, .AK, .HI, .AK, .ME, .WA, .MI, .VT {
     border-top-left-radius: 20px;
 }
-.HI, .HI, .AK, .ME, .WI {
+.HI, .HI, .AK, .ME, .WI, .DE {
     border-top-right-radius: 20px;
 }
 

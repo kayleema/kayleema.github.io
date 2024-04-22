@@ -2,6 +2,7 @@
 layout: post
 title:  "A Wearable Wireless Platform for Visually Stimulating Small Flying Insects"
 summary:  "Engineering in Medicine and Biology Society (EMBC), 2014 36th Annual International Conference (Podium Presentation)"
+icon: "/images/favicons/publications.png"
 ---
 
 Abstract
