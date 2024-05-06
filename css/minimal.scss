@@ -109,6 +109,8 @@ nav, nav.container {
   border: 2px dotted #888a;
   border-radius: 5px;
   float: right;
+  margin-left: 30px;
+  margin-bottom: 30px;
   a {
     color: $brandLight;
   }
@@ -186,6 +188,7 @@ ul.listbox {
 }
 
 ul.posts {
+  padding: 0;
   li {
     display: flex;
     flex-direction: row;
@@ -194,21 +197,20 @@ ul.posts {
     list-style-type: none;
     padding: 5px 0;
     img {
-      padding-right: 10px;
-      padding-top: 2px;
+      padding: 2px 10px;
       flex-grow: 0;
       display: block;
       object-fit: cover;
-      width: 32px;
-      height: 32px;
-      image-rendering: pixelated;
+      width: 16px;
+      height: 16px;
+      //image-rendering: pixelated;
     }
     a {
       font-weight: 600;
     }
     .date {
+      padding: 2px 0px;
       opacity: 0.5;
-      margin-right: 10px;
       min-width: 80px;
       font-size: 0.8rem;
       font-family: monospace;
