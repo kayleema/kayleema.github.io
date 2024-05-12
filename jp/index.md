@@ -19,25 +19,33 @@ lang: jp
 
 ## <img width="32px" class="favicon" src="/images/favicons/apps.png" /> My Apps
 
-### <img width="32px" style="image-rendering: pixelated;" src="/images/favicons/favicon-megane.png" /> Kankaku
+###  <img width="32px" style="image-rendering: pixelated;" src="/images/favicons/favicon-tanuki.png" /> 狸語
+
+* 狸語日本語のプログラミング言語
+* たぬき語公式WEBサイト：[tanuki.kaylee.jp](https://tanuki.kaylee.jp)
+* ソースコード [github.com/kayleema/tanuki](https://github.com/kayleema/tanuki)
+
+###  <img width="32px" style="image-rendering: pixelated;" src="/images/favicons/favicon-emojitime.png" /> 絵文字タイム
+
+* 絵文字タイムは絵文字しか使えないSNSです。
+* ✨An Emoji-only social network.✨
+* [今すぐ使ってみる emoji.kaylee.jp](https://emoji.kaylee.jp)
+* ソースコード [github.com/kayleema/emoji-chat](https://github.com/kayleema/emoji-chat)
+
+###  <img width="32px" class="favicon" src="/images/favicons/favicon-travel.png" /> TravelTrack
+
+* [travelcat.kaylee.jp](https://travelcat.kaylee.jp)
+* 行く都道府県を記録できます
+* 綺麗な地図で友達に共有する
+* 旅行体験レベルアップする！
+
+###  <img width="32px" style="image-rendering: pixelated;" src="/images/favicons/favicon-megane.png" /> Kankaku
 
 * 間隔反復学習アプリ。
 * A spaced repetition flashcard app.
 * [今すぐ使ってみる kankaku.kaylee.jp](https://kankaku.kaylee.jp).（故障中🙇‍）
 * ソースコード [kayleema/django-flashcards](https://github.com/kayleema/django-flashcards).
 
-### <img width="32px" style="image-rendering: pixelated;" src="/images/favicons/favicon-tanuki.png" /> 狸語
-
-* 狸語日本語のプログラミング言語
-* たぬき語公式WEBサイト：[tanuki.kaylee.jp](https://tanuki.kaylee.jp)
-* ソースコード [github.com/kayleema/tanuki](https://github.com/kayleema/tanuki)
-
-### <img width="32px" style="image-rendering: pixelated;" src="/images/favicons/favicon-emojitime.png" /> 絵文字タイム
-
-* 絵文字タイムは絵文字しか使えないSNSです。
-* ✨An Emoji-only social network.✨
-* [今すぐ使ってみる emoji.kaylee.jp](https://emoji.kaylee.jp)
-* ソースコード [github.com/kayleema/emoji-chat](https://github.com/kayleema/emoji-chat)
 
 ## <img width="32px" class="favicon" src="/images/favicons/link.png" /> リンク一覧
 * [私のGitHub](https://github.com/kayleema)
