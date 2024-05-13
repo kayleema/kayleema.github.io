@@ -32,9 +32,9 @@ lang: jp
 * [今すぐ使ってみる emoji.kaylee.jp](https://emoji.kaylee.jp)
 * ソースコード [github.com/kayleema/emoji-chat](https://github.com/kayleema/emoji-chat)
 
-###  <img width="32px" class="favicon" src="/images/favicons/favicon-travel.png" /> TravelTrack
+###  <img width="32px" class="favicon" src="/images/favicons/favicon-travel.png" /> TabiCat TravelTrack
 
-* [travelcat.kaylee.jp](https://travelcat.kaylee.jp)
+* [tabicat.kaylee.jp](https://tabicat.kaylee.jp)
 * 行く都道府県を記録できます
 * 綺麗な地図で友達に共有する
 * 旅行体験レベルアップする！

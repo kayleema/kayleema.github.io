@@ -41,12 +41,12 @@ title: Home
 
 <div class="app">
   <h3>
-    【New】　TravelTrack
+    【New】　TabiCat（旅カット） TravelTrack
   </h3>
   <div class="appbody">
     <img width="64px" height="64px" class="favicon" src="/images/favicons/favicon-travel.png" />
     <ul>
-      <li><a href="https://travelcat.kaylee.jp">travelcat.kaylee.jp</a></li>
+      <li><a href="https://tabicat.kaylee.jp">tabicat.kaylee.jp</a></li>
       <li>A travel tracking app</li>
       <li>Tabulate your travels wherever they take you.</li>
       <li>Level up and share with friends.</li>

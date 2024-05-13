@@ -5,6 +5,7 @@ $brandPrimary: #7d39b6;
 $brandBright: #6400bd;
 $brandLight:  #cfa7ff;
 $brandDark: #3f2b52;
+$brandDarkTransparent: #3f2b5244;
 $themeGradient: linear-gradient(0.25turn, $brandDark, $brandDark, $brandPrimary);
 
 
@@ -214,6 +215,7 @@ ul.posts {
       min-width: 80px;
       font-size: 0.8rem;
       font-family: monospace;
+      flex-shrink: 0;
     }
     .subtitle {
       opacity: 0.9;
@@ -317,6 +319,45 @@ table {
     }
     &:hover td {
         background: #8882;
+    }
+  }
+}
+
+.app {
+  border: 2px solid #824f;
+  border-radius: 10px;
+  background: #824a;
+  margin: 0 40px;
+  font-family: monospace;
+  h3 {
+    background: #824f;
+    color: white;
+    border-radius: 8px 8px 0 0;
+    margin: 0;
+    padding: 3px;
+    font-size: 20px;
+  }
+  .appbody {
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    img {
+      border-radius: 0 0 8px 0;
+      padding: 0 3px;
+      margin-right: 5px;
+      flex-grow: 0;
+    }
+    ul {
+      flex-grow: 1;
+      margin: 0;
+      margin-left: 30px;
+      color: white;
+      line-height: 1.4;
+      padding: 0;
+      li {
+        //list-style-type: none;
+      }
     }
   }
 }
