@@ -261,6 +261,27 @@ form {
     &:hover {
       background: linear-gradient(0.5turn, #3f2b52, #3f2b52, #7d39b6);
     }
+    &.superbutton {
+      background: #5c153d;
+      padding: 30px;
+      border-radius: 30px;
+      width: 200px;
+      box-shadow: inset 5px 5px 10px #b6006f88, inset -5px -5px 10px #000, 10px 10px 5px #0003;
+      margin: 0 auto;
+      text-align: center;
+      color: #fffb;
+      //transition: box-shadow 0.2s;
+      &:hover {
+        color: #fff;
+        background: #730041;
+        box-shadow: inset 0px 0px 20px #ff0091;
+      }
+      &:active {
+        color: #fff;
+        background: #730041;
+        box-shadow: inset -5px -5px 10px #b6006f88, inset +5px +5px 10px #000, 10px 10px 5px #0003;
+      }
+    }
   }
 }
 
@@ -324,18 +345,27 @@ table {
 }
 
 .app {
-  border: 2px solid #824f;
-  border-radius: 10px;
-  background: #824a;
-  margin: 0 40px;
+  border: 2px solid #824;
+  border-right: none;
+  border-left: none;
+  background: #6e1a36;
+  margin: 0 auto;
   font-family: monospace;
+  margin: 0 -30px;
+
+  a {
+    color: #ff44cf;
+    font-weight: bold;
+    font-size: 1.3em;
+  }
+
   h3 {
     background: #824f;
     color: white;
-    border-radius: 8px 8px 0 0;
     margin: 0;
-    padding: 3px;
+    padding: 3px 3px 3px 15px;
     font-size: 20px;
+    padding-left: 40px;
   }
   .appbody {
     font-size: 16px;
@@ -347,6 +377,7 @@ table {
       padding: 0 3px;
       margin-right: 5px;
       flex-grow: 0;
+      padding-left: 40px;
     }
     ul {
       flex-grow: 1;

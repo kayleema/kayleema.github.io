@@ -14,7 +14,6 @@ icon: "/images/favicons/bookiconsmall.png"
   gap: 10px;
   overflow-x: scroll;
   padding: 30px;
-  background: #88888844;
 }
 
 .imageband img {

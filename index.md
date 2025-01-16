@@ -41,7 +41,7 @@ title: Home
 
 <div class="app">
   <h3>
-    【New】　TabiCat（旅カット） TravelTrack
+    【New App】　TabiCat（旅カット） TravelTrack
   </h3>
   <div class="appbody">
     <img width="64px" height="64px" class="favicon" src="/images/favicons/favicon-travel.png" />

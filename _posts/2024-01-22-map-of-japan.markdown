@@ -140,7 +140,7 @@ div.hokkaido {
 </style>
 
 <div class="map">
-    <div class="hokkaido">北海道</div>
+    <div class="hokkaido hokkaido">北海道</div>
 
     <div class="aomori tohoku">青森</div>
     <div class="iwate tohoku">岩手</div>
@@ -195,7 +195,7 @@ div.hokkaido {
     <div class="miyazaki kyushu">宮崎</div>
     <div class="kagoshima kyushu">鹿児島</div>
 
-    <div class="okinawa">沖縄</div>
+    <div class="okinawa okinawa">沖縄</div>
 </div>
 
 The map of Japan is colored based on 地方 (region) and the map of the United States is colored based on "census regions"
