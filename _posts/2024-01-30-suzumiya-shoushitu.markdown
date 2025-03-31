@@ -23,3 +23,6 @@ things differently in my childhood. I've even thought about what I could do if I
 some crucial information that would have changed my life for the better. But the story made me think about how the life
 I've lived has been so much more "interesting" and unusual than the life I could have had without the difficulties I've
 been through. 
+
+涼宮ハルヒの暴走
+涼宮ハルヒの動揺
