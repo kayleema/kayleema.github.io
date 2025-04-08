@@ -7,6 +7,7 @@ icon: "/images/favicons/apps.png"
 
 {% capture switchcss %}
 .slideSwitchInput{
+  cursor: pointer;
   background: none !important;
   appearance: none;
   outline: none;
@@ -37,13 +38,22 @@ icon: "/images/favicons/apps.png"
     height: 24px;
     border-radius: 12px;
     position: absolute;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
   }
   &:checked:after, &:active:after {
     background: deeppink;
   }
   &:checked:active:after {
     background: hotpink;
+  }
+  &:checked:hover:before {
+    background: white;
+  }
+  &:hover:after {
+    box-shadow: inset 0 0 10px 2px hotpink;
+  }
+  &:checked:hover:after {
+    box-shadow: inset 0 0 10px 2px #0003;
   }
   &:focus, &:active, &:hover {
     outline: none;
@@ -61,6 +71,33 @@ icon: "/images/favicons/apps.png"
 </div>
 
 ``` scss
+/* just add this css to an <input type=checkbox />*/
 {{ switchcss }}
+```
+<hr/>
+
+## A Longer Variation 🤪
+{% capture longvariationcss %}
+.longvariation {
+  &:after {
+    width: 202px;
+  }
+  &:checked:before {
+    transform: translate(180px, 2px);
+  }
+}
+{% endcapture %}
+<style>{{ longvariationcss }}</style>
+
+<div style="background: #eee; padding: 30px; margin: 30px; color: black;border-radius: 20px;">
+<label style="display:flex;align-items:center;">
+It's an even more exciting switch!:  
+<input type="checkbox" class="slideSwitchInput longvariation" />
+</label>
+</div>
+
+```scss
+/* just add this css class in addition to the base one */
+{{ longvariationcss }}
 ```
 
