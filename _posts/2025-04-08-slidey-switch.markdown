@@ -66,7 +66,7 @@ icon: "/images/favicons/apps.png"
 {{ switchcss }}
 </style>
 
-<div style="background: #eee; padding: 30px; margin: 30px; color: black;border-radius: 20px;">
+<div style="background: #eee; padding: 30px; margin: 30px 0; color: black;border-radius: 20px;">
 <label style="display:flex;align-items:center;">It's a switch: <input type="checkbox" class="slideSwitchInput" /></label>
 </div>
 
@@ -89,7 +89,7 @@ icon: "/images/favicons/apps.png"
 {% endcapture %}
 <style>{{ longvariationcss }}</style>
 
-<div style="background: #eee; padding: 30px; margin: 30px; color: black;border-radius: 20px;">
+<div style="background: #eee; padding: 30px; margin: 30px 0; color: black;border-radius: 20px;">
 <label style="display:flex;align-items:center;">
 It's an even more exciting switch!:  
 <input type="checkbox" class="slideSwitchInput longvariation" />
@@ -100,4 +100,94 @@ It's an even more exciting switch!:
 /* just add this css class in addition to the base one */
 {{ longvariationcss }}
 ```
+
+## More Variations:
+
+<style>
+.retrovariation {
+  &:before, &:after {
+    border-radius: 0;
+  }
+  &:before {
+    color: white;
+    width: 14px;
+  }
+  &:after {
+    background: #000;
+    outline: 2px solid #fff;
+  }
+  &:hover:before, &:checked:hover:before {
+    opacity: 0.75;
+  }
+  &:checked {
+    &:before {
+      background: black;
+      width: 14px;
+      margin-left: 7px;
+    }
+    &:after {
+      background: white;
+      outline: 2px solid white;
+    }
+  }
+  &:hover:after, &:checked:hover:after {
+    box-shadow: none;
+  }
+  &:checked:hover:before {
+    background: black;
+  }
+  &:hover:after {
+    outline: 2px solid white;
+  }
+  &:active:before {
+    background: white;
+  }
+  &:checked:active:after, &:active:after {
+    background: black;
+  }
+}
+</style>
+
+<div style="background: #000; padding: 30px; margin: 30px 0; border-radius: 20px;">
+<label style="display:flex;align-items:center;font-family:monospace;">
+Retro version: <input type="checkbox" class="slideSwitchInput retrovariation" />
+</label>
+</div>
+
+<style>
+.emojivariation {
+  &:before, &:checked:before, &:checked:hover:before {
+    content: "☺️";
+    font-size: 20px;
+    background: transparent;
+    margin-top: 0px;
+    line-height: 1.0;
+  }
+}
+</style>
+
+<div style="background: #eee; padding: 30px; margin: 30px 0; border-radius: 20px;">
+<label style="display:flex;color:deeppink;align-items:center;font-family:serif;">
+Cute emoji version:  <input type="checkbox" class="slideSwitchInput emojivariation" />
+</label>
+</div>
+
+<style>
+:root {
+  --mycolor: #a4a;
+}
+.sktoggle {
+  background: red;
+  width: 30px;
+  height: 30px;
+  appearance: none;
+}
+</style>
+
+<!--<div style="background: #eee; padding: 30px; margin: 30px 0; border-radius: 20px;">
+<label style="display:flex;color:black;align-items:center;">
+A more skeumorphic version:  <input type="checkbox" class="sktoggle" />
+</label>
+</div>-->
+
 
