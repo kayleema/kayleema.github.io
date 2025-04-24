@@ -42,6 +42,10 @@ I’ll document my personal setup process.
 * Anki App
 * nvm
 * node LTS
+* tanukigo
+* OBS with virtual camera permissions
+* Firefox
+* Cursor
 
 # 設定などのセットアップ　OS Setup and Settings:
 * Autohide app-bar
@@ -50,3 +54,9 @@ I’ll document my personal setup process.
 * google accounts
 * defaults write com.apple.Dock appswitcher-all-displays -bool true
 * finder show path bar, status bar
+
+
+# Other
+* `brew install cmake`
+* `brew install yt-dlp`
+
