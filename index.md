@@ -8,9 +8,9 @@ title: Home
     <div class="switcher">
         <span>English</span>・<a href="/jp/index.html">日本語</a>
     </div>
-    <h1>Kaylee Mann</h1>
+    <h1>Kaylee</h1>
     <h2>
-        I'm a software engineer at Pivotal Labs Tokyo,
+        I'm a software engineer at BeKind Labs Tokyo,
         graduate of UC Berkeley electrical engineering and computer science (EECS),
         and former research assistant in the Maharbiz Research Group.
     </h2>

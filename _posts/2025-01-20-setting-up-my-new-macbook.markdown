@@ -45,6 +45,7 @@ I’ll document my personal setup process.
 * OBS with virtual camera permissions
 * Firefox
 * Cursor
+* [Blender3D](https://www.blender.org/)
 
 # 設定などのセットアップ　OS Setup and Settings:
 * Autohide app-bar
@@ -57,4 +58,4 @@ I’ll document my personal setup process.
 # Other
 * `brew install cmake`
 * `brew install yt-dlp`
-
+* `brew install ffmpeg`

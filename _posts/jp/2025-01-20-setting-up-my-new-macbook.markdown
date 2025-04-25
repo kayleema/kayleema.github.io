@@ -4,6 +4,8 @@ title: "New Macbook Setup 新パソコンセットアップ"
 summary: "Setting up my new computer. 新しいマックブックのインストールやセットアップの記録"
 icon: "/images/favicons/apps.png"
 lang: jp
+categories:
+    - jp
 ---
 
 新しいマックブックは手に入れたので、
