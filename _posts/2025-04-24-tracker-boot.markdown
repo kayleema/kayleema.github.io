@@ -2,7 +2,7 @@
 layout: minimal-post
 title: "Announcing Tracker Boot By BeKind Labs"
 summary: "An Opinionated Tracker App for Software Development in the Style of Pivotal Tracker"
-icon: "/images/favicons/apps.png"
+icon: "/images/favicons/tb-logo.png"
 ---
 
 <a href="https://trackerboot.com/">
@@ -54,3 +54,128 @@ and building things with heart.
 Tracker Boot isn’t just a product — it’s something my colleagues dreamed up,
 coded together, and poured months of care into.
 
+<style>
+.tblogo {
+    display: inline-block;
+    width: 20px;
+    height: 24px;
+    border-radius: 0px 12px 12px 0px;
+    box-shadow: 
+        20px -24px 0 0 #67f0ce, /*cyan*/
+        20px  0px 0 0 #10a9ff, /*blue*/
+         0px -24px 0 0 #10a9ff, /*blue*/
+        12px -24px 0 0 #10a9ff, /*blue*/
+         8px -24px 0 0 #10a9ff /*blue*/
+    ;
+    &::after {
+        content: "";
+        width: 20px;
+        height: 24px;
+        background: #2c3945;
+        display: block;
+        border-radius: 0px 0px 0px 12px;
+        animation: spinafter 4s infinite ease-in-out;
+    }
+    &::before {
+        content: "";
+        width: 20px;
+        height: 16px;
+        background: #10a9ff;
+        display: block;
+        border-radius: 12px 0px 0px 12px;
+        position: absolute;
+        transform: translate(-12px, -24px);
+        animation: spinbefore 4s infinite ease-in-out;
+        z-index: 0;
+    }
+
+
+
+    animation: spin 4s infinite ease-in-out;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+    box-shadow: 
+        20px -24px 0 0 #67f0ce, /*cyan*/
+        20px  0px 0 0 #10a9ff, /*blue*/
+         0px -24px 0 0 #10a9ff, /*blue*/
+        12px -24px 0 0 #10a9ff, /*blue*/
+         8px -24px 0 0 #10a9ff /*blue*/
+    ;
+  }
+  10%{
+    box-shadow: 
+        20px -34px 0 0 #67f0ce, /*cyan*/
+        35px  10px 0 0 #10a9ff, /*blue*/
+        20px -34px 0 0 #10a9ff, /*blue*/
+        20px -34px 0 0 #10a9ff, /*blue*/
+        20px -34px 0 0 #10a9ff /*blue*/;
+  }
+/*30% {*/
+/*    transform: rotate(30deg);*/
+/*}*/
+  80%{
+    box-shadow: 
+        20px -34px 0 0 #67f0ce, /*cyan*/
+        35px  10px 0 0 #10a9ff, /*blue*/
+        20px -34px 0 0 #10a9ff, /*blue*/
+        20px -34px 0 0 #10a9ff, /*blue*/
+        20px -34px 0 0 #10a9ff /*blue*/;
+  }
+  90%, 100% {
+    transform: rotate(2turn);
+    box-shadow: 
+        20px -24px 0 0 #67f0ce, /*cyan*/
+        20px  0px 0 0 #10a9ff, /*blue*/
+         0px -24px 0 0 #10a9ff, /*blue*/
+        12px -24px 0 0 #10a9ff, /*blue*/
+         8px -24px 0 0 #10a9ff /*blue*/
+    ;
+  }
+}
+
+@keyframes spinbefore {
+  0% {
+    transform: translate(-12px, -24px) rotate(0turn);
+  }
+  20%{
+    transform: translate(-32px, -24px);
+  }
+  60%{
+    transform: translate(-32px, -24px) rotate(0turn);
+  }
+  90%, 100% {
+    transform: translate(-12px, -24px) rotate(0turn);
+  }
+}
+
+@keyframes spinafter {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  30%{
+    transform: translate(-20px, 24px);
+  }
+  70%{
+    transform: translate(-20px, 24px) rotate(0turn);
+  }
+  90%, 100% {
+    transform: translate(0px, 0px) rotate(0turn);
+  }
+}
+</style>
+<br/><br/>
+<br/><br/>
+<br/><br/>
+<br/><br/>
+<br/><br/>
+<br/><br/>
+<br/><br/>
+<div style="text-align:center">
+	<div class="tblogo"></div>
+</div>
+<br/><br/>
+<br/><br/>
+<br/><br/>
