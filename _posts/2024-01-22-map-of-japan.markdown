@@ -2,7 +2,7 @@
 layout: minimal-post
 title: "Map of Japan and USA Made Using CSS Grid"
 summary: "Using just HTML and CSS"
-icon: "/images/favicons/apps.png"
+icon: "/images/favicons/todoufuken.png"
 ---
 
 I've seen lots of maps in Japan using a simplified minimal boxy design and I think it looks kind of nice in an elegant

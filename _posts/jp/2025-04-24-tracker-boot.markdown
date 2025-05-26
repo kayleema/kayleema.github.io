@@ -2,7 +2,7 @@
 layout: minimal-post
 title: "Announcing Tracker Boot By BeKind Labs"
 summary: "An Opinionated Tracker App for Software Development in the Style of Pivotal Tracker"
-icon: "/images/favicons/apps.png"
+icon: "/images/favicons/tb-logo.png"
 lang: jp
 categories:
     - jp

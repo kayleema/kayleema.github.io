@@ -47,6 +47,10 @@ I’ll document my personal setup process.
 * Cursor
 * [Blender3D](https://www.blender.org/)
 
+* Unity
+* Figma
+* VSCode
+
 # 設定などのセットアップ　OS Setup and Settings:
 * Autohide app-bar
 * キーボード・キーボードショートカット・キーボード・次のウインドウを操作対象にする
@@ -54,8 +58,13 @@ I’ll document my personal setup process.
 * google accounts
 * defaults write com.apple.Dock appswitcher-all-displays -bool true
 * finder show path bar, status bar
+* add `export DOCKER_HOST=unix:///Users/kaylee/.rd/docker.sock` to `.zshrc`
+
 
 # Other
 * `brew install cmake`
 * `brew install yt-dlp`
 * `brew install ffmpeg`
+
+
+`brew install awscli`
