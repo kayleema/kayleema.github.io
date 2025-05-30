@@ -62,9 +62,8 @@ lang: jp
 * ピボタル東京でソフトウェアエンジニア：２０１８年から今まで（2020年ヴィエムウエアに買収されました。）
 * ググル本社でソフトウェアエンジニア：２０１５年から２０１８
 * [CS61A](http://www-inst.eecs.berkeley.edu/~cs61a)（五学期）とEE42/100（一学期）とEE20（一学期）のｕＧＳＩ（学部学生のインストラクター）
-* ノースロップ・グラマンのＲＱー４計画のインターンシップ：２０１１年
 * UCBerkeley大学[Maharbiz研究クループ](http://maharbizgroup.wordpress.com/)メンバー
-* Python, C/C++, Java, Kotlin, TypeScript/Javascript, React, マイクロコントローラ, UNIX, PCB Design, 
+* Python, C/C++, Java, Kotlin, TypeScript/Javascript, React, SQL, マイクロコントローラ, UNIX, 電子工学・プリント基板デザイン
 
 <a href="/rirekisho.pdf"><strong>日本語の履歴書はこちらへ</strong></a>・
 <a href="/resume.pdf"><strong>英語の履歴書はこちらへ</strong></a>

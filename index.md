@@ -69,9 +69,8 @@ title: Home
 * Software engineer at Pivotal Labs Tokyo 2018-present
 * Software engineer at Google Inc. Query Understanding 2015-2018
 * Teaching Experience as uGSI for [CS61A](http://www-inst.eecs.berkeley.edu/~cs61a): The Structure and Interpretation of Computer Programs (5 semesters), EE42/100 (one semester), and EE20 (one semester).
-* Intern on [Global Hawk](http://en.wikipedia.org/wiki/Northrop_Grumman_RQ-4_Global_Hawk) Program at Northrop Grumman
 * Research experience in [Maharbiz group](http://maharbizgroup.wordpress.com/) at UC Berkeley.
-* Proficient in Python, C, Java, Embedded Development, UNIX, PCB Design, and more.
+* Proficient in Python, C/C++, Java, Kotlin, React, Typescript, Embedded Development, UNIX, PCB Design, and more.
 * **[See Full CV &raquo;](/resume.pdf)**
 
 
