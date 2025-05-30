@@ -53,3 +53,20 @@ creates a few extra DOM elements per input but that alone doesn't explain the pe
 Here we sit at the brink of a general AI singularity at the cusp of surpassing the power of the human mind and here I
 find myself sitting, waiting 20 seconds to just find an input on a webpage that can fit on my screen. 
 It's disappointing.
+
+At least happy-dom provides a little bit of a happy relief.
+
+Note: `getbyrole` has similarly bad performance. `getbytestid` has good performance but goes against normally 
+recommended user-experience-centered test philosophy.
+
+<hr/>
+
+## For those considering changing over from jsdom to happy-dom:
+
+When there are old tests, that don't pass in happy-dom after switching to happy-dom, you can set them to use jsdom
+with:
+
+```typescript
+import { setEnvironment } from 'vitest/environments'
+setEnvironment('jsdom')
+```
