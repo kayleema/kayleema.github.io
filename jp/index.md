@@ -32,7 +32,7 @@ lang: jp
 * [今すぐ使ってみる emoji.kaylee.jp](https://emoji.kaylee.jp)
 * ソースコード [github.com/kayleema/emoji-chat](https://github.com/kayleema/emoji-chat)
 
-###  <img width="32px" class="favicon" src="/images/favicons/favicon-travel.png" /> TabiCat TravelTrack
+### <img width="32px" class="favicon" src="/images/favicons/favicon-travel.png" /> TabiCat（旅カット） TravelTrack
 
 * [tabicat.kaylee.jp](https://tabicat.kaylee.jp)
 * 行く都道府県を記録できます

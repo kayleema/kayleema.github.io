@@ -39,20 +39,12 @@ title: Home
   [Try it out now at kankaku.kaylee.jp](https://kankaku.kaylee.jp).
 * Source code is available at [kayleema/django-flashcards](https://github.com/kayleema/django-flashcards).
 
-<div class="app">
-  <h3>
-    【New App】　TabiCat（旅カット） TravelTrack
-  </h3>
-  <div class="appbody">
-    <img width="64px" height="64px" class="favicon" src="/images/favicons/favicon-travel.png" />
-    <ul>
-      <li><a href="https://tabicat.kaylee.jp">tabicat.kaylee.jp</a></li>
-      <li>A travel tracking app</li>
-      <li>Tabulate your travels wherever they take you.</li>
-      <li>Level up and share with friends.</li>
-    </ul>
-  </div>
-</div>
+### <img width="32px" class="favicon" src="/images/favicons/favicon-travel.png" /> TabiCat（旅カット） TravelTrack
+
+* [tabicat.kaylee.jp](https://tabicat.kaylee.jp)
+* A travel tracking app
+* Tabulate your travels wherever they take you.
+* Level up and share with friends.
 
 ## <img width="32px" class="favicon" src="/images/favicons/link.png" /> Links
 * [GitHub Profile](https://github.com/kayleema)
