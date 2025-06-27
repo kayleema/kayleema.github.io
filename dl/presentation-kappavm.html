@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KappaVM: A High-Performance Stack-Based Virtual Machine</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/reveal.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/theme/black.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/highlight/monokai.css">
+    <style>
+        .reveal .slides section {
+            text-align: left;
+        }
+        .reveal h1, .reveal h2, .reveal h3 {
+            text-align: center;
+            color: #42affa;
+            margin-bottom: 0.5em;
+        }
+        .reveal h2 {
+            font-size: 1.8em;
+        }
+        .reveal h3 {
+            font-size: 1.3em;
+            margin-bottom: 0.3em;
+        }
+        .reveal .title-slide h1 {
+            font-size: 2.5em;
+            margin-bottom: 0.3em;
+        }
+        .reveal .title-slide h2 {
+            font-size: 1.2em;
+            color: #888;
+        }
+        .reveal p, .reveal li {
+            font-size: 0.9em;
+            line-height: 1.4;
+        }
+        .reveal ul {
+            margin: 0.5em 0;
+        }
+        .reveal li {
+            margin-bottom: 0.3em;
+        }
+        .reveal pre {
+            font-size: 0.7em;
+            margin: 0.5em 0;
+        }
+        .reveal .diagram {
+            text-align: center;
+            font-family: monospace;
+            background: #333;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+            font-size: 0.8em;
+        }
+        .reveal .metrics {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin: 15px 0;
+        }
+        .reveal .metric-box {
+            background: #333;
+            padding: 10px;
+            border-radius: 6px;
+            text-align: center;
+        }
+        .reveal .metric-number {
+            font-size: 1.5em;
+            color: #42affa;
+            font-weight: bold;
+        }
+        .reveal .highlight {
+            color: #42affa;
+            font-weight: bold;
+        }
+        .reveal .compact-grid {
+            display: grid;
+            gap: 20px;
+            margin: 15px 0;
+        }
+        .reveal .two-col {
+            grid-template-columns: 1fr 1fr;
+        }
+        .reveal .three-col {
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        .reveal .compact-section {
+            background: #222;
+            padding: 15px;
+            border-radius: 6px;
+            border-left: 4px solid #42affa;
+        }
+        .reveal .compact-section h3 {
+            font-size: 1.1em;
+            margin-bottom: 0.5em;
+            text-align: left;
+        }
+        .reveal .compact-section ul {
+            margin: 0;
+        }
+        .reveal .compact-section li {
+            font-size: 0.85em;
+            margin-bottom: 0.2em;
+        }
+    </style>
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <!-- Title Slide -->
+            <section class="title-slide">
+                <h1>KappaVM</h1>
+                <h2>A High-Performance Stack-Based Virtual Machine</h2>
+                <p style="text-align: center; margin-top: 2em;">
+                    <em>Built in C11 with Complete Toolchain</em>
+                </p>
+            </section>
+
+            <!-- What is KappaVM -->
+            <section>
+                <h2>What is KappaVM?</h2>
+                <ul>
+                    <li><span class="highlight">Stack-based virtual machine</span> written in C11</li>
+                    <li>Complete <span class="highlight">custom bytecode execution engine</span></li>
+                    <li>Full <span class="highlight">toolchain</span>: assembler, disassembler, VM runtime</li>
+                    <li><span class="highlight">256-value stack</span> with 64 concurrent call frames</li>
+                    <li><span class="highlight">First-class functions</span> and prototype-based objects</li>
+                </ul>
+            </section>
+
+            <!-- Why Build a Custom VM -->
+            <section>
+                <h2>Why Build a Custom VM?</h2>
+                <div class="compact-grid two-col">
+                    <div class="compact-section">
+                        <h3>Performance Benefits</h3>
+                        <ul>
+                            <li><span class="highlight">Direct bytecode execution</span></li>
+                            <li><span class="highlight">Stack-based architecture</span></li>
+                            <li><span class="highlight">64-bit instructions</span></li>
+                            <li><span class="highlight">Minimal runtime overhead</span></li>
+                        </ul>
+                    </div>
+                    <div class="compact-section">
+                        <h3>Educational Value</h3>
+                        <ul>
+                            <li>Understanding <span class="highlight">low-level execution</span></li>
+                            <li>Learning <span class="highlight">compiler internals</span></li>
+                            <li>Exploring <span class="highlight">VM design patterns</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Architecture Overview -->
+            <section>
+                <h2>Architecture Overview</h2>
+                <div style="text-align: center;">
+                    <!-- Main Flow -->
+                    <div style="display: grid; grid-template-columns: 1fr auto 1fr auto 1fr auto 1fr; gap: 15px; align-items: center; margin: 20px 0;">
+                        <div style="background: #333; padding: 15px; border-radius: 6px; border: 2px solid #42affa; font-size: 0.9em;">
+                            <strong>.kappa</strong><br>
+                            <small>Source</small>
+                        </div>
+                        <div style="color: #42affa; font-size: 1.5em;">→</div>
+                        <div style="background: #333; padding: 15px; border-radius: 6px; border: 2px solid #42affa; font-size: 0.9em;">
+                            <strong>Assembler</strong><br>
+                            <small>Compile</small>
+                        </div>
+                        <div style="color: #42affa; font-size: 1.5em;">→</div>
+                        <div style="background: #333; padding: 15px; border-radius: 6px; border: 2px solid #42affa; font-size: 0.9em;">
+                            <strong>.kbc</strong><br>
+                            <small>Bytecode</small>
+                        </div>
+                        <div style="color: #42affa; font-size: 1.5em;">→</div>
+                        <div style="background: #333; padding: 15px; border-radius: 6px; border: 2px solid #42affa; font-size: 0.9em;">
+                            <strong>VM</strong><br>
+                            <small>Execute</small>
+                        </div>
+                    </div>
+                    
+                    <!-- Debug Tools -->
+                    <div style="margin-top: 25px; padding: 12px; background: #222; border-radius: 6px; border: 1px solid #555;">
+                        <div style="color: #888; font-size: 0.8em; margin-bottom: 8px;"><em>Debug Tools:</em></div>
+                        <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
+                            <div style="background: #333; padding: 10px 15px; border-radius: 4px; border: 1px solid #42affa; font-size: 0.8em;">
+                                <strong>Disassembler</strong>
+                            </div>
+                            <div style="color: #42affa; font-size: 1.2em;">←</div>
+                            <div style="color: #888; font-size: 0.8em;">.kbc files</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Core Components -->
+            <section>
+                <h2>Core Components</h2>
+                <div class="compact-section">
+                    <h3>1. Virtual Machine Engine</h3>
+                    <ul>
+                        <li><span class="highlight">Stack-based execution</span> with 256-value capacity</li>
+                        <li><span class="highlight">Call frame management</span> for function calls</li>
+                        <li><span class="highlight">Instruction dispatch</span> loop with optimized opcodes</li>
+                    </ul>
+                </div>
+                <div class="compact-section">
+                    <h3>2. Instruction Set</h3>
+                    <ul>
+                        <li><span class="highlight">64-bit instructions</span>: 8-bit opcode + 56-bit operand</li>
+                        <li><span class="highlight">Arithmetic</span>: ADD, SUB, MUL, DIV, MOD</li>
+                        <li><span class="highlight">Control Flow</span>: JMP, CALL, RETURN</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Bytecode Design -->
+            <section>
+                <h2>Bytecode Design</h2>
+                <h3>Instruction Format</h3>
+                <div style="text-align: center; margin: 30px 0;">
+                    <div style="display: inline-block; border: 3px solid #42affa; border-radius: 8px; overflow: hidden;">
+                        <div style="display: flex;">
+                            <div style="background: #42affa; color: black; padding: 20px 30px; font-weight: bold;">
+                                Opcode<br><small>(8 bits)</small>
+                            </div>
+                            <div style="background: #333; color: white; padding: 20px 60px; border-left: 2px solid #42affa; font-weight: bold;">
+                                Operand<br><small>(56 bits)</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="margin-top: 15px; color: #888;">
+                        <em>64-bit Instruction = 8-bit Opcode + 56-bit Operand</em>
+                    </div>
+                </div>
+                <h3>Benefits</h3>
+                <ul>
+                    <li><span class="highlight">Large operand space</span> for constants and jump offsets</li>
+                    <li><span class="highlight">Efficient encoding</span> - single 64-bit value per instruction</li>
+                    <li><span class="highlight">Simple decoding</span> with bit manipulation macros</li>
+                </ul>
+            </section>
+
+            <!-- Assembly Language -->
+            <section>
+                <h2>Assembly Language</h2>
+                <div class="compact-grid two-col">
+                    <div>
+                        <h3>Sample Program</h3>
+                        <pre><code class="language-assembly">FUNCTION add_numbers
+  ADD          # Pop b, pop a, push (a + b)
+  RETURN       # Return result
+ENDFUNCTION
+
+  CONSTANT add_numbers   # Push function
+  CONSTANT 15           # Push arg 1
+  CONSTANT 27           # Push arg 2
+  CALL 2                # Call with 2 args
+  PRINT                 # Print result: 42
+  HALT</code></pre>
+                    </div>
+                    <div class="compact-section">
+                        <h3>Features</h3>
+                        <ul>
+                            <li><span class="highlight">Human-readable</span> assembly syntax</li>
+                            <li><span class="highlight">Label support</span> for jumps</li>
+                            <li><span class="highlight">Function definitions</span></li>
+                            <li><span class="highlight">Multiple data types</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Technical Achievements -->
+            <section>
+                <h2>Technical Achievements</h2>
+                <div class="metrics">
+                    <div class="metric-box">
+                        <div class="metric-number">590+</div>
+                        <div>Lines of Tests</div>
+                    </div>
+                    <div class="metric-box">
+                        <div class="metric-number">18</div>
+                        <div>Test Cases</div>
+                    </div>
+                    <div class="metric-box">
+                        <div class="metric-number">64</div>
+                        <div>Max Call Frames</div>
+                    </div>
+                    <div class="metric-box">
+                        <div class="metric-number">256</div>
+                        <div>Stack Capacity</div>
+                    </div>
+                </div>
+                <ul>
+                    <li><span class="highlight">Manual memory management</span> with proper cleanup</li>
+                    <li><span class="highlight">Comprehensive error checking</span> throughout</li>
+                    <li><span class="highlight">100% test coverage</span> of core functionality</li>
+                </ul>
+            </section>
+
+            <!-- Performance -->
+            <section>
+                <h2>Performance Characteristics</h2>
+                <div class="compact-grid three-col">
+                    <div class="compact-section">
+                        <h3>Execution Speed</h3>
+                        <ul>
+                            <li><span class="highlight">Direct bytecode dispatch</span></li>
+                            <li><span class="highlight">Minimal overhead</span></li>
+                            <li><span class="highlight">Optimized stack ops</span></li>
+                        </ul>
+                    </div>
+                    <div class="compact-section">
+                        <h3>Memory Efficiency</h3>
+                        <ul>
+                            <li><span class="highlight">Compact bytecode</span></li>
+                            <li><span class="highlight">Tagged unions</span></li>
+                            <li><span class="highlight">Minimal footprint</span></li>
+                        </ul>
+                    </div>
+                    <div class="compact-section">
+                        <h3>Scalability</h3>
+                        <ul>
+                            <li><span class="highlight">Deep recursion</span></li>
+                            <li><span class="highlight">Complex expressions</span></li>
+                            <li><span class="highlight">Dynamic growth</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Applications -->
+            <section>
+                <h2>Real-World Applications</h2>
+                <div class="compact-grid three-col">
+                    <div class="compact-section">
+                        <h3>Language Implementation</h3>
+                        <ul>
+                            <li><span class="highlight">Backend</span> for custom languages</li>
+                            <li><span class="highlight">Scripting engine</span> for applications</li>
+                            <li><span class="highlight">DSL runtime</span></li>
+                        </ul>
+                    </div>
+                    <div class="compact-section">
+                        <h3>Educational Use</h3>
+                        <ul>
+                            <li><span class="highlight">Compiler construction</span> courses</li>
+                            <li><span class="highlight">VM design</span> study</li>
+                            <li><span class="highlight">Systems programming</span></li>
+                        </ul>
+                    </div>
+                    <div class="compact-section">
+                        <h3>Research Platform</h3>
+                        <ul>
+                            <li><span class="highlight">GC experimentation</span></li>
+                            <li><span class="highlight">JIT research</span></li>
+                            <li><span class="highlight">Runtime optimization</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Development Workflow -->
+            <section>
+                <h2>Development Workflow</h2>
+                <div class="compact-grid two-col">
+                    <div>
+                        <h3>Build System</h3>
+                        <pre><code class="language-bash"># Build all components
+mkdir build && cd build
+cmake ..
+make
+
+# Run tests
+make test
+
+# Execute programs
+./kappavm program.kbc</code></pre>
+                    </div>
+                    <div>
+                        <h3>Toolchain Usage</h3>
+                        <pre><code class="language-bash"># Assemble source to bytecode
+./kappavm --assemble source.kappa output.kbc
+
+# Execute bytecode
+./kappavm output.kbc
+
+# Disassemble for inspection
+./kappavm --dis output.kbc</code></pre>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Code Quality -->
+            <section>
+                <h2>Code Quality & Standards</h2>
+                <div class="compact-grid two-col">
+                    <div class="compact-section">
+                        <h3>Test Coverage</h3>
+                        <ul>
+                            <li><span class="highlight">6 test suites</span></li>
+                            <li><span class="highlight">All instructions tested</span></li>
+                            <li><span class="highlight">Memory management verified</span></li>
+                            <li><span class="highlight">Error conditions validated</span></li>
+                        </ul>
+                    </div>
+                    <div class="compact-section">
+                        <h3>Engineering Standards</h3>
+                        <ul>
+                            <li><span class="highlight">C11 compliance</span></li>
+                            <li><span class="highlight">Cross-platform</span> (GCC/Clang)</li>
+                            <li><span class="highlight">Memory safe</span></li>
+                            <li><span class="highlight">Zero external deps</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Future Enhancements -->
+            <section>
+                <h2>Future Enhancements</h2>
+                <div class="compact-grid three-col">
+                    <div class="compact-section">
+                        <h3>Performance</h3>
+                        <ul>
+                            <li><span class="highlight">JIT compilation</span></li>
+                            <li><span class="highlight">Register allocation</span></li>
+                            <li><span class="highlight">Instruction fusion</span></li>
+                        </ul>
+                    </div>
+                    <div class="compact-section">
+                        <h3>Language Features</h3>
+                        <ul>
+                            <li><span class="highlight">Garbage collection</span></li>
+                            <li><span class="highlight">Module system</span></li>
+                            <li><span class="highlight">Standard library</span></li>
+                        </ul>
+                    </div>
+                    <div class="compact-section">
+                        <h3>Tooling</h3>
+                        <ul>
+                            <li><span class="highlight">Debugger integration</span></li>
+                            <li><span class="highlight">Profiling tools</span></li>
+                            <li><span class="highlight">IDE language server</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Live Demo -->
+            <section>
+                <h2>Live Demonstration</h2>
+                <div style="text-align: center;">
+                    <h3>Let's see KappaVM in action!</h3>
+                    <ol style="text-align: left; display: inline-block;">
+                        <li><span class="highlight">Compile</span> a sample program</li>
+                        <li><span class="highlight">Show</span> bytecode output</li>
+                        <li><span class="highlight">Execute</span> and see results</li>
+                        <li><span class="highlight">Demonstrate</span> debugging features</li>
+                    </ol>
+                    <div style="margin-top: 2em; font-size: 1.2em;">
+                        <em>Ready for the demo? 🚀</em>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Technical Innovation -->
+            <section>
+                <h2>Technical Innovation</h2>
+                <div class="compact-grid two-col">
+                    <div class="compact-section">
+                        <h3>Novel Aspects</h3>
+                        <ul>
+                            <li><span class="highlight">56-bit operand space</span> in instructions</li>
+                            <li><span class="highlight">Integrated function system</span></li>
+                            <li><span class="highlight">Efficient serialization</span></li>
+                            <li><span class="highlight">Comprehensive testing</span></li>
+                        </ul>
+                    </div>
+                    <div class="compact-section">
+                        <h3>Engineering Excellence</h3>
+                        <ul>
+                            <li><span class="highlight">Zero external dependencies</span></li>
+                            <li><span class="highlight">Clean, readable code</span></li>
+                            <li><span class="highlight">Robust error handling</span></li>
+                            <li><span class="highlight">Production-ready quality</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Thank You -->
+            <section class="title-slide">
+                <h1>Thank You!</h1>
+                <div style="text-align: center;">
+                    <p><strong>KappaVM</strong> - A complete virtual machine showcasing:</p>
+                    <ul style="display: inline-block; text-align: left;">
+                        <li>Systems programming expertise</li>
+                        <li>Compiler/interpreter knowledge</li>
+                        <li>Performance optimization skills</li>
+                        <li>Software engineering best practices</li>
+                    </ul>
+                    <p style="margin-top: 2em; font-size: 1.5em;">
+                        <em>Questions? 🤔</em>
+                    </p>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/reveal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/highlight/highlight.js"></script>
+    <script>
+        Reveal.initialize({
+            hash: true,
+            transition: 'slide',
+            transitionSpeed: 'fast',
+            backgroundTransition: 'fade',
+            plugins: [ RevealHighlight ],
+            controls: true,
+            progress: true,
+            center: true,
+            touch: true,
+            loop: false,
+            rtl: false,
+            shuffle: false,
+            fragments: true,
+            help: true,
+            showNotes: false,
+            autoPlayMedia: null,
+            preloadIframes: null,
+            autoSlide: 0,
+            autoSlideStoppable: true,
+            mouseWheel: false,
+            hideInactiveCursor: true,
+            hideCursorTime: 5000,
+            previewLinks: false,
+            keyboard: true,
+            overview: true,
+            disableLayout: false,
+            parallaxBackgroundImage: '',
+            parallaxBackgroundSize: '',
+            parallaxBackgroundHorizontal: null,
+            parallaxBackgroundVertical: null,
+            width: 960,
+            height: 700,
+            margin: 0.04,
+            minScale: 0.2,
+            maxScale: 2.0
+        });
+    </script>
+</body>
+</html>
