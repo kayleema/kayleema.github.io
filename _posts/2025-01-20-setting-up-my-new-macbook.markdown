@@ -50,6 +50,13 @@ I’ll document my personal setup process.
 * Unity
 * Figma
 * VSCode
+* Voicevox
+* Seamly2D
+* Calibre
+
+* TupleApp (Screensharing)
+* Vroidstudio
+* CoScreen
 
 # 設定などのセットアップ　OS Setup and Settings:
 * Autohide app-bar

@@ -14,6 +14,7 @@ icon: "/images/favicons/apps.png"
   border: none;
   width: 40px;
   height: 24px;
+  position: relative;
   &:before {
     display: block;
     background: white;

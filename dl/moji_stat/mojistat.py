@@ -1,4 +1,4 @@
-#!python3
+#!./env/bin/python3
 # -*- coding: utf-8 -*-
 
 from collections import OrderedDict, defaultdict

@@ -1338,7 +1338,7 @@ display: block;
 
 ## Bounce
 
-<style>
+{% capture bouncecss %}
 .bounce {
   width: 30px;
   height: 30px;
@@ -1350,24 +1350,24 @@ display: block;
   animation: bouncer 1.5s infinite ease-in-out;
 }
 @keyframes bouncer {
-      0%, 100% {
-        transform: translate(0,0);
-      }
-      1% {
-        transform: translate(0,7.5px) scaleY(0.5) scaleX(1.5);
-      }
-      10% {
-        transform: translate(0) scaleY(1);
-      }
+      0%, 100% { transform: translate(0,0); }
+       2% { transform: translateY(7.5px) scaleY(0.5) scaleX(1.5); }
+      10% { transform: translateY(0    ) scaleY(1.0)            ; }
       25% { transform: translateY(-50px) scaleY(1.2) scaleX(0.8); }
       40% { transform: translateY(-80px) scaleY(1.1) scaleX(0.9); }
-      55% { transform: translateY(-90px) scale(1); }
+      55% { transform: translateY(-90px) scaleY(1.0)            ; }
       70% { transform: translateY(-80px) scaleY(1.1) scaleX(0.9); }
       85% { transform: translateY(-50px) scaleY(1.2) scaleX(0.8); }
 }
-</style>
+{% endcapture %}
+<style>{{ bouncecss }}</style>
 
 <div class="bounce"></div>
+
+<details>
+    <summary role="button" class="secondary">View Code</summary>
+    <pre>{{ bouncecss }}</pre>
+</details>
 
 ## Relaxing Ripple
 
