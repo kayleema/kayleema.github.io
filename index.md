@@ -21,8 +21,10 @@ title: Home
 ### <img width="32px" class="favicon" src="/images/favicons/favicon-tanuki.png" /> TanukiGo（狸語）
 
 * 狸語日本語のプログラミング言語
-* A Japanese Programming Language. Learn more at [tanuki.kaylee.jp](https://tanuki.kaylee.jp)
+* A Japanese Programming Language. 
 * Source code at [github.com/kayleema/tanuki](https://github.com/kayleema/tanuki)
+
+[//]: # (* Learn more at [tanuki.kaylee.jp]&#40;https://tanuki.kaylee.jp&#41;)
 
 ### <img width="32px" class="favicon" src="/images/favicons/favicon-emojitime.png" /> EmojiTime（絵文字タイム）
 

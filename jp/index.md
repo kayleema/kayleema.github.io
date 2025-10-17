@@ -22,8 +22,9 @@ lang: jp
 ###  <img width="32px" style="image-rendering: pixelated;" src="/images/favicons/favicon-tanuki.png" /> 狸語
 
 * 狸語日本語のプログラミング言語
-* たぬき語公式WEBサイト：[tanuki.kaylee.jp](https://tanuki.kaylee.jp)
 * ソースコード [github.com/kayleema/tanuki](https://github.com/kayleema/tanuki)
+
+[//]: # (* たぬき語公式WEBサイト：[tanuki.kaylee.jp]&#40;https://tanuki.kaylee.jp&#41;)
 
 ###  <img width="32px" style="image-rendering: pixelated;" src="/images/favicons/favicon-emojitime.png" /> 絵文字タイム
 

@@ -1,6 +1,6 @@
 ---
 layout: minimal-post
-title: "Spaghetti Meat Sauce Recipe"
+title: "Tomato Meat Sauce Spaghetti Recipe"
 summary: "The simplest possible delicious tomato-meat sauce."
 icon: "/images/favicons/tomato.png"
 ---
