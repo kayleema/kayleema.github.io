@@ -18,6 +18,12 @@ title: Home
 
 ## <img width="32px" class="favicon" src="/images/favicons/apps.png" /> My Apps
 
+### <img width="32px" class="favicon" src="http://skypattern.kaylee.jp/editor/skypatternfavi.svg" /> SkyPattern
+
+* [skypattern.kaylee.jp](https://skypattern.kaylee.jp)
+* Browser-based pattern drafting software for sewers and designers.
+* Build custom patterns using mathematical formulas and geometric primitives.
+
 ### <img width="32px" class="favicon" src="/images/favicons/favicon-tanuki.png" /> TanukiGo（狸語）
 
 * 狸語日本語のプログラミング言語

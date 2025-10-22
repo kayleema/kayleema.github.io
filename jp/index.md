@@ -19,12 +19,16 @@ lang: jp
 
 ## <img width="32px" class="favicon" src="/images/favicons/apps.png" /> My Apps
 
+### <img width="32px" class="favicon" src="http://skypattern.kaylee.jp/editor/skypatternfavi.svg" /> SkyPattern
+
+* [skypattern.kaylee.jp](https://skypattern.kaylee.jp)
+* 裁縫師やデザイナー向けのブラウザベース型紙作成ソフトウェア。
+* 数式と幾何学プリミティブを使ってカスタム型紙を構築できます。
+
 ###  <img width="32px" style="image-rendering: pixelated;" src="/images/favicons/favicon-tanuki.png" /> 狸語
 
 * 狸語日本語のプログラミング言語
 * ソースコード [github.com/kayleema/tanuki](https://github.com/kayleema/tanuki)
-
-[//]: # (* たぬき語公式WEBサイト：[tanuki.kaylee.jp]&#40;https://tanuki.kaylee.jp&#41;)
 
 ###  <img width="32px" style="image-rendering: pixelated;" src="/images/favicons/favicon-emojitime.png" /> 絵文字タイム
 

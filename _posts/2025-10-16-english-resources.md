@@ -1,7 +1,7 @@
 ---
 layout: minimal-post
-title: ""
-summary: ""
+title: "English Learning Resources"
+summary: "to share with you"
 icon: "/images/favicons/link.png"
 ---
 
