@@ -54,23 +54,5 @@ title: Home
 * Tabulate your travels wherever they take you.
 * Level up and share with friends.
 
-## <img width="32px" class="favicon" src="/images/favicons/link.png" /> Links
-* [GitHub Profile](https://github.com/kayleema)
-* [Linked In Profile](http://www.linkedin.com/in/kayleem)
-* [Google Scholar Pro](https://scholar.google.com/citations?user=octX3FQAAAAJ)
-* [Maharbiz Research Group](http://maharbizgroup.wordpress.com/)
-* [Berkeley Sensor and Actuator Center](https://bsac.berkeley.edu)
-* [UC Berkeley Rose Hills Research Fellowship](https://research.berkeley.edu/surf/surf-rose-hills/)
-* [Blog](/posts-minimal.html)
-
-{% include publications-minimal.md %}
-
-## <img width="32px" class="favicon" src="/images/favicons/cv.png" /> Curriculum Vitae
-* Software engineer at Pivotal Labs Tokyo 2018-present
-* Software engineer at Google Inc. Query Understanding 2015-2018
-* Teaching Experience as uGSI for [CS61A](http://www-inst.eecs.berkeley.edu/~cs61a): The Structure and Interpretation of Computer Programs (5 semesters), EE42/100 (one semester), and EE20 (one semester).
-* Research experience in [Maharbiz group](http://maharbizgroup.wordpress.com/) at UC Berkeley.
-* Proficient in Python, C/C++, Java, Kotlin, React, Typescript, Embedded Development, UNIX, PCB Design, and more.
-* **[See Full CV &raquo;](/resume.pdf)**
 
 
