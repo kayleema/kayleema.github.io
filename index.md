@@ -18,9 +18,9 @@ title: Home
 
 ## <img width="32px" class="favicon" src="/images/favicons/apps.png" /> My Apps
 
-### <img width="32px" class="favicon" src="http://skypattern.kaylee.jp/editor/skypatternfavi.svg" /> SkyPattern
+### <img width="32px" class="favicon" src="http://skypattern.jp/editor/skypatternfavi.svg" /> SkyPattern
 
-* [skypattern.kaylee.jp](https://skypattern.kaylee.jp)
+* [skypattern.jp](https://skypattern.jp)
 * Browser-based pattern drafting software for clothing designers.
 * Build custom patterns using mathematical formulas and geometric primitives.
 
