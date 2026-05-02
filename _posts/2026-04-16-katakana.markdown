@@ -1,0 +1,227 @@
+---
+layout: minimal-post
+title: "How to Read Katakana"
+summary: "A Guide for Tourists and New Japanese Learners"
+icon: "/images/favicons/link.png"
+---
+
+<a href="http://localhost:4000/dl/How%20to%20Read%20KATAKANA(learn%20the%20easiest%20~10%25%20of%20Japanese%20with%20one%20page).pdf" style="display: block; border: 5px solid #7d39b6; border-radius: 10px; padding: 10px; background: #7d39b622;">
+Click here to get the PDF for the optimally formatted version.その他
+(even on a computer screen this pdf looks bettern than my hacked together html version😅)
+</a>
+
+# How to learn the easiest ~10% of Japanese with one page!	
+
+## because words derived from English are written in Katakana						
+
+### How to read katakana:        (with one table and 5 rules)							
+
+<style>
+
+.grid-container {
+    display: grid;
+    grid: auto-flow 2rem / 5rem repeat(6, 2rem) 300px;
+    
+    .cell {
+        border: 1px solid grey;
+        text-wrap: nowrap;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        padding: 3px;
+        margin-right: -1px;
+        margin-bottom: -1px;
+    }
+    .empty {
+        border: none;
+    }
+    .rightLabel {
+        border: none;
+        justify-content: left;
+    }
+    .header {
+        background: #8888;
+        font-weight: bold;
+    }
+    .yellow {
+        background: #ff04;
+    }
+}
+
+</style>
+
+<br/>
+
+<div class="grid-container">
+	<div class="cell empty"></div><div class="cell empty"> </div><div class="cell header">a</div><div class="cell header">i</div><div class="cell header">u</div><div class="cell header">e</div><div class="cell header">o</div><div class="cell rightLabel">(vowels are pronounced like spanish)</div>
+	<div class="cell empty"></div><div class="cell empty"> </div><div class="cell">ア</div><div class="cell">イ</div><div class="cell">ウ</div><div class="cell">エ</div><div class="cell">オ</div><div class="cell rightLabel">←vowels without consonants</div>
+	<div class="cell empty"></div><div class="cell header">k</div><div class="cell">カ</div><div class="cell">キ</div><div class="cell">ク</div><div class="cell">ケ</div><div class="cell">コ</div><div class="cel rightLabell"></div>	
+	<div class="cell empty"></div><div class="cell header">s</div><div class="cell">サ</div><div class="cell yellow">シ</div><div class="cell">ス</div><div class="cell">セ</div><div class="cell">ソ</div><div class="cell rightLabel yellow">special case シ⇨shi</div>
+	<div class="cell empty"></div><div class="cell header">t</div><div class="cell">タ</div><div class="cell yellow">チ</div><div class="cell yellow">ツ</div><div class="cell">テ</div><div class="cell">ト</div><div class="cell rightLabel yellow">special cases チ⇨chi　ツ⇨tsu.</div>
+	<div class="cell empty"></div><div class="cell header">n</div><div class="cell">ナ</div><div class="cell">ニ</div><div class="cell">ヌ</div><div class="cell">ネ</div><div class="cell">ノ</div><div class="cell rightLabel"></div>	
+	<div class="cell empty"></div><div class="cell header">h</div><div class="cell">ハ</div><div class="cell">ヒ</div><div class="cell yellow">フ</div><div class="cell">ヘ</div><div class="cell">ホ</div><div class="cell rightLabel yellow">special case フ⇨fu</div>
+	<div class="cell empty"></div><div class="cell header">m</div><div class="cell">マ</div><div class="cell">ミ</div><div class="cell">ム</div><div class="cell">メ</div><div class="cell">モ</div><div class="cell rightLabel"></div>	
+	<div class="cell empty"></div><div class="cell header">y</div><div class="cell">ヤ</div><div class="cell">　</div><div class="cell">ユ</div><div class="cell">　</div><div class="cell">ヨ</div><div class="cell rightLabel"></div>	
+	<div class="cell empty"></div><div class="cell header">r</div><div class="cell">ラ</div><div class="cell">リ</div><div class="cell">ル</div><div class="cell">レ</div><div class="cell">ロ</div><div class="cell rightLabel">←soft r like in spanish</div>
+	<div class="cell empty"></div><div class="cell header">w</div><div class="cell">ワ</div><div class="cell rightLabel" style="grid-column: span 5;"></div>					
+	<div class="cell empty"></div><div class="cell rightLabel" style="grid-column: span 7; font-size: 10px; align-items: start; justify-content: center;">for example k-row a-column⇨カ⇨ka</div>
+	<div class="cell empty"></div><div class="cell header">n</div><div class="cell">ン</div><div class="cell rightLabel" style="grid-column: span 4;">(no vowel)</div>
+	<div class="cell header" style="grid-column: span 2; text-wrap: wrap; font-size: 10px; justify-content: right; text-align: right;">draw out sound for twice as long</div><div class="cell">ー</div>
+</div>
+
+## ①	The Dakuten: When katakana are written with extra "tick marks"（゛）	
+
+Voicing Mark.								
+
+✨	Changes a sound where you don't vibrate vocal cords to one where you do (unvoiced⇨voiced)								
+
+Changes k⇨g   s⇨z    t⇨d　h⇨b								
+
+<table>
+<tr><td>ガギグゲゴ</td>			<td>pronounced ga gi gu ge go</td></tr>					
+<tr><td>ザジズゼゾ</td>			<td>pronounced za ji zu ze zo (ji is special case)</td></tr>					
+<tr><td>ダヂヅデド</td>			<td>pronounced da ji zu de do (ji and zu are special cases)</td></tr>					
+<tr><td>バビブベボ</td>			<td>pronounced ba bi bu be bo (bu is special case)</td></tr>					
+<tr><td>ヴ</td>			<td>(special case pronounced as v)</td></tr>
+</table>
+
+## ②	The HanDakuten: When katakana are written with an extra little circle（゜）									
+
+✨	Changes h to p								
+
+<table>
+<tr><td>パピプペポ</td>			<td>pronounced pa pi pu pe po</td></tr>
+</table>
+
+## ③	When katakana ヤ、ユ、ヨ is written small									
+
+✨	drop consonant of preceding kana								
+
+<table>
+<tr><td>キャ、キュ、キョ</td>			<td>pronounced kya, kyu, kyo</td></tr>					
+<tr><td>シャ、シュ、ショ</td>			<td>pronounced sha, shu, sho</td></tr>					
+<tr><td>リャ、リュ、リョ</td>			<td>pronounced rya, ryu, ryo</td></tr>					
+<tr><td>チャ、チュ、チョ</td>			<td>pronounced cha che cho</td></tr>
+</table>
+
+## ④	When katakana vowels ア、イ、ウ、エ、オ are written small									
+
+✨	drop vowel of preceding kana								
+
+<table>
+<tr><td>ファフィフェフォ</td>			<td>pronounced fa fi fe fo</td></tr>					
+<tr><td>チェ</td>			<td>pronounced che</td></tr>					
+<tr><td>ジェ</td>			<td>pronounced je</td></tr>
+</table>
+
+## ⑤	When ツ is written small									
+
+✨	Pronounced as a "glottal stop". Like the time your breath stops in uh'oh or the native pronunciation of Hawa'ii								
+
+(note that in english romanization this is indicated by a duplicated consonant)
+
+## ⚠︎	Note that ツシソンリ are easy to mix up									
+
+due to visual similarity								
+
+<table>
+<tr><td>ソ</td>	<td>so</td></tr>
+<tr><td>ン</td>	<td>n</td></tr>
+<tr><td>リ</td>	<td>ri</td></tr>
+<tr></tr>
+<tr><td>シ</td>	<td>shi</td></tr>
+<tr><td>ツ</td>	<td>tsu</td></tr>
+</table>
+
+# ※	Examples:			
+
+<table>
+<tr><td>コーヒー</td>			<td>ko-hi-		</td>  <td>		coffee</td></tr>
+<tr><td>マクドナルド</td>			<td>makudonarudo		</td>  <td>		macdonalds</td></tr>
+<tr><td>ホーム</td>			<td>ho-mu		</td>  <td>		platform (short for purattoho-mu)</td></tr>
+<tr><td>クラクション</td>			<td>kurakushon		</td>  <td>		car horn (Klaxon)</td></tr>
+<tr><td>パン</td>			<td>pan		</td>  <td>		bread (from portuguese/spanish pan)</td></tr>
+<tr><td>コンピューター</td>			<td>conpyu-ta-		</td>  <td>		computer</td></tr>
+<tr><td>スマホ</td>			<td>sumaho		</td>  <td>		smartphone(short for sumattoho-n)</td></tr>
+<tr><td>アメリカ</td>			<td>america		</td>  <td>		🇺🇸</td></tr>
+<tr><td>カリフォルニア</td>			<td>kariforunia		</td>  <td>		california</td></tr>
+<tr><td>パソコン</td>			<td>pasokon		</td>  <td>		personal computer (short for pa-sonaru konpyu-ta-)</td></tr>
+<tr><td>コンビニ</td>			<td>conbini		</td>  <td>		convenience store (short for konbiniensu sutoa)</td></tr>
+<tr><td>ドンキホーテ</td>			<td>donkiho-te		</td>  <td>		Don Quixote</td></tr>
+<tr><td>デニズ</td>			<td>denizu		</td>  <td>		Dennies</td></tr>
+<tr><td>カラオケ</td>			<td>karaoke		</td>  <td>		(short for kara-orchestra i.e. empty orchestra)</td></tr>
+<tr><td>ラーメン</td>			<td>ra-men		</td>  <td>		🍜</td></tr>
+<tr><td>パスタ</td>			<td>pasuta		</td>  <td>		🍝</td></tr>
+<tr><td>トマト</td>			<td>tomato		</td>  <td>		🍅</td></tr>
+<tr><td>タコス</td>			<td>takosu		</td>  <td>		🌮</td></tr>
+<tr><td>トースト</td>			<td>to-suto		</td>  <td>		🍞</td></tr>
+<tr><td>ホテル</td>			<td>hoteru		</td>  <td>		hotel</td></tr>
+<tr><td>カレンダー</td>			<td>karenda-		</td>  <td>		calendar</td></tr>
+<tr><td>ドライブ</td>			<td>doraibu		</td>  <td>		drive</td></tr>
+<tr><td>ゴリラ</td>			<td>gorira		</td>  <td>		🦍</td></tr>
+<tr><td>パンダ</td>			<td>panda		</td>  <td>		🐼</td></tr>
+<tr><td>チャット</td>			<td>chatto		</td>  <td>		chat</td></tr>
+<tr><td>ケーキ</td>			<td>ke-ki		</td>  <td>		🍰</td></tr>
+<tr><td>クッキー</td>			<td>kukki-		</td>  <td>		🍪</td></tr>
+<tr><td>カフェラテ</td>			<td>kaferate		</td>  <td>		cafè latè</td></tr>
+<tr><td>ペン</td>			<td>pen		</td>  <td>		🖊️</td></tr>
+<tr><td>ペンギン</td>			<td>pengin		</td>  <td>		penguin🐧</td></tr>
+<tr><td>ポテト</td>			<td>poteto		</td>  <td>		potato</td></tr>
+<tr><td>フライドポテト</td>			<td>furaidopoteto		</td>  <td>		french fries (fried potato)</td></tr>
+<tr><td>ハンバーガー</td>			<td>hanba-ga-		</td>  <td>		hamburger</td></tr>
+<tr><td>ハンバーグ</td>			<td>hanba-gu		</td>  <td>		hamburger steak</td></tr>
+<tr><td>タピオカ</td>			<td>tapioka		</td>  <td>		tapioca</td></tr>
+<tr><td>チキン</td>			<td>chikin		</td>  <td>		chicken</td></tr>
+<tr><td>タバコ</td>			<td>tabako		</td>  <td>		🚬</td></tr>
+<tr><td>キャンペーン</td>			<td>kyanpe-n		</td>  <td>		campaign as in ad-campaign</td></tr>
+<tr><td>ドル</td>			<td>doru		</td>  <td>		dollar</td></tr>
+<tr><td>ドール</td>			<td>do-ru		</td>  <td>		doll</td></tr>
+<tr><td>ビル</td>			<td>biru		</td>  <td>		building (short for birudingu)</td></tr>
+<tr><td>ボール</td>			<td>bi-ru		</td>  <td>		🍺</td></tr>
+<tr><td>ワイン</td>			<td>wain		</td>  <td>		🍷</td></tr>
+<tr><td>レモン</td>			<td>remon		</td>  <td>		🍋</td></tr>
+<tr><td>アイス</td>			<td>aisu		</td>  <td>		icecream (not frozen water)</td></tr>
+<tr><td>ベビーカー</td>			<td>bebi-ka-		</td>  <td>		stroller/pram (from baby-car)</td></tr>
+<tr><td>エレベーター</td>			<td>erebe-ta-		</td>  <td>		elevator</td></tr>
+<tr><td>エスカレーター</td>			<td>esukare-ta-		</td>  <td>		escalator</td></tr>
+<tr><td>タクシー</td>			<td>takushi-		</td>  <td>		taxi</td></tr>
+<tr><td>アプリ</td>			<td>apuri		</td>  <td>		app</td></tr>
+<tr><td>アメリカンドッグ</td>			<td>amerikandoggu		</td>  <td>		corn dog (from american-dog)</td></tr>
+<tr><td>アイスキャンディー</td>			<td>aisukyandi-		</td>  <td>		popsicle (from ice-candy)</td></tr>
+<tr><td>スーパー</td>			<td>su-pa-		</td>  <td>		supermarket</td></tr>
+<tr><td>ナプキン</td>			<td>napukin		</td>  <td>		napkin</td></tr>
+<tr><td>マドラー</td>			<td>madora-		</td>  <td>		muddler</td></tr>
+<tr><td>チップス</td>			<td>chippusu		</td>  <td>		potato chips</td></tr>
+<tr><td>コンセント</td>			<td>konsento		</td>  <td>		power socket (old wall sockets were concentric)</td></tr>
+<tr><td>オフィス</td>			<td>ofisu		</td>  <td>		office</td></tr>
+<tr><td>カメラ</td>			<td>kamera		</td>  <td>		camera</td></tr>
+<tr><td>カン</td>			<td>kan		</td>  <td>		can</td></tr>
+<tr><td>カフェ</td>			<td>kafe		</td>  <td>		cafe</td></tr>
+<tr><td>ワンピース</td>			<td>wanpi-su		</td>  <td>		dress (from one-piece)👗</td></tr>
+<tr><td>シャツ</td>			<td>shatu		</td>  <td>		shirt👔</td></tr>
+<tr><td>パーカー</td>			<td>pa-ka-		</td>  <td>		hoodie (from parka)</td></tr>
+<tr><td>タオル</td>			<td>taoru		</td>  <td>		towell</td></tr>
+<tr><td>メッセージ</td>			<td>messe-ji-		</td>  <td>		message</td></tr>
+<tr><td>ワクチン</td>			<td>wakuchin		</td>  <td>		vaccine💉</td></tr>
+<tr><td>メール</td>			<td>me-ru		</td>  <td>		email</td></tr>
+<tr><td>ペットボトル</td>			<td>pettobotoru		</td>  <td>		plastic bottle (from PET Bottle)</td></tr>
+<tr><td>シュークリーム</td>			<td>shu-kuri-mu		</td>  <td>		chou à la crème</td></tr>
+<tr><td>バウムクーヘン</td>			<td>baumuku-hen		</td>  <td>		baumkuchen</td></tr>
+<tr><td>ボタン</td>			<td>botan		</td>  <td>		button</td></tr>
+<tr><td>カツ</td>			<td>katsu		</td>  <td>		fried cutlet (from cutlet)</td></tr>
+<tr><td>チョコ</td>			<td>choko		</td>  <td>		chocolate</td></tr>
+<tr><td>ラムネ</td>			<td>ramune		</td>  <td>		soda in a glass with a marble in it (from lemonade)</td></tr>
+<tr><td>スポーツ</td>			<td>supo-tsu		</td>  <td>		sports</td></tr>
+<tr><td>チーム</td>			<td>chi-mu		</td>  <td>		team</td></tr>
+<tr><td>ソース</td>			<td>so-su		</td>  <td>		sauce</td></tr>
+<tr><td>テンション</td>			<td>tenshon		</td>  <td>		excitement</td></tr>
+<tr><td>マンション</td>			<td>manshon		</td>  <td>		apartment (from mansion)</td></tr>
+<tr><td>バス</td>			<td>basu		</td>  <td>		bus</td></tr>
+<tr><td>サービス</td>			<td>sa-bisu		</td>  <td>		free of charge (from service)</td></tr>
+<tr><td>フリーサイズ</td>			<td>furi-saizu		</td>  <td>		one size fits all (from free-size)</td></tr>
+<tr><td>カタカナ</td>			<td>katakana		</td>  <td>		katakana</td></tr>
+</table>
+
+
+（Note that in the second column of this table I am indicating a long sound with a dash instead of the normal way of either leaving it out or writing a line over the elongated sound）（I am using the normal notation of double consonants to transcribe the glottal stop as noted in ⑤）								

@@ -58,6 +58,10 @@ I’ll document my personal setup process.
 * Vroidstudio
 * CoScreen
 
+* Claude, Claude Code
+* LM Studio
+* [SkyPattern PWA](https://skypattern.jp) for CAD Garment Pattern Design
+
 # 設定などのセットアップ　OS Setup and Settings:
 * Autohide app-bar
 * キーボード・キーボードショートカット・キーボード・次のウインドウを操作対象にする
@@ -75,3 +79,10 @@ I’ll document my personal setup process.
 
 
 `brew install awscli`
+
+# Later editions 
+* balenaEtcher
+* AWS SAM CLI
+* BIZ Font Set
+* Notion
+* 
