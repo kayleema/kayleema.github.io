@@ -30,25 +30,41 @@ lang: jp
 * 狸語日本語のプログラミング言語
 * ソースコード [github.com/kayleema/tanuki](https://github.com/kayleema/tanuki)
 
+
+### ✅ TateTodo（縦todo）
+
+- 縦書きUIを持つリアルタイム共同編集ToDoアプリ。React・TypeScript・CouchDBで構築。
+  [github.com/kayleema/tatetodo](https://github.com/kayleema/tatetodo)
+- カスタムCRDT（競合なし複製データ型）をWebSocket上で実装し、複数デバイス・タブ間で即時同期。
+- MCPサーバーを公開しており、ClaudeなどのAIエージェントがHTTP経由でToDoリストを直接読み書き可能。
+- ライブサイト: [todo.kaylee.jp](https://todo.kaylee.jp)
+
+--------
+
+## より前のプロジェクト：
+
 ###  <img width="32px" style="image-rendering: pixelated;" src="/images/favicons/favicon-emojitime.png" /> 絵文字タイム
+
+[//]: # (* [今すぐ使ってみる emoji.kaylee.jp]&#40;https://emoji.kaylee.jp&#41;)
 
 * 絵文字タイムは絵文字しか使えないSNSです。
 * ✨An Emoji-only social network.✨
-* [今すぐ使ってみる emoji.kaylee.jp](https://emoji.kaylee.jp)
 * ソースコード [github.com/kayleema/emoji-chat](https://github.com/kayleema/emoji-chat)
 
 ### <img width="32px" class="favicon" src="/images/favicons/favicon-travel.png" /> TabiCat（旅カット） TravelTrack
 
-* [tabicat.kaylee.jp](https://tabicat.kaylee.jp)
+[//]: # (* [tabicat.kaylee.jp]&#40;https://tabicat.kaylee.jp&#41;)
+
 * 行く都道府県を記録できます
 * 綺麗な地図で友達に共有する
 * 旅行体験レベルアップする！
 
 ###  <img width="32px" style="image-rendering: pixelated;" src="/images/favicons/favicon-megane.png" /> Kankaku
 
+[//]: # (* [今すぐ使ってみる kankaku.kaylee.jp]&#40;https://kankaku.kaylee.jp&#41;.)
+
 * 間隔反復学習アプリ。
 * A spaced repetition flashcard app.
-* [今すぐ使ってみる kankaku.kaylee.jp](https://kankaku.kaylee.jp).（故障中🙇‍）
 * ソースコード [kayleema/django-flashcards](https://github.com/kayleema/django-flashcards).
 
 

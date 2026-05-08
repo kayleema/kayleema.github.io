@@ -65,6 +65,29 @@
     {{content}}
 </main>
 
+<a href="https://skypattern.jp">
+    <main class="container" style="border-radius: 25px; margin-block: 30px; display: flex; gap: 24px;" >
+        <img
+                width="64px"
+                src="http://skypattern.jp/editor/skypatternfavi.svg"
+                style="float: left;"
+                alt="logo"
+        />
+        <div>
+            <strong>skypattern.jp</strong>
+            {% if page.lang == "jp" %}
+                裁縫師やデザイナー向けのブラウザベース型紙作成ソフトウェア。
+                数式と幾何学プリミティブを使ってカスタム型紙を構築できます。
+                無料アカウントを今すぐ作成しませんか。
+            {% else %}
+                Try out Browser-based pattern drafting software for clothing designers.
+                Build custom patterns using mathematical formulas and geometric primitives.
+                Make your free account now!
+            {% endif %}
+        </div>
+    </main>
+</a>
+
 <script>
     const themes = ['auto', 'light', 'dark']
     let currentThemeIndex = themes.indexOf(localStorage.getItem("theme") || 'auto')

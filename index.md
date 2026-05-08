@@ -32,24 +32,45 @@ title: Home
 
 [//]: # (* Learn more at [tanuki.kaylee.jp]&#40;https://tanuki.kaylee.jp&#41;)
 
+### ✅ TateTodo
+
+- A real-time collaborative todo app with a Japanese vertical-writing UI, built with React, TypeScript, and CouchDB.    
+  [github.com/kayleema/tatetodo](https://github.com/kayleema/tatetodo)
+- Syncs instantly across multiple devices and browser tabs using a custom CRDT (conflict-free replicated data type) over WebSocket
+- Exposes an MCP server so AI agents like Claude can read and manage your todo lists directly over HTTP.
+- Try it live at [todo.kaylee.jp](https://todo.kaylee.jp)
+
+--------
+
+## Older Projects:
+
 ### <img width="32px" class="favicon" src="/images/favicons/favicon-emojitime.png" /> EmojiTime（絵文字タイム）
+
+故障中　Out of Order　🙇‍♀️ emoji.kaylee.jp
+
+[//]: # (* [Try it out now at emoji.kaylee.jp]&#40;https://emoji.kaylee.jp&#41;)
 
 * 絵文字タイムは絵文字しか使えないSNSです。
 * ✨An Emoji-only social network.✨
-* [Try it out now at emoji.kaylee.jp](https://emoji.kaylee.jp)
 * Code available at [github.com/kayleema/emoji-chat](https://github.com/kayleema/emoji-chat)
 
 
 ### <img width="32px" class="favicon" src="/images/favicons/favicon-megane.png" /> Kankaku（ｶﾝｶｸ）
 
+故障中　Out of Order　🙇‍♀️ kankaku.kaylee.jp
+
+[//]: # (  [Try it out now at kankaku.kaylee.jp]&#40;https://kankaku.kaylee.jp&#41;.)
+
 * 間隔反復学習アプリ。
 * A spaced repetition flashcard app.
-  [Try it out now at kankaku.kaylee.jp](https://kankaku.kaylee.jp).
 * Source code is available at [kayleema/django-flashcards](https://github.com/kayleema/django-flashcards).
 
 ### <img width="32px" class="favicon" src="/images/favicons/favicon-travel.png" /> TabiCat（旅カット） TravelTrack
 
-* [tabicat.kaylee.jp](https://tabicat.kaylee.jp)
+故障中　Out of Order　🙇‍♀️ tabicat.kaylee.jp
+
+[//]: # (* [tabicat.kaylee.jp]&#40;https://tabicat.kaylee.jp&#41;)
+
 * A travel tracking app
 * Tabulate your travels wherever they take you.
 * Level up and share with friends.
