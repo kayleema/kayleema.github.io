@@ -220,6 +220,7 @@ due to visual similarity
 <tr><td>バス</td>			<td>basu		</td>  <td>		bus</td></tr>
 <tr><td>サービス</td>			<td>sa-bisu		</td>  <td>		free of charge (from service)</td></tr>
 <tr><td>フリーサイズ</td>			<td>furi-saizu		</td>  <td>		one size fits all (from free-size)</td></tr>
+<tr><td>キロメートル</td>			<td>kirome-toru		</td>  <td>		kilometer</td></tr>
 <tr><td>カタカナ</td>			<td>katakana		</td>  <td>		katakana</td></tr>
 </table>
 
