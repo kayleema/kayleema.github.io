@@ -40,9 +40,22 @@ title: Home
 - Exposes an MCP server so AI agents like Claude can read and manage your todo lists directly over HTTP.
 - Try it live at [todo.kaylee.jp](https://todo.kaylee.jp)
 
+
+### <img width="32px" class="favicon" src="/images/favicons/favicon-travel.png" /> TabiCat（旅カット） TravelTrack
+
+[tabicat.kaylee.jp](https://tabicat.kaylee.jp)
+
+* A travel tracking app
+* Tabulate your travels wherever they take you.
+* Level up and share with friends.
+
+
+### 🌏　[全アプリのサービス稼働状況](https://uptime.kaylee.jp/status/kaylee-jp-global-uptime-status)
+
+
 --------
 
-## Older Projects:
+## Older Deprecated Projects:
 
 ### <img width="32px" class="favicon" src="/images/favicons/favicon-emojitime.png" /> EmojiTime（絵文字タイム）
 
@@ -64,16 +77,5 @@ title: Home
 * 間隔反復学習アプリ。
 * A spaced repetition flashcard app.
 * Source code is available at [kayleema/django-flashcards](https://github.com/kayleema/django-flashcards).
-
-### <img width="32px" class="favicon" src="/images/favicons/favicon-travel.png" /> TabiCat（旅カット） TravelTrack
-
-故障中　Out of Order　🙇‍♀️ tabicat.kaylee.jp
-
-[//]: # (* [tabicat.kaylee.jp]&#40;https://tabicat.kaylee.jp&#41;)
-
-* A travel tracking app
-* Tabulate your travels wherever they take you.
-* Level up and share with friends.
-
 
 

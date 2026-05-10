@@ -39,9 +39,20 @@ lang: jp
 - MCPサーバーを公開しており、ClaudeなどのAIエージェントがHTTP経由でToDoリストを直接読み書き可能。
 - ライブサイト: [todo.kaylee.jp](https://todo.kaylee.jp)
 
+### <img width="32px" class="favicon" src="/images/favicons/favicon-travel.png" /> TabiCat（旅カット） TravelTrack
+
+* [tabicat.kaylee.jp](https://tabicat.kaylee.jp)
+
+* 行く都道府県を記録できます
+* 綺麗な地図で友達に共有する
+* 旅行体験レベルアップする！
+
+### 🌏　[Global Uptime Status Dashboard](https://uptime.kaylee.jp/status/kaylee-jp-global-uptime-status)
+
+
 --------
 
-## より前のプロジェクト：
+## より前の廃棄プロジェクト：
 
 ###  <img width="32px" style="image-rendering: pixelated;" src="/images/favicons/favicon-emojitime.png" /> 絵文字タイム
 
@@ -50,14 +61,6 @@ lang: jp
 * 絵文字タイムは絵文字しか使えないSNSです。
 * ✨An Emoji-only social network.✨
 * ソースコード [github.com/kayleema/emoji-chat](https://github.com/kayleema/emoji-chat)
-
-### <img width="32px" class="favicon" src="/images/favicons/favicon-travel.png" /> TabiCat（旅カット） TravelTrack
-
-[//]: # (* [tabicat.kaylee.jp]&#40;https://tabicat.kaylee.jp&#41;)
-
-* 行く都道府県を記録できます
-* 綺麗な地図で友達に共有する
-* 旅行体験レベルアップする！
 
 ###  <img width="32px" style="image-rendering: pixelated;" src="/images/favicons/favicon-megane.png" /> Kankaku
 
