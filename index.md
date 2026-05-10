@@ -32,7 +32,7 @@ title: Home
 
 [//]: # (* Learn more at [tanuki.kaylee.jp]&#40;https://tanuki.kaylee.jp&#41;)
 
-### ✅ TateTodo
+### <img width="32px" class="favicon" src="/images/favicons/favicon-todo.png" /> TateTodo
 
 - A real-time collaborative todo app with a Japanese vertical-writing UI, built with React, TypeScript, and CouchDB.    
   [github.com/kayleema/tatetodo](https://github.com/kayleema/tatetodo)

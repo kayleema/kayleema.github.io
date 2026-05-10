@@ -31,7 +31,7 @@ lang: jp
 * ソースコード [github.com/kayleema/tanuki](https://github.com/kayleema/tanuki)
 
 
-### ✅ TateTodo（縦todo）
+### <img width="32px" class="favicon" src="/images/favicons/favicon-todo.png" /> TateTodo（縦todo）
 
 - 縦書きUIを持つリアルタイム共同編集ToDoアプリ。React・TypeScript・CouchDBで構築。
   [github.com/kayleema/tatetodo](https://github.com/kayleema/tatetodo)
