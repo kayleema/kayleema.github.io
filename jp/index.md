@@ -42,13 +42,14 @@ lang: jp
 ### <img width="32px" class="favicon" src="/images/favicons/favicon-travel.png" /> TabiCat（旅カット） TravelTrack
 
 * [tabicat.kaylee.jp](https://tabicat.kaylee.jp)
-
 * 行く都道府県を記録できます
 * 綺麗な地図で友達に共有する
 * 旅行体験レベルアップする！
 
 ### 🌏　[Global Uptime Status Dashboard](https://uptime.kaylee.jp/status/kaylee-jp-global-uptime-status)
 
+* Real-time monitoring dashboard showing uptime, response times, and incident history for all kaylee.jp services
+* kaylee.jpの全サービスの稼働時間、応答時間、インシデント履歴を表示するリアルタイム監視ダッシュボード
 
 --------
 
