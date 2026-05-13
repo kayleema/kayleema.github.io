@@ -46,8 +46,15 @@ lang: jp
 * 綺麗な地図で友達に共有する
 * 旅行体験レベルアップする！
 
-### 🌏　[Global Uptime Status Dashboard](https://uptime.kaylee.jp/status/kaylee-jp-global-uptime-status)
+### <img width="32px" class="favicon" src="/images/favicons/favicon-fill.png" /> 日本祝日API
 
+* [shukujitsu.kaylee.jp](https://shukujitsu.kaylee.jp)
+* 日本祝日の最新情報を簡単に提供するAPI
+* 読み込みやすいユニコードJSONのAPIです。
+
+### 🌏 Global Uptime Status Dashboard
+
+* [全サービスの稼働状況ダッシュボードへ](https://uptime.kaylee.jp/status/kaylee-jp-global-uptime-status)
 * Real-time monitoring dashboard showing uptime, response times, and incident history for all kaylee.jp services
 * kaylee.jpの全サービスの稼働時間、応答時間、インシデント履歴を表示するリアルタイム監視ダッシュボード
 
@@ -59,6 +66,7 @@ lang: jp
 
 [//]: # (* [今すぐ使ってみる emoji.kaylee.jp]&#40;https://emoji.kaylee.jp&#41;)
 
+* 故障中　Out of Order　🙇‍♀️ emoji.kaylee.jp
 * 絵文字タイムは絵文字しか使えないSNSです。
 * ✨An Emoji-only social network.✨
 * ソースコード [github.com/kayleema/emoji-chat](https://github.com/kayleema/emoji-chat)
@@ -67,6 +75,7 @@ lang: jp
 
 [//]: # (* [今すぐ使ってみる kankaku.kaylee.jp]&#40;https://kankaku.kaylee.jp&#41;.)
 
+* 故障中　Out of Order　🙇‍♀️ kankaku.kaylee.jp
 * 間隔反復学習アプリ。
 * A spaced repetition flashcard app.
 * ソースコード [kayleema/django-flashcards](https://github.com/kayleema/django-flashcards).

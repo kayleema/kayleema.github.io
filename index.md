@@ -49,8 +49,16 @@ title: Home
 * Level up and share with friends.
 
 
-### 🌏　[Global Uptime Status Dashboard](https://uptime.kaylee.jp/status/kaylee-jp-global-uptime-status)
+### <img width="32px" class="favicon" src="/images/favicons/favicon-fill.png" /> API For Japanese National Holiday Information
 
+* [shukujitsu.kaylee.jp](https://shukujitsu.kaylee.jp)
+* Public API for accessing Japanese up to date Japanese holiday information
+* Outputs an easy-to-use JSON Unicode Format 
+
+
+### 🌏 Global Uptime Status Dashboard
+
+* Click here to view the [Live Uptime Status of all Kaylee.jp Services](https://uptime.kaylee.jp/status/kaylee-jp-global-uptime-status)
 * Real-time monitoring dashboard showing uptime, response times, and incident history for all kaylee.jp services
 * kaylee.jpの全サービスの稼働時間、応答時間、インシデント履歴を表示するリアルタイム監視ダッシュボード
 
@@ -60,10 +68,9 @@ title: Home
 
 ### <img width="32px" class="favicon" src="/images/favicons/favicon-emojitime.png" /> EmojiTime（絵文字タイム）
 
-故障中　Out of Order　🙇‍♀️ emoji.kaylee.jp
-
 [//]: # (* [Try it out now at emoji.kaylee.jp]&#40;https://emoji.kaylee.jp&#41;)
 
+* 故障中　Out of Order　🙇‍♀️ emoji.kaylee.jp
 * 絵文字タイムは絵文字しか使えないSNSです。
 * ✨An Emoji-only social network.✨
 * Code available at [github.com/kayleema/emoji-chat](https://github.com/kayleema/emoji-chat)
@@ -71,10 +78,9 @@ title: Home
 
 ### <img width="32px" class="favicon" src="/images/favicons/favicon-megane.png" /> Kankaku（ｶﾝｶｸ）
 
-故障中　Out of Order　🙇‍♀️ kankaku.kaylee.jp
-
 [//]: # (  [Try it out now at kankaku.kaylee.jp]&#40;https://kankaku.kaylee.jp&#41;.)
 
+* 故障中　Out of Order　🙇‍♀️ kankaku.kaylee.jp
 * 間隔反復学習アプリ。
 * A spaced repetition flashcard app.
 * Source code is available at [kayleema/django-flashcards](https://github.com/kayleema/django-flashcards).
