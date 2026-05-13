@@ -27,7 +27,8 @@ I’ll document my personal setup process.
 * jetbrains ai assistant
 * clion
 * line
-* chatGPT
+* OpenAI ChatGPT
+* OpenAI Codex
 * RawTherapee
 * Gimp
 * Inkscape
