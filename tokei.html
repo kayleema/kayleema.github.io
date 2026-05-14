@@ -66,7 +66,7 @@
             color: var(--sumi-black);
             letter-spacing: 0;
             font-weight: 700;
-            line-height: 1;
+            line-height: 1.5;
             max-height: 100%;
             flex: 0 1 auto;
             overflow-wrap: anywhere;
@@ -78,7 +78,7 @@
             border-left: 0;
             border-right: 1px solid rgba(0, 0, 0, 0.16);
             padding-right: 28px;
-            line-height: 1;
+            line-height: 1.5;
             max-height: 100%;
             flex: 0 1 auto;
             overflow-wrap: anywhere;
@@ -146,9 +146,11 @@
             padding: 2px 4px;
             border-radius: 5px;
             color: #b00;
+
             a {
                 color: #b00;
                 text-decoration: none;
+
                 &:hover {
                     color: #f00;
                     text-decoration: underline;
@@ -162,6 +164,7 @@
 <div class="scroll-container">
     <div class="scroll-paper">
         <div id="date" class="date-display"></div>
+        <div id="shun" class="date-display"></div>
         <div id="eto-time" class="eto-time-display"></div>
         <div id="clock" class="time-display"></div>
         <small>和時計プロ<a href="https://kaylee.jp">kaylee.jp</a></small>
@@ -206,6 +209,24 @@
 
         const eraYear = date.getFullYear() - era.start.getFullYear() + 1;
         return `${era.name}${eraYear === 1 ? "元" : toFormalKanji(eraYear, "")}年`;
+    }
+
+    function getFullEtoYear(year) {
+        const stems = ["庚", "辛", "壬", "癸", "甲", "乙", "丙", "丁", "戊", "己"];
+        const branches = ["申", "酉", "戌", "亥", "子", "丑", "寅", "卯", "辰", "巳", "午", "未"];
+
+        // The Sexagenary cycle offset: 2024 is Wood Dragon (甲辰)
+        // Formula: Year % 10 for Stem, Year % 12 for Branch
+        const stem = stems[year % 10];
+        const branch = branches[year % 12];
+
+        return `${stem}${branch}`;
+    }
+
+    function getShun(day) {
+        if (day <= 10) return "上旬";
+        if (day <= 20) return "中旬";
+        return "下旬";
     }
 
     const defaultLocation = {
@@ -346,7 +367,7 @@
         const quarterLabels = ["一つ", "二つ", "三つ", "四つ"];
 
         // Historically, "時" (doki) is added at the end
-        return `${labels[zodiacIndex]}の刻 ${quarterLabels[quarterIndex]}時`;
+        return `${labels[zodiacIndex]}の刻${quarterLabels[quarterIndex]}時`;
     }
 
     function toZodiacHour(date) {
@@ -372,6 +393,28 @@
         return getSegmentLabel(date, previousSunset, today.sunrise, nightZodiacHours);
     }
 
+    function getSolarLongitude(date) {
+        // A simplified approximation for solar longitude
+        // For high accuracy, a library like 'astronomia' is needed,
+        // but this works for a web-clock:
+        const startOfYear = new Date(date.getFullYear(), 2, 20); // Approx Spring Equinox
+        const diffDays = (date - startOfYear) / (1000 * 60 * 60 * 24);
+        let longitude = (diffDays * 360 / 365.25);
+        return (longitude + 360) % 360;
+    }
+
+    function getMicroSeason(date) {
+        const lon = getSolarLongitude(date);
+        const index = Math.floor(lon / 5);
+
+        // You would populate this array with the 72 names
+        const koNames = ["竹笋生", "東風解凍", "黄鶯睍睆", "魚上氷", "土脉潤起", "霞始靆", "草木萌動", "蟄虫啓戸", "桃始笑", "菜虫化蝶", "雀始巣", "桜始開", "雷乃発声", "玄鳥至", "鴻雁北", "虹始見", "葭始生", "霜止出苗", "牡丹華", "蛙始鳴", "蚯蚓出", "蚕起食桑", "紅花栄", "麦秋至", "蟷螂生", "腐草為蛍", "梅子黄", "乃東枯", "菖蒲華", "半夏生", "温風至", "蓮始開", "鷹乃学習", "桐始結花", "土潤溽暑", "大雨時行", "涼風至", "寒蝉鳴", "蒙霧升降", "綿柎開", "天地始粛", "禾乃登", "草露白", "鶺鴒鳴", "玄鳥去", "雷乃収声", "蟄虫坏戸", "水始涸", "鴻雁来", "菊花開", "蟋蟀在戸", "霜始降", "霎時施", "楓蔦黄", "山茶始開", "地始凍", "金盞香", "虹蔵不見", "朔風払葉", "橘始黄", "閉塞成冬", "熊蟄穴", "鱖魚群", "乃東生", "麋角解", "雪下出麦", "芹乃栄", "水泉動", "雉始雊", "款冬華", "水沢腹堅", "鶏始乳"];
+
+        return koNames[index] || "春分";
+    }
+
+    const jpMonthNames = ["睦月", "如月", "弥生", "卯月", "皐月", "水無月", "文月", "葉月", "長月", "神無月", "霜月", "師走"]
+
     function updateClock() {
         const now = new Date();
 
@@ -389,9 +432,13 @@
         const day = toFormalKanji(now.getDate(), "日");
 
         const daysOfWeek = ["日", "月", "火", "水", "木", "金", "土"];
-        const weekDay = `（${daysOfWeek[now.getDay()]}）`;
+        const weekDay = `（${daysOfWeek[now.getDay()]}曜日）`;
 
-        document.getElementById('date').innerText = `${year}${month}${day}${weekDay}`;
+        const jpMonth = jpMonthNames[now.getMonth()];
+
+        document.getElementById('date').innerText = `${year}（${getFullEtoYear(now.getFullYear())}）${month}（${jpMonth}）${day} ${weekDay}（${getShun(day)}）`;
+
+        document.getElementById('shun').innerText = getMicroSeason(now)
     }
 
     setInterval(updateClock, 1000);
