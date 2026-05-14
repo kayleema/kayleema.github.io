@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>和風時計</title>
+    <link href="https://fonts.googleapis.com/css2?family=Yuji+Boku&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --washi-color: #f2e8cf;
+            --sumi-black: #1a1a1a;
+            --kakejiku-border: #6d4c41;
+        }
+
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        body {
+            background-color: #2c2c2c;
+            margin: 0;
+            font-family: 'Yuji Boku', serif;
+            padding: 10%;
+            display: flex;
+            align-items: stretch;
+            justify-content: stretch;
+            box-sizing: border-box;
+        }
+
+        /* The Hanging Scroll (Kakejiku) */
+        .scroll-container {
+            background-color: var(--kakejiku-border);
+            padding: 40px 15px;
+            box-sizing: border-box;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            border-radius: 2px;
+            position: relative;
+            display: flex;
+            flex-grow: 1;
+            width: 0;
+        }
+
+        /* The Silk/Paper Content */
+        .scroll-paper {
+            background-color: var(--washi-color);
+            background-image: url('https://www.transparenttextures.com/patterns/natural-paper.png');
+            padding: 48px 42px;
+            box-sizing: border-box;
+            border: 2px solid rgba(0, 0, 0, 0.1);
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 48px;
+            writing-mode: vertical-rl;
+            text-orientation: upright;
+        }
+
+        .time-display {
+            font-size: clamp(2.1rem, 6vw, 4.75rem);
+            color: var(--sumi-black);
+            letter-spacing: 0;
+            font-weight: 700;
+            line-height: 1;
+            max-height: 100%;
+            flex: 0 1 auto;
+            overflow-wrap: anywhere;
+        }
+
+        .date-display {
+            font-size: clamp(1rem, 2.5vw, 1.6rem);
+            color: #4a4a4a;
+            border-left: 0;
+            border-right: 1px solid rgba(0, 0, 0, 0.16);
+            padding-right: 28px;
+            line-height: 1;
+            max-height: 100%;
+            flex: 0 1 auto;
+            overflow-wrap: anywhere;
+        }
+
+        .eto-time-display {
+            font-size: clamp(1.5rem, 3.5vw, 2.6rem);
+            color: #2f2a24;
+            border-right: 1px solid rgba(0, 0, 0, 0.12);
+            padding-right: 24px;
+            line-height: 1;
+            max-height: 100%;
+            flex: 0 1 auto;
+            overflow-wrap: anywhere;
+        }
+
+        /* Decorative Scroll Rods */
+        .scroll-container::before, .scroll-container::after {
+            content: "";
+            position: absolute;
+            left: -10px;
+            right: -10px;
+            height: 20px;
+            background: linear-gradient(to bottom, #3e2723, #1b0000);
+            border-radius: 10px;
+        }
+
+        .scroll-container::before {
+            top: -10px;
+        }
+
+        .scroll-container::after {
+            bottom: -10px;
+        }
+
+        @media (max-width: 640px) {
+            .scroll-container {
+                padding: 24px 10px;
+            }
+
+            .scroll-paper {
+                padding: 32px 22px;
+                gap: 20px;
+            }
+
+            .date-display {
+                border-top: 0;
+                padding-top: 0;
+            }
+
+            .eto-time-display {
+                padding-right: 16px;
+            }
+        }
+
+        small {
+            font-size: 0.5rem;
+            position: absolute;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            writing-mode: horizontal-tb;
+            font-weight: normal;
+            border: 1px solid #b00;
+            padding: 2px 4px;
+            border-radius: 5px;
+            color: #b00;
+            a {
+                color: #b00;
+                text-decoration: none;
+                &:hover {
+                    color: #f00;
+                    text-decoration: underline;
+                }
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="scroll-container">
+    <div class="scroll-paper">
+        <div id="date" class="date-display"></div>
+        <div id="eto-time" class="eto-time-display"></div>
+        <div id="clock" class="time-display"></div>
+        <small>和時計プロ<a href="https://kaylee.jp">kaylee.jp</a></small>
+    </div>
+</div>
+
+<script>
+    const kanjiNumbers = ['〇', '一', '二', '三', '四', '五', '六', '七', '八', '九'];
+
+    function toKanji(num) {
+        const str = num.toString();
+        // Basic conversion: 12 -> 一二
+        return str.split('').map(digit => kanjiNumbers[parseInt(digit)]).join('');
+    }
+
+    function toFormalKanji(num, unit) {
+        if (num === 0) return `〇${unit}`;
+        if (num < 10) return `${kanjiNumbers[num]}${unit}`;
+
+        let tens = Math.floor(num / 10);
+        let ones = num % 10;
+
+        let result = "";
+        if (tens > 1) result += kanjiNumbers[tens];
+        result += "十";
+        if (ones > 0) result += kanjiNumbers[ones];
+
+        return result + unit;
+    }
+
+    const eras = [
+        {name: "令和", start: new Date(2019, 4, 1)},
+        {name: "平成", start: new Date(1989, 0, 8)},
+        {name: "昭和", start: new Date(1926, 11, 25)},
+        {name: "大正", start: new Date(1912, 6, 30)},
+        {name: "明治", start: new Date(1868, 0, 25)}
+    ];
+
+    function toWarekiYear(date) {
+        const era = eras.find(({start}) => date >= start);
+        if (!era) return `${toKanji(date.getFullYear())}年`;
+
+        const eraYear = date.getFullYear() - era.start.getFullYear() + 1;
+        return `${era.name}${eraYear === 1 ? "元" : toFormalKanji(eraYear, "")}年`;
+    }
+
+    const defaultLocation = {
+        latitude: 35.6762,
+        longitude: 139.6503
+    };
+
+    function getClockLocation() {
+        const params = new URLSearchParams(window.location.search);
+        const latitude = Number(params.get("lat"));
+        const longitude = Number(params.get("lon"));
+
+        if (params.has("lat") && params.has("lon") && Number.isFinite(latitude) && Number.isFinite(longitude)) {
+            return {latitude, longitude};
+        }
+
+        return defaultLocation;
+    }
+
+    const clockLocation = getClockLocation();
+    // const dayZodiacHours = ["卯", "辰", "巳", "午", "未", "申"];
+    // const nightZodiacHours = ["酉", "戌", "亥", "子", "丑", "寅"];
+    // Corrected Order: Day starts at Dawn with Rabbit (卯)
+    const dayZodiacHours = ["卯", "辰", "巳", "午", "未", "申"];
+    // Night starts at Dusk with Rooster (酉)
+    const nightZodiacHours = ["酉", "戌", "亥", "子", "丑", "寅"];
+
+    function toRadians(degrees) {
+        return degrees * Math.PI / 180;
+    }
+
+    function toDegrees(radians) {
+        return radians * 180 / Math.PI;
+    }
+
+    function normalizeDegrees(degrees) {
+        return (degrees % 360 + 360) % 360;
+    }
+
+    function getDayOfYear(date) {
+        const start = new Date(date.getFullYear(), 0, 0);
+        return Math.floor((date - start) / 86400000);
+    }
+
+    function getSunEvent(date, latitude, longitude, isSunrise) {
+        const dayOfYear = getDayOfYear(date);
+        const fractionalYear = 2 * Math.PI / 365 * (dayOfYear - 1 + 0.5);
+        const equationOfTime = 229.18 * (
+            0.000075 +
+            0.001868 * Math.cos(fractionalYear) -
+            0.032077 * Math.sin(fractionalYear) -
+            0.014615 * Math.cos(2 * fractionalYear) -
+            0.040849 * Math.sin(2 * fractionalYear)
+        );
+        const solarDeclination =
+            0.006918 -
+            0.399912 * Math.cos(fractionalYear) +
+            0.070257 * Math.sin(fractionalYear) -
+            0.006758 * Math.cos(2 * fractionalYear) +
+            0.000907 * Math.sin(2 * fractionalYear) -
+            0.002697 * Math.cos(3 * fractionalYear) +
+            0.001480 * Math.sin(3 * fractionalYear);
+        // const zenith = 90.833;
+// Update the zenith for historical accuracy (Dawn/Dusk vs Sunrise/Sunset)
+// Change this line inside your getSunEvent function:
+        const zenith = 97.2; // 90.833 is physical sunrise; 97.2 is historical Japanese 'Dawn'
+
+        const latitudeRadians = toRadians(latitude);
+        const cosHourAngle = (
+            Math.cos(toRadians(zenith)) /
+            (Math.cos(latitudeRadians) * Math.cos(solarDeclination))
+        ) - Math.tan(latitudeRadians) * Math.tan(solarDeclination);
+
+        if (cosHourAngle > 1 || cosHourAngle < -1) return null;
+
+        const hourAngle = toDegrees(Math.acos(cosHourAngle));
+        const timezoneOffset = -date.getTimezoneOffset();
+        const solarNoon = 720 - (4 * longitude) - equationOfTime + timezoneOffset;
+        const eventMinutes = solarNoon + (isSunrise ? -hourAngle * 4 : hourAngle * 4);
+
+        return new Date(
+            date.getFullYear(),
+            date.getMonth(),
+            date.getDate(),
+            0,
+            Math.floor(eventMinutes),
+            Math.round((eventMinutes % 1) * 60)
+        );
+    }
+
+    function getSunTimes(date) {
+        return {
+            sunrise: getSunEvent(date, clockLocation.latitude, clockLocation.longitude, true),
+            sunset: getSunEvent(date, clockLocation.latitude, clockLocation.longitude, false)
+        };
+    }
+
+    /*function getSegmentLabel(date, start, end, labels) {
+        const segmentLength = (end - start) / labels.length;
+        const index = Math.min(labels.length - 1, Math.max(0, Math.floor((date - start) / segmentLength)));
+        return `${labels[index]}の刻`;
+    }*/
+
+    /*
+        function getSegmentLabel(date, start, end, labels) {
+        const totalDuration = end - start;
+        const segmentLength = totalDuration / labels.length;
+
+        // Calculate which Zodiac hour we are in (0-5)
+        const zodiacIndex = Math.min(labels.length - 1, Math.max(0, Math.floor((date - start) / segmentLength)));
+
+        // Calculate the subdivision (the quarter)
+        const timeIntoCurrentSegment = (date - start) % segmentLength;
+        const quarterLength = segmentLength / 4;
+        const quarterIndex = Math.floor(timeIntoCurrentSegment / quarterLength);
+
+        // Mapping 0-3 to Kanji numbers for the subdivisions
+        const quarterLabels = ["一", "二", "三", "四"];
+        const quarterName = quarterLabels[quarterIndex];
+
+        // Returns: e.g., "卯の刻 三つ時" (Umi no koku Mitsu-doki)
+        return `${labels[zodiacIndex]}の刻 ${quarterName}つ時`;
+    }*/
+    function getSegmentLabel(date, start, end, labels) {
+        const totalDuration = end - start;
+        const segmentLength = totalDuration / labels.length;
+
+        // 1. Calculate the current Zodiac index
+        const elapsed = date - start;
+        const zodiacIndex = Math.min(labels.length - 1, Math.max(0, Math.floor(elapsed / segmentLength)));
+
+        // 2. Calculate the "Quarter" (Subdivision)
+        const timeIntoKoku = elapsed % segmentLength;
+        const quarterLength = segmentLength / 4;
+        const quarterIndex = Math.min(3, Math.floor(timeIntoKoku / quarterLength));
+
+        // Mapping to traditional names: 一つ (1st), 二つ (2nd), etc.
+        const quarterLabels = ["一つ", "二つ", "三つ", "四つ"];
+
+        // Historically, "時" (doki) is added at the end
+        return `${labels[zodiacIndex]}の刻 ${quarterLabels[quarterIndex]}時`;
+    }
+
+    function toZodiacHour(date) {
+        const today = getSunTimes(date);
+        if (!today.sunrise || !today.sunset) return "";
+
+        if (date >= today.sunrise && date < today.sunset) {
+            return getSegmentLabel(date, today.sunrise, today.sunset, dayZodiacHours);
+        }
+
+        if (date >= today.sunset) {
+            const tomorrow = new Date(date);
+            tomorrow.setDate(tomorrow.getDate() + 1);
+            const nextSunrise = getSunTimes(tomorrow).sunrise;
+            if (!nextSunrise) return "";
+            return getSegmentLabel(date, today.sunset, nextSunrise, nightZodiacHours);
+        }
+
+        const yesterday = new Date(date);
+        yesterday.setDate(yesterday.getDate() - 1);
+        const previousSunset = getSunTimes(yesterday).sunset;
+        if (!previousSunset) return "";
+        return getSegmentLabel(date, previousSunset, today.sunrise, nightZodiacHours);
+    }
+
+    function updateClock() {
+        const now = new Date();
+
+        // Format Time
+        const hours = toFormalKanji(now.getHours(), "時");
+        const minutes = toFormalKanji(now.getMinutes(), "分");
+        const seconds = toFormalKanji(now.getSeconds(), "秒");
+
+        document.getElementById('clock').innerText = `${hours}${minutes}${seconds}`;
+        document.getElementById('eto-time').innerText = toZodiacHour(now);
+
+        // Format Date
+        const year = toWarekiYear(now);
+        const month = toFormalKanji(now.getMonth() + 1, "月");
+        const day = toFormalKanji(now.getDate(), "日");
+
+        const daysOfWeek = ["日", "月", "火", "水", "木", "金", "土"];
+        const weekDay = `（${daysOfWeek[now.getDay()]}）`;
+
+        document.getElementById('date').innerText = `${year}${month}${day}${weekDay}`;
+    }
+
+    setInterval(updateClock, 1000);
+    updateClock();
+</script>
+</body>
+</html>
