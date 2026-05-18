@@ -5,6 +5,9 @@ summary: "Using just HTML and CSS"
 icon: "/images/favicons/todoufuken.png"
 ---
 
+
+This technique is used in my product [TabiCat (tabicat.kaylee.jp)](https://tabicat.kaylee.jp). Try it out!
+
 I've seen lots of maps in Japan using a simplified minimal boxy design and I think it looks kind of nice in an elegant
 way and is useful for displaying information, so I thought I'd give it a try, using only HTML and CSS. Now that the need
 to support IE11 has decreased I think it's safe now to use CSS grid for this kind of thing. 

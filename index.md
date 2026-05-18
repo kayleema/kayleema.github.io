@@ -49,12 +49,6 @@ title: Home
 
 ## Developer Tools And Services:
 
-### <img width="32px" class="favicon" src="/images/favicons/favicon-tanuki.png" /> TanukiGo（狸語）
-
-* Source code at **[github.com/kayleema/tanuki](https://github.com/kayleema/tanuki)**
-* 狸語日本語のプログラミング言語
-* A Japanese Programming Language.
-
 ### <img width="32px" class="favicon" src="/images/favicons/favicon-fill.png" /> API For Japanese National Holiday Information
 
 * **[shukujitsu.kaylee.jp](https://shukujitsu.kaylee.jp)** ← Try it out now!
@@ -66,6 +60,12 @@ title: Home
 * **[time-input.kaylee.jp](https://time-input.kaylee.jp/)** ← Try out the live demo now!
 * For when your project has hard requirements that can't be met by a simple HTML time input field.
 * A flexible time input for shadcn/ui projects. Supports 24h and 12h formats, AM/PM toggle, optional seconds, and auto zero-padding on blur — everything the native `type="time"` can't do.
+
+### <img width="32px" class="favicon" src="/images/favicons/favicon-tanuki.png" /> TanukiGo（狸語）
+
+* Source code at **[github.com/kayleema/tanuki](https://github.com/kayleema/tanuki)**
+* 狸語日本語のプログラミング言語
+* A Japanese Programming Language.
 
 --------
 

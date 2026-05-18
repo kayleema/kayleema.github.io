@@ -51,11 +51,6 @@ lang: jp
 
 ## ソフトウエア開発ツールやサービスなど
 
-###  <img width="32px" style="image-rendering: pixelated;" src="/images/favicons/favicon-tanuki.png" /> 狸語
-
-* 狸語日本語のプログラミング言語
-* ソースコード [github.com/kayleema/tanuki](https://github.com/kayleema/tanuki)
-
 ### <img width="32px" class="favicon" src="/images/favicons/favicon-fill.png" /> 日本祝日API
 
 * **[shukujitsu.kaylee.jp](https://shukujitsu.kaylee.jp)** ← 今すぐ使ってみてください
@@ -66,6 +61,11 @@ lang: jp
 
 * **[time-input.kaylee.jp](https://time-input.kaylee.jp/)** ← 今すぐ使ってみてください
 * shadcn/uiプロジェクト向けの柔軟な時刻入力コンポーネントです。24時間・12時間形式、AM/PMトグル、秒の表示、ブラー時の自動ゼロ埋めに対応しています。ネイティブの type="time" では実現できないすべての機能を提供します。
+
+###  <img width="32px" style="image-rendering: pixelated;" src="/images/favicons/favicon-tanuki.png" /> 狸語
+
+* 狸語日本語のプログラミング言語
+* ソースコード [github.com/kayleema/tanuki](https://github.com/kayleema/tanuki)
 
 --------
 

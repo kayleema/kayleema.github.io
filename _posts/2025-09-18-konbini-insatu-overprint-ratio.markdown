@@ -5,6 +5,8 @@ summary: "For the purpose of accurate printing of ID photos"
 icon: "/images/favicons/link.png"
 ---
 
+**Information as of 2025-09-18**
+
 When printing borderless prints at Lawson or FamilyMart convenience stores
 the photo is slightly enlarged so that it can be printed borderless.
 

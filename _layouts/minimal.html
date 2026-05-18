@@ -22,27 +22,27 @@
         </li>
     </ul>
     <ul>
-        <li>
-            <details role="list">
-                {% if page.lang == "jp" %}
-                <summary aria-haspopup="listbox">アプリ</summary>
-                <ul role="listbox">
-                    <li><a href="https://kankaku.kaylee.jp/">Kankaku</a></li>
-                    <li><a href="https://emoji.kaylee.jp/">絵文字タイム</a></li>
-                    <li><a href="https://tanuki.kaylee.jp/">狸語</a></li>
-                    <li><a href="https://tabicat.kaylee.jp/">旅カット</a></li>
-                </ul>
-                {% else %}
-                <summary aria-haspopup="listbox">Apps</summary>
-                <ul role="listbox">
-                    <li><a href="https://kankaku.kaylee.jp/">Kankaku</a></li>
-                    <li><a href="https://emoji.kaylee.jp/">EmojiTime</a></li>
-                    <li><a href="https://tanuki.kaylee.jp/">TanukiGo</a></li>
-                    <li><a href="https://tabicat.kaylee.jp/">TabiCat</a></li>
-                </ul>
-                {% endif %}
-            </details>
-        </li>
+<!--        <li>-->
+<!--            <details role="list">-->
+<!--                {% if page.lang == "jp" %}-->
+<!--                <summary aria-haspopup="listbox">アプリ</summary>-->
+<!--                <ul role="listbox">-->
+<!--                    <li><a href="https://kankaku.kaylee.jp/">Kankaku</a></li>-->
+<!--                    <li><a href="https://emoji.kaylee.jp/">絵文字タイム</a></li>-->
+<!--                    <li><a href="https://tanuki.kaylee.jp/">狸語</a></li>-->
+<!--                    <li><a href="https://tabicat.kaylee.jp/">旅カット</a></li>-->
+<!--                </ul>-->
+<!--                {% else %}-->
+<!--                <summary aria-haspopup="listbox">Apps</summary>-->
+<!--                <ul role="listbox">-->
+<!--                    <li><a href="https://kankaku.kaylee.jp/">Kankaku</a></li>-->
+<!--                    <li><a href="https://emoji.kaylee.jp/">EmojiTime</a></li>-->
+<!--                    <li><a href="https://tanuki.kaylee.jp/">TanukiGo</a></li>-->
+<!--                    <li><a href="https://tabicat.kaylee.jp/">TabiCat</a></li>-->
+<!--                </ul>-->
+<!--                {% endif %}-->
+<!--            </details>-->
+<!--        </li>-->
         <li>
             {% if page.lang == "jp" %}
             <a href="/jp/contact-minimal.html">連絡</a>
@@ -65,28 +65,28 @@
     {{content}}
 </main>
 
-<a href="https://skypattern.jp">
-    <main class="container" style="border-radius: 25px; margin-block: 30px; display: flex; gap: 24px;" >
-        <img
-                width="64px"
-                src="http://skypattern.jp/editor/skypatternfavi.svg"
-                style="float: left;"
-                alt="logo"
-        />
-        <div>
-            <strong>skypattern.jp</strong>
-            {% if page.lang == "jp" %}
-                裁縫師やデザイナー向けのブラウザベース型紙作成ソフトウェア。
-                数式と幾何学プリミティブを使ってカスタム型紙を構築できます。
-                無料アカウントを今すぐ作成しませんか。
-            {% else %}
-                Try out Browser-based pattern drafting software for clothing designers.
-                Build custom patterns using mathematical formulas and geometric primitives.
-                Make your free account now!
-            {% endif %}
-        </div>
-    </main>
-</a>
+<!--<a href="https://skypattern.jp">-->
+<!--    <main class="container" style="border-radius: 25px; margin-block: 30px; display: flex; gap: 24px;" >-->
+<!--        <img-->
+<!--                width="64px"-->
+<!--                src="http://skypattern.jp/editor/skypatternfavi.svg"-->
+<!--                style="float: left;"-->
+<!--                alt="logo"-->
+<!--        />-->
+<!--        <div>-->
+<!--            <strong>skypattern.jp</strong>-->
+<!--            {% if page.lang == "jp" %}-->
+<!--                裁縫師やデザイナー向けのブラウザベース型紙作成ソフトウェア。-->
+<!--                数式と幾何学プリミティブを使ってカスタム型紙を構築できます。-->
+<!--                無料アカウントを今すぐ作成しませんか。-->
+<!--            {% else %}-->
+<!--                Try out Browser-based pattern drafting software for clothing designers.-->
+<!--                Build custom patterns using mathematical formulas and geometric primitives.-->
+<!--                Make your free account now!-->
+<!--            {% endif %}-->
+<!--        </div>-->
+<!--    </main>-->
+<!--</a>-->
 
 <script>
     const themes = ['auto', 'light', 'dark']
