@@ -7,6 +7,8 @@ categories:
     - jp
 ---
 
+これは[TabiCat](https://tabicat.kaylee.jp)を作るためのテストです。使ってみませんか。
+
 <style>
 	table {
 		border-collapse: collapse;

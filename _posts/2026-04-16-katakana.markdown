@@ -221,7 +221,13 @@ due to visual similarity
 <tr><td>サービス</td>			<td>sa-bisu		</td>  <td>		free of charge (from service)</td></tr>
 <tr><td>フリーサイズ</td>			<td>furi-saizu		</td>  <td>		one size fits all (from free-size)</td></tr>
 <tr><td>キロメートル</td>			<td>kirome-toru		</td>  <td>		kilometer</td></tr>
-<tr><td>カタカナ</td>			<td>katakana		</td>  <td>		katakana</td></tr>
+<tr><td>シャーペン</td>			<td>sha-pen		</td>  <td>		mechanical pencil</td></tr>
+<tr><td>ノート</td>			<td>no-to		</td>  <td>		🗒️notebook</td></tr>
+<tr><td>ビデオ</td>			<td>bideo		</td>  <td>		video</td></tr>
+<tr><td>ブーム</td>			<td>bu-mu		</td>  <td>		boom (as in popularity)</td></tr>
+<tr><td>トイレ</td>			<td>toire		</td>  <td>🚽toilet (bathroom)</td></tr>
+<tr><td>ヤンんキー</td>			<td>yanki-		</td>  <td>		delinquent youth (from yankee)</td></tr>
+<tr><td>カタカナ</td>			<td>katakana		</td>  <td>		katak ana</td></tr>
 </table>
 
 
