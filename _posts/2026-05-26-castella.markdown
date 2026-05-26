@@ -1,0 +1,94 @@
+---
+layout: minimal-post
+title: "Castella"
+summary: "A tasty cake recipe"
+icon: "/images/favicons/link.png"
+---
+
+<ol>
+    <li>Gather the ingredients
+        <ol>
+            <li>All purpose flour (100g)</li>
+            <li>Sugar (100g)</li>
+            <li>Eggs 4</li>
+            <li>Mirin (2 Tablespoons / 30mL)</li>
+            <li>Honey (2 Tablespoons / 30mL)</li>
+            <li>Oil (2 Tablespoons / 30mL)</li>
+        </ol>
+    </li>
+    <li>Line an 18cm×18cm pan with parchment paper</li>
+    <li>Sift the flour (100g) into a separate bowl for later</li>
+    <li>Beat eggs (4) and sugar (100g) in a bowl partially submerged in an additional bowl of 40°C water
+        until ribbons
+    </li>
+    <li>Preheat oven to 180°C</li>
+    <li>Add additional wet ingredients and mix at low speed
+        <ol>
+            <li>Mirin (2 Tablespoons / 30mL)</li>
+            <li>Honey (2 Tablespoons / 30mL)</li>
+            <li>Oil (2 Tablespoons / 30mL)</li>
+        </ol>
+    </li>
+    <li>Fold in the flour</li>
+    <li>Pour into lined baking pan</li>
+    <li>Drop the pan from ~10cm onto a hard countertop several times to release bubbles</li>
+    <li>Bake 180°C for 10min then 140°C for 40min</li>
+</ol>
+
+<img src="/images/castella2.jpg" alt="Castella"/>
+
+<table>
+    <caption>Castella Cost Analysis</caption>
+    <thead>
+    <tr>
+        <th>Ingredient</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <th>Total</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>Flour</td>
+        <td>299 JPY/kg</td>
+        <td>100 g</td>
+        <td>29.9 JPY</td>
+    </tr>
+    <tr>
+        <td>Sugar</td>
+        <td>269 JPY/kg</td>
+        <td>100 g</td>
+        <td>26.9 JPY</td>
+    </tr>
+    <tr>
+        <td>Eggs</td>
+        <td>325 JPY/10</td>
+        <td>4</td>
+        <td>130 JPY</td>
+    </tr>
+    <tr>
+        <td>Mirin</td>
+        <td>289 JPY/L</td>
+        <td>30 mL</td>
+        <td>8.67 JPY</td>
+    </tr>
+    <tr>
+        <td>Honey</td>
+        <td>679 JPY/500g</td>
+        <td>30 mL</td>
+        <td>57.036 JPY</td>
+    </tr>
+    <tr>
+        <td>Oil</td>
+        <td>419 JPY/900mL</td>
+        <td>30 mL</td>
+        <td>12.8493 JPY</td>
+    </tr>
+    </tbody>
+    <tfoot>
+    <tr>
+        <th colspan="3">Total</th>
+        <th>265 JPY</th>
+    </tr>
+    </tfoot>
+</table>
