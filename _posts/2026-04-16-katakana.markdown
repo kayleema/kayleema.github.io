@@ -226,7 +226,7 @@ due to visual similarity
 <tr><td>ビデオ</td>			<td>bideo		</td>  <td>		video</td></tr>
 <tr><td>ブーム</td>			<td>bu-mu		</td>  <td>		boom (as in popularity)</td></tr>
 <tr><td>トイレ</td>			<td>toire		</td>  <td>🚽toilet (bathroom)</td></tr>
-<tr><td>ヤンんキー</td>			<td>yanki-		</td>  <td>		delinquent youth (from yankee)</td></tr>
+<tr><td>ヤンキー</td>			<td>yanki-		</td>  <td>		delinquent youth (from yankee)</td></tr>
 <tr><td>カタカナ</td>			<td>katakana		</td>  <td>		katak ana</td></tr>
 </table>
 

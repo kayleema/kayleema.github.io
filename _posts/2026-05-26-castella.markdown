@@ -2,40 +2,57 @@
 layout: minimal-post
 title: "Castella"
 summary: "A tasty cake recipe"
-icon: "/images/favicons/link.png"
+icon: "/images/favicons/cookie.png"
 ---
 
-<ol>
-    <li>Gather the ingredients
-        <ol>
-            <li>All purpose flour (100g)</li>
-            <li>Sugar (100g)</li>
-            <li>Eggs 4</li>
-            <li>Mirin (2 Tablespoons / 30mL)</li>
-            <li>Honey (2 Tablespoons / 30mL)</li>
-            <li>Oil (2 Tablespoons / 30mL)</li>
-        </ol>
-    </li>
-    <li>Line an 18cm×18cm pan with parchment paper</li>
-    <li>Sift the flour (100g) into a separate bowl for later</li>
-    <li>Beat eggs (4) and sugar (100g) in a bowl partially submerged in an additional bowl of 40°C water
-        until ribbons
-    </li>
-    <li>Preheat oven to 180°C</li>
-    <li>Add additional wet ingredients and mix at low speed
-        <ol>
-            <li>Mirin (2 Tablespoons / 30mL)</li>
-            <li>Honey (2 Tablespoons / 30mL)</li>
-            <li>Oil (2 Tablespoons / 30mL)</li>
-        </ol>
-    </li>
-    <li>Fold in the flour</li>
-    <li>Pour into lined baking pan</li>
-    <li>Drop the pan from ~10cm onto a hard countertop several times to release bubbles</li>
-    <li>Bake 180°C for 10min then 140°C for 40min</li>
-</ol>
+<style>
+   mark {
+      padding-inline: 3px;
+      display: inline-block;
+      background-color: #ff0A;
+      color: #000;
+      line-height: 1.3;
+      border-radius: 3px;
+   }
+</style>
 
-<img src="/images/castella2.jpg" alt="Castella"/>
+### Ingredients:
+   - **All purpose flour (100g)**
+   - **Sugar (100g)**
+   - **Eggs 4**
+   - **Mirin (2 Tablespoons / 30mL)**
+   - **Honey (2 Tablespoons / 30mL)**
+   - **Oil (2 Tablespoons / 30mL)**
+
+----
+
+2. Line an 18cm×18cm pan with parchment paper
+3. **Sift the flour (100g)** into a separate bowl for later
+4. **Beat eggs (4) and sugar (100g)** in a bowl partially submerged in an additional bowl of 40°C water until ribbons
+5. Preheat oven to 180°C
+6. **Add remaining wet ingredients** and mix at low speed
+    - Mirin: 2 Tablespoons (30mL)
+    - Honey: 2 Tablespoons (30mL)
+    - Oil: 2 Tablespoons (30mL)
+7. **Fold in the flour**
+8. Pour into lined baking pan
+9. Drop the pan from ~10cm onto a hard countertop several times to release bubbles
+10. <strong>Bake <mark>180°C for 10min</mark> then <mark>140°C for 40min</mark></strong>
+
+<small>
+<strong>Notes on United States Customary Unit Conversion:</strong>
+While a United States customary liquid tablespoon is technically 14.8 mL, in practice United States Tablespoons are 15mL which is the same as most other countries including Japan.
+While it is recommended to use weigh units for sugar and flour, an approximate conversion to United States Customary Volume units results in approximately 0.8 Cups of flour and 0.5 Cups of sugar.
+</small>
+
+<img src="/images/castella2.jpg" alt="Castella" style="border-radius: 20px; border: 1px solid #8888;"/>
+
+
+Source: [Delish Kitchen](https://delishkitchen.tv/recipes/183964505707905382)
+
+------
+
+## Additional Technical Analysis:
 
 <table>
     <caption>Castella Cost Analysis</caption>
@@ -88,7 +105,57 @@ icon: "/images/favicons/link.png"
     <tfoot>
     <tr>
         <th colspan="3">Total</th>
-        <th>265 JPY</th>
+        <th>265 JPY (1.67 USD)</th>
     </tr>
     </tfoot>
 </table>
+
+Market prices as of May 2026. 1USD=159JPY
+
+### Castella electricity cost estimate
+
+```markdown
+Preheat  (10 min, 90% duty): 0.1800 kWh = ¥6.30
+Bake 180°C (10 min, 55.00000000000001% duty): 0.1100 kWh = ¥3.85
+Bake 140°C (40 min, 40% duty): 0.3200 kWh = ¥11.20
+Mixer    (10 min):               0.0250 kWh = ¥0.87
+---
+Total: 0.6350 kWh = ¥22.23
+```
+
+Electricity Cost estimate calculation source code:
+```javascript
+// --- Inputs ---
+const ovenW      = 1200;   // oven wattage (W)
+const preheatMin = 10;     // preheat duration (min)
+const dutyPH     = 0.90;   // preheat duty cycle (0–1)
+const bake1Min   = 10;     // bake phase 1 duration (min) at 180°C
+const duty1      = 0.55;   // duty cycle during phase 1
+const bake2Min   = 40;     // bake phase 2 duration (min) at 140°C
+const duty2      = 0.40;   // duty cycle during phase 2
+const mixerW     = 150;    // hand mixer wattage (W)
+const mixerMin   = 10;     // mixing duration (min)
+const yenPerKWh  = 35;     // Tokyo electricity rate (¥/kWh)
+
+// --- Calculations ---
+const preheatKWh = (ovenW / 1000) * (preheatMin / 60) * dutyPH;
+const bake1KWh   = (ovenW / 1000) * (bake1Min   / 60) * duty1;
+const bake2KWh   = (ovenW / 1000) * (bake2Min   / 60) * duty2;
+const mixerKWh   = (mixerW / 1000) * (mixerMin  / 60);
+const totalKWh   = preheatKWh + bake1KWh + bake2KWh + mixerKWh;
+const totalYen   = totalKWh * yenPerKWh;
+
+// --- Output ---
+console.log("=== Castella electricity cost ===");
+console.log(`Preheat  (${preheatMin} min, ${dutyPH*100}% duty): ${preheatKWh.toFixed(4)} kWh = ¥${(preheatKWh * yenPerKWh).toFixed(2)}`);
+console.log(`Bake 180°C (${bake1Min} min, ${duty1*100}% duty): ${bake1KWh.toFixed(4)} kWh = ¥${(bake1KWh * yenPerKWh).toFixed(2)}`);
+console.log(`Bake 140°C (${bake2Min} min, ${duty2*100}% duty): ${bake2KWh.toFixed(4)} kWh = ¥${(bake2KWh * yenPerKWh).toFixed(2)}`);
+console.log(`Mixer    (${mixerMin} min):               ${mixerKWh.toFixed(4)} kWh = ¥${(mixerKWh * yenPerKWh).toFixed(2)}`);
+console.log("---");
+console.log(`Total: ${totalKWh.toFixed(4)} kWh = ¥${totalYen.toFixed(2)}`);
+```
+
+
+Note:
+The United States Food and Drug Administration has published that "for purposes of nutrition labeling, 1 cup
+means 240 mL, 1 tablespoon means 15 mL".
