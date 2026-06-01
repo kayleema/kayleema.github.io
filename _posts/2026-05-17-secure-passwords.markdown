@@ -18,6 +18,11 @@ echo $(LC_ALL=C  tr -dc 'A-Za-z0-9' < /dev/random | head -c 24)
 echo $(LC_ALL=C  tr -dc 'A-Za-z0-9.!@^*_/' < /dev/random | head -c 24)
 ```
 
+Generate a 6-digit numeric PIN code.
+```
+echo $(LC_ALL=C  tr -dc '0-9' < /dev/random | head -c 6)
+```
+
 # Generate with openSSL output as base64
 
 ```
