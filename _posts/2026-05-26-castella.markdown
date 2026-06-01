@@ -45,7 +45,7 @@ While a United States customary liquid tablespoon is technically 14.8 mL, in pra
 While it is recommended to use weigh units for sugar and flour, an approximate conversion to United States Customary Volume units results in approximately 0.8 Cups of flour and 0.5 Cups of sugar.
 </small>
 
-<img src="/images/castella2.jpg" alt="Castella" style="border-radius: 20px; border: 1px solid #8888;"/>
+<img src="/images/castella-piece-scaled.jpg" alt="Castella" style="border-radius: 20px; border: 1px solid #8888; max-width: 100%;"/>
 
 
 Source: [Delish Kitchen](https://delishkitchen.tv/recipes/183964505707905382)
@@ -159,3 +159,7 @@ console.log(`Total: ${totalKWh.toFixed(4)} kWh = ¥${totalYen.toFixed(2)}`);
 Note:
 The United States Food and Drug Administration has published that "for purposes of nutrition labeling, 1 cup
 means 240 mL, 1 tablespoon means 15 mL".
+
+<img src="/images/castella2.jpg" alt="Castella" style="border-radius: 20px; border: 1px solid #8888; max-width: 100%; margin: 0 auto; display: block;"/>
+
+Enjoy!
