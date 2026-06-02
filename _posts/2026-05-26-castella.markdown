@@ -2,7 +2,7 @@
 layout: minimal-post
 title: "Castella"
 summary: "A tasty cake recipe"
-icon: "/images/favicons/cookie.png"
+icon: "/images/favicons/castella.png"
 ---
 
 <style>
@@ -163,4 +163,9 @@ means 240 mL, 1 tablespoon means 15 mL".
 
 <img src="/images/castella2.jpg" alt="Castella" style="border-radius: 20px; border: 1px solid #8888; max-width: 100%; margin: 0 auto; display: block;"/>
 
-Enjoy!
+
+<p style="text-align: center;">
+<small>Enjoy!</small><br/>
+<img src="/images/favicons/castella.png" style="image-rendering: pixelated;" /> 
+</p>
+
