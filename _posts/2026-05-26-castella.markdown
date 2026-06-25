@@ -113,6 +113,115 @@ Source: [Delish Kitchen](https://delishkitchen.tv/recipes/183964505707905382)
 
 Market prices as of May 2026. 1USD=159JPY
 
+<table>
+    <caption>Castella Nutrition Analysis</caption>
+    <thead>
+    <tr>
+        <th>Ingredient</th>
+        <th>Amount</th>
+        <th>Calories</th>
+        <th>Protein</th>
+        <th>Fat</th>
+        <th>Carbs</th>
+        <th>Sugar</th>
+        <th>Fiber</th>
+        <th>Sodium</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>Flour</td>
+        <td>100 g</td>
+        <td>364 kcal</td>
+        <td>10.3 g</td>
+        <td>1.0 g</td>
+        <td>76.3 g</td>
+        <td>0.3 g</td>
+        <td>2.7 g</td>
+        <td>2 mg</td>
+    </tr>
+    <tr>
+        <td>Sugar</td>
+        <td>100 g</td>
+        <td>387 kcal</td>
+        <td>0 g</td>
+        <td>0 g</td>
+        <td>100.0 g</td>
+        <td>100.0 g</td>
+        <td>0 g</td>
+        <td>1 mg</td>
+    </tr>
+    <tr>
+        <td>Eggs</td>
+        <td>4 (~200 g)</td>
+        <td>288 kcal</td>
+        <td>25.2 g</td>
+        <td>20.0 g</td>
+        <td>1.6 g</td>
+        <td>0.8 g</td>
+        <td>0 g</td>
+        <td>284 mg</td>
+    </tr>
+    <tr>
+        <td>Mirin</td>
+        <td>30 mL</td>
+        <td>72 kcal</td>
+        <td>0.1 g</td>
+        <td>0 g</td>
+        <td>13.0 g</td>
+        <td>12.9 g</td>
+        <td>0 g</td>
+        <td>3 mg</td>
+    </tr>
+    <tr>
+        <td>Honey</td>
+        <td>30 mL (~42 g)</td>
+        <td>128 kcal</td>
+        <td>0.1 g</td>
+        <td>0 g</td>
+        <td>34.6 g</td>
+        <td>34.5 g</td>
+        <td>0 g</td>
+        <td>4 mg</td>
+    </tr>
+    <tr>
+        <td>Oil</td>
+        <td>30 mL (~27 g)</td>
+        <td>241 kcal</td>
+        <td>0 g</td>
+        <td>27.3 g</td>
+        <td>0 g</td>
+        <td>0 g</td>
+        <td>0 g</td>
+        <td>0 mg</td>
+    </tr>
+    </tbody>
+    <tfoot>
+    <tr>
+        <th colspan="2">Total (whole cake)</th>
+        <th>1,480 kcal</th>
+        <th>35.7 g</th>
+        <th>48.3 g</th>
+        <th>225.5 g</th>
+        <th>148.5 g</th>
+        <th>2.7 g</th>
+        <th>294 mg</th>
+    </tr>
+    <tr>
+        <th colspan="2">Per Serving (1/9)</th>
+        <th>~164 kcal</th>
+        <th>~4.0 g</th>
+        <th>~5.4 g</th>
+        <th>~25.1 g</th>
+        <th>~16.5 g</th>
+        <th>~0.3 g</th>
+        <th>~33 mg</th>
+    </tr>
+    </tfoot>
+</table>
+
+<small>Values are approximate. Based on USDA and Japanese food composition data. Does not include the optional 30 g dark brown sugar. Per-serving assumes 9 equal pieces from an 18×18 cm pan.</small>
+
 ### Castella electricity cost estimate
 
 ```markdown
