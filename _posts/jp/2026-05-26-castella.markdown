@@ -3,7 +3,9 @@ layout: minimal-post
 title: "カステラ"
 summary: "美味しいケーキのレシピ"
 icon: "/images/favicons/castella.png"
-lang: ja
+lang: jp
+categories:
+  - jp
 ---
 
 <style>
