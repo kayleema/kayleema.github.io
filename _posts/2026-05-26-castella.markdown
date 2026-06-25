@@ -16,6 +16,8 @@ icon: "/images/favicons/castella.png"
    }
 </style>
 
+<small><a href="/2026/05/26/castella-ja.html">日本語版</a></small>
+
 ### Ingredients:
    - **All purpose flour (100g)**
    - **Sugar (100g)**
