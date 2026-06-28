@@ -19,7 +19,7 @@ icon: "/images/favicons/castella.png"
 <small><a href="/jp/2026/05/26/castella.html">日本語版</a></small>
 
 ### Ingredients:
-   - **All purpose flour (100g)**
+   - **Bread (or all-purpose) flour (100g)**
    - **Sugar (100g)**
    - **Eggs 4**
    - **Mirin (2 Tablespoons / 30mL)**
@@ -277,6 +277,6 @@ means 240 mL, 1 tablespoon means 15 mL".
 
 <p style="text-align: center;">
 <small>Enjoy!</small><br/>
-<img src="/images/favicons/castella.png" style="image-rendering: pixelated;" /> 
+<img src="/images/favicons/castella.png" style="image-rendering: pixelated;" alt="castella icon" /> 
 </p>
 

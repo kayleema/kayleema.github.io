@@ -22,7 +22,7 @@ categories:
 <small><a href="/2026/05/26/castella.html">English version</a></small>
 
 ### 材料：
-   - **薄力粉（100g）**
+   - **強力粉（100g）**
    - **砂糖（100g）**
    - **卵 4個**
    - **みりん（大さじ2 / 30mL）**
@@ -33,14 +33,14 @@ categories:
 
 2. 18cm×18cmの型にクッキングシートを敷く
     - お好みで、黒砂糖またはザラメ30gを型の底に広げると甘みや風味・食感がアップします
-3. **薄力粉（100g）をふるって**別のボウルに入れておく
+3. **強力粉（100g）をふるって**別のボウルに入れておく
 4. **卵（4個）と砂糖（100g）を**40℃のお湯を張った別のボウルに浸けながら、リボン状になるまで泡立てる
 5. オーブンを180℃に予熱する
 6. **残りの液体材料を加え**、低速で混ぜる
     - みりん：大さじ2（30mL）
     - はちみつ：大さじ2（30mL）
     - 油：大さじ2（30mL）
-7. **薄力粉を折り込む**
+7. **強力粉を折り込む**
 8. 型に流し込む
 9. 型を約10cmの高さから硬い台に数回落として気泡を抜く
 10. <strong><mark>180°Cで10分焼き</mark>、次に<mark>140°Cで40分焼く</mark></strong>
@@ -66,7 +66,7 @@ categories:
     </thead>
     <tbody>
     <tr>
-        <td>薄力粉</td>
+        <td>強力粉</td>
         <td>299円/kg</td>
         <td>100g</td>
         <td>29.9円</td>
@@ -129,7 +129,7 @@ categories:
     </thead>
     <tbody>
     <tr>
-        <td>薄力粉</td>
+        <td>強力粉</td>
         <td>100g</td>
         <td>364kcal</td>
         <td>10.3g</td>
@@ -272,5 +272,5 @@ console.log(`合計：${totalKWh.toFixed(4)} kWh ＝ ¥${totalYen.toFixed(2)}`);
 
 <p style="text-align: center;">
 <small>お召し上がりください！</small><br/>
-<img src="/images/favicons/castella.png" style="image-rendering: pixelated;" />
+<img src="/images/favicons/castella.png" style="image-rendering: pixelated;" alt="castella icon" />
 </p>
