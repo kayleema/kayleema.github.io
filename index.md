@@ -67,6 +67,13 @@ title: Home
 * For when your project has hard requirements that can't be met by a simple HTML time input field.
 * A flexible time input for shadcn/ui projects. Supports 24h and 12h formats, AM/PM toggle, optional seconds, and auto zero-padding on blur — everything the native `type="time"` can't do.
 
+### <img width="32px" class="favicon" src="/images/favicons/favicon-json.png" /> json-table.kaylee.jp
+
+* **[json-table.kaylee.jp](https://json-table.kaylee.jp/)** ← Try out the live demo now!
+* Show your users some elegant tables instead of intimidating JSON
+* A great solution for when you need to display dynamic structured data to non-technical users
+* A component you can easily add to your shadcn tailwindcss project
+
 ### <img width="32px" class="favicon" src="/images/favicons/favicon-tanuki.png" /> TanukiGo（狸語）
 
 * Source code at **[github.com/kayleema/tanuki](https://github.com/kayleema/tanuki)**

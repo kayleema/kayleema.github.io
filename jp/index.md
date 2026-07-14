@@ -68,6 +68,13 @@ lang: jp
 * **[time-input.kaylee.jp](https://time-input.kaylee.jp/)** ← 今すぐ使ってみてください
 * shadcn/uiプロジェクト向けの柔軟な時刻入力コンポーネントです。24時間・12時間形式、AM/PMトグル、秒の表示、ブラー時の自動ゼロ埋めに対応しています。ネイティブの type="time" では実現できないすべての機能を提供します。
 
+### <img width="32px" class="favicon" src="/images/favicons/favicon-json.png" /> json-table.kaylee.jp
+
+* **[json-table.kaylee.jp](https://json-table.kaylee.jp/)** ← 今すぐライブデモを体験！
+* 難解なJSONデータの代わりに、直感的で美しいテーブルをユーザーに表示できます
+* 開発者ではない一般のユーザーに向けて、動的なデータを分かりやすく表示できます。
+* shadcn/ui と Tailwind CSS を使用しているプロジェクトに、簡単に追加できるコンポーネントです
+
 ###  <img width="32px" style="image-rendering: pixelated;" src="/images/favicons/favicon-tanuki.png" /> 狸語
 
 * 狸語日本語のプログラミング言語
