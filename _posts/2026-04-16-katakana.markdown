@@ -137,16 +137,21 @@ due to visual similarity
 # ※	Examples:			
 
 <table>
-<tr><td>コーヒー</td>			<td>ko-hi-		</td>  <td>		coffee</td></tr>
+<tr><td>コーヒー</td>			<td>ko-hi-		</td>  <td>		☕coffee</td></tr>
+<tr><td>サンド</td>			<td>sando		</td>  <td>		🥪sandwich</td></tr>
 <tr><td>マクドナルド</td>			<td>makudonarudo		</td>  <td>		macdonalds</td></tr>
 <tr><td>ホーム</td>			<td>ho-mu		</td>  <td>		platform (short for purattoho-mu)</td></tr>
 <tr><td>クラクション</td>			<td>kurakushon		</td>  <td>		car horn (Klaxon)</td></tr>
+<tr><td>ハンドル</td>			<td>handoru		</td>  <td>		steering wheel (from handle)</td></tr>
 <tr><td>パン</td>			<td>pan		</td>  <td>		bread (from portuguese/spanish pan)</td></tr>
 <tr><td>コンピューター</td>			<td>conpyu-ta-		</td>  <td>		computer</td></tr>
 <tr><td>スマホ</td>			<td>sumaho		</td>  <td>		smartphone(short for sumattoho-n)</td></tr>
 <tr><td>アメリカ</td>			<td>america		</td>  <td>		🇺🇸</td></tr>
 <tr><td>カリフォルニア</td>			<td>kariforunia		</td>  <td>		california</td></tr>
 <tr><td>パソコン</td>			<td>pasokon		</td>  <td>		personal computer (short for pa-sonaru konpyu-ta-)</td></tr>
+<tr><td>ノートパソコン</td>			<td>no-to pasokon		</td>  <td>		noteboot personal computer</td></tr>
+<tr><td>キーボード</td>			<td>ki-bo-do		</td>  <td>		computer keyboard</td></tr>
+<tr><td>マウス</td>			<td>mausu		</td>  <td>		computer mouse</td></tr>
 <tr><td>コンビニ</td>			<td>conbini		</td>  <td>		convenience store (short for konbiniensu sutoa)</td></tr>
 <tr><td>ドンキホーテ</td>			<td>donkiho-te		</td>  <td>		Don Quixote</td></tr>
 <tr><td>デニズ</td>			<td>denizu		</td>  <td>		Dennies</td></tr>
@@ -155,7 +160,12 @@ due to visual similarity
 <tr><td>パスタ</td>			<td>pasuta		</td>  <td>		🍝</td></tr>
 <tr><td>トマト</td>			<td>tomato		</td>  <td>		🍅</td></tr>
 <tr><td>タコス</td>			<td>takosu		</td>  <td>		🌮</td></tr>
+<tr><td>アボカド</td>			<td>abokado		</td>  <td>		🥑</td></tr>
 <tr><td>トースト</td>			<td>to-suto		</td>  <td>		🍞</td></tr>
+<tr><td>メロン</td>			<td>meron		</td>  <td>		🍈</td></tr>
+<tr><td>ピーマン</td>			<td>pi-man		</td>  <td>small bell pepper (from french piment)</td></tr>
+<tr><td>パプリカ</td>			<td>papurika		</td>  <td>large bell pepper (paprika) (from hungarian)</td></tr>
+<tr><td>メイク</td>			<td>meiku</td>  <td>makeup</td></tr>
 <tr><td>ホテル</td>			<td>hoteru		</td>  <td>		hotel</td></tr>
 <tr><td>カレンダー</td>			<td>karenda-		</td>  <td>		calendar</td></tr>
 <tr><td>ドライブ</td>			<td>doraibu		</td>  <td>		drive</td></tr>
@@ -168,10 +178,10 @@ due to visual similarity
 <tr><td>ペン</td>			<td>pen		</td>  <td>		🖊️</td></tr>
 <tr><td>ペンギン</td>			<td>pengin		</td>  <td>		penguin🐧</td></tr>
 <tr><td>ポテト</td>			<td>poteto		</td>  <td>		potato</td></tr>
-<tr><td>フライドポテト</td>			<td>furaidopoteto		</td>  <td>		french fries (fried potato)</td></tr>
+<tr><td>フライドポテト</td>			<td>furaidopoteto		</td>  <td>		🍟french fries (fried potato)</td></tr>
 <tr><td>ハンバーガー</td>			<td>hanba-ga-		</td>  <td>		hamburger</td></tr>
 <tr><td>ハンバーグ</td>			<td>hanba-gu		</td>  <td>		hamburger steak</td></tr>
-<tr><td>タピオカ</td>			<td>tapioka		</td>  <td>		tapioca</td></tr>
+<tr><td>タピオカ</td>			<td>tapioka		</td>  <td>		🧋tapioca</td></tr>
 <tr><td>チキン</td>			<td>chikin		</td>  <td>		chicken</td></tr>
 <tr><td>タバコ</td>			<td>tabako		</td>  <td>		🚬</td></tr>
 <tr><td>キャンペーン</td>			<td>kyanpe-n		</td>  <td>		campaign as in ad-campaign</td></tr>
@@ -180,6 +190,7 @@ due to visual similarity
 <tr><td>ビル</td>			<td>biru		</td>  <td>		building (short for birudingu)</td></tr>
 <tr><td>ボール</td>			<td>bi-ru		</td>  <td>		🍺</td></tr>
 <tr><td>ワイン</td>			<td>wain		</td>  <td>		🍷</td></tr>
+<tr><td>ウイスキー</td>			<td>uisuki-		</td>  <td>		🥃whiskey</td></tr>
 <tr><td>レモン</td>			<td>remon		</td>  <td>		🍋</td></tr>
 <tr><td>アイス</td>			<td>aisu		</td>  <td>		icecream (not frozen water)</td></tr>
 <tr><td>ベビーカー</td>			<td>bebi-ka-		</td>  <td>		stroller/pram (from baby-car)</td></tr>
@@ -217,6 +228,8 @@ due to visual similarity
 <tr><td>ソース</td>			<td>so-su		</td>  <td>		sauce</td></tr>
 <tr><td>テンション</td>			<td>tenshon		</td>  <td>		excitement</td></tr>
 <tr><td>マンション</td>			<td>manshon		</td>  <td>		apartment (from mansion)</td></tr>
+<tr><td>アパート</td>			<td>apa-to		</td>  <td>		apartment</td></tr>
+<tr><td>サラリーマン</td>			<td>sarari-man		</td>  <td>company worker (salary man)</td></tr>
 <tr><td>バス</td>			<td>basu		</td>  <td>		bus</td></tr>
 <tr><td>サービス</td>			<td>sa-bisu		</td>  <td>		free of charge (from service)</td></tr>
 <tr><td>フリーサイズ</td>			<td>furi-saizu		</td>  <td>		one size fits all (from free-size)</td></tr>
@@ -226,8 +239,14 @@ due to visual similarity
 <tr><td>ビデオ</td>			<td>bideo		</td>  <td>		video</td></tr>
 <tr><td>ブーム</td>			<td>bu-mu		</td>  <td>		boom (as in popularity)</td></tr>
 <tr><td>トイレ</td>			<td>toire		</td>  <td>🚽toilet (bathroom)</td></tr>
+<tr><td>マイナンバー</td>			<td>mai nanba-		</td>  <td>national personal ID number (from my number)</td></tr>
+<tr><td>マイナンバーカード</td>			<td>mai nanba- ka-do		</td>  <td>national ID card (from my number card)</td></tr>
 <tr><td>ヤンキー</td>			<td>yanki-		</td>  <td>		delinquent youth (from yankee)</td></tr>
-<tr><td>カタカナ</td>			<td>katakana		</td>  <td>		katak ana</td></tr>
+<tr><td>ギャル</td>			<td>gyaru		</td>  <td> a distinct fashion style associated with dyed hair, heavy makeup, and gaudy clothing (from gal)</td></tr>
+<tr><td>トランプ</td>			<td>toranpu		</td>  <td>		playing cards (from trump-card)</td></tr>
+<tr><td>ピエロ</td>			<td>piero		</td>  <td>		clown</td></tr>
+<tr><td>サッカー</td>			<td>sakka-		</td>  <td>		⚽️soccer</td></tr>
+<tr><td>カタカナ</td>			<td>katakana		</td>  <td>		katakana</td></tr>
 </table>
 
 
