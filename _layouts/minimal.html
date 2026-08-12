@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="{% if page.lang == "jp" %}ja{% else %}en{% endif %}">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -8,7 +8,40 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <link rel="stylesheet" href="/css/minimal.css">
     <link rel="stylesheet" href="/css/syntax_monokai.css"/>
-    <title>Kaylee</title>
+
+    {% assign page_title = "Kaylee" %}
+    {% if page.title %}{% assign page_title = page.title | prepend: "Kaylee - " %}{% endif %}
+    {% assign og_desc_en = "Software engineer at BeKind Labs Tokyo. Apps, developer tools, and services by Kaylee." %}
+    {% assign og_desc_jp = "ビーカインド・ラボの開発者ケイリーのウェブサイト。アプリや開発ツール、サービスを紹介しています。" %}
+    {% if page.lang == "jp" %}
+        {% assign og_desc = og_desc_jp %}
+        {% assign og_locale = "ja_JP" %}
+    {% else %}
+        {% assign og_desc = og_desc_en %}
+        {% assign og_locale = "en_US" %}
+    {% endif %}
+
+    <title>{{ page_title }}</title>
+    <meta name="description" content="{{ og_desc }}">
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Kaylee">
+    <meta property="og:title" content="{{ page_title }}">
+    <meta property="og:description" content="{{ og_desc }}">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="og:locale" content="{{ og_locale }}">
+    <meta property="og:image" content="{{ site.url }}/images/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Kaylee — kaylee.jp">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ page_title }}">
+    <meta name="twitter:description" content="{{ og_desc }}">
+    <meta name="twitter:image" content="{{ site.url }}/images/og-image.png">
 </head>
 <body>
 <nav class="container">
