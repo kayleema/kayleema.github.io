@@ -36,6 +36,11 @@ layout: minimal
                 alt="logo"
         />
         <div>
+            {% if page.lang == "jp" %}
+            <strong>【広告】</strong>
+            {% else %}
+            <strong>【Ad】</strong>
+            {% endif %}
             <strong>skypattern.jp</strong>
             {% if page.lang == "jp" %}
                 裁縫師やデザイナー向けのブラウザベース型紙作成ソフトウェア。
