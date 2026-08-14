@@ -39,6 +39,13 @@ title: Home
 * Tabulate your travels wherever they take you.
 * Level up and share with friends.
 
+### ⏰ TimeBoard
+
+* **[timeboard.kaylee.jp](https://timeboard.kaylee.jp)** ← Try it out now!
+* A board of countdown timers that stays snappy whether you're online or offline.
+* Use it to watch for a deadline or know exactly how long has passed since a life event.
+* Built on a local-first CRDT frontend and a small, fast Rust backend.
+
 ### 🌏 Global Uptime Status Dashboard
 
 * Click here to view the [Live **Uptime Status** of all Kaylee.jp Services](https://uptime.kaylee.jp/status/kaylee-jp-global-uptime-status)

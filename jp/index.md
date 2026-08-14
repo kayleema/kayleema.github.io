@@ -41,6 +41,14 @@ lang: jp
 * 旅行体験レベルアップする！
 
 
+### ⏰ タイムボード
+
+* **[timeboard.kaylee.jp](https://timeboard.kaylee.jp)** ← 今すぐ試してみてください！
+* オンラインでもオフラインでもサクサク動く、カウントダウンタイマーのボードです。
+* 締め切りを見守ったり、あるライフイベントからどれくらい時間が経ったかを正確に知るのに使えます。
+* ローカルファーストなCRDTフロントエンドと、小さくて高速なRustバックエンドで構築されています。
+
+
 ### 🌏 Global Uptime Status Dashboard
 
 * **[全サービスの稼働状況ダッシュボードへ](https://uptime.kaylee.jp/status/kaylee-jp-global-uptime-status)** ← ライブダーターが見えます
