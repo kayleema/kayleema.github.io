@@ -46,6 +46,13 @@ title: Home
 * Use it to watch for a deadline or know exactly how long has passed since a life event.
 * Built on a local-first CRDT frontend and a small, fast Rust backend.
 
+### <img width="32px" class="favicon" src="/images/favicons/favicon-kanjikansatsu.png" /> 漢字観察 Live Kanji Heatmap
+
+* **[kanjikansatsu.kaylee.jp](https://kanjikansatsu.kaylee.jp)** ← Try it out now!
+* A live heatmap of kanji usage on Bluesky. 
+* It connects directly to Bluesky's public firehose from the browser, watches Japanese-language posts as they stream by, and keeps a running (never-reset) tally of every kanji it sees.
+* Rendered as a color-ramp heatmap that reorders and heats up in real time.
+
 ### 🌏 Global Uptime Status Dashboard
 
 * Click here to view the [Live **Uptime Status** of all Kaylee.jp Services](https://uptime.kaylee.jp/status/kaylee-jp-global-uptime-status)

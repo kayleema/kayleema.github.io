@@ -48,6 +48,13 @@ lang: jp
 * 締め切りを見守ったり、あるライフイベントからどれくらい時間が経ったかを正確に知るのに使えます。
 * ローカルファーストなCRDTフロントエンドと、小さくて高速なRustバックエンドで構築されています。
 
+### <img width="32px" class="favicon" src="/images/favicons/favicon-kanjikansatsu.png" /> 漢字観察 Live Kanji Heatmap
+
+* **[kanjikansatsu.kaylee.jp](https://kanjikansatsu.kaylee.jp)** ← 今すぐ試してみてください！
+* Bluesky上の漢字使用状況をリアルタイムで可視化するヒートマップです。
+* ブラウザから直接Blueskyの公開ファイアホースに接続し、流れてくる日本語の投稿を監視して、目にしたすべての漢字の出現回数を(リセットされることなく)常時集計しています。
+* カラーグラデーションのヒートマップとして表示され、リアルタイムで並び替えられながら色づいていきます。
+
 
 ### 🌏 Global Uptime Status Dashboard
 
