@@ -39,7 +39,7 @@ title: Home
 * Tabulate your travels wherever they take you.
 * Level up and share with friends.
 
-### ⏰ TimeBoard
+### <img width="32px" class="favicon" src="/images/favicons/favicon-clock.png" /> TimeBoard
 
 * **[timeboard.kaylee.jp](https://timeboard.kaylee.jp)** ← Try it out now!
 * A board of countdown timers that stays snappy whether you're online or offline.
