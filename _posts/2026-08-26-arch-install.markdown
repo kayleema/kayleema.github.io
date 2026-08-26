@@ -1,0 +1,100 @@
+---
+layout: minimal-post
+title: "Arch Install Quick Reference"
+summary: "A dense list of things to get a system running"
+icon: "/images/favicons/apps.png"
+---
+
+<style>
+.language-shell {
+    margin-block-end: 10px;
+}
+pre {
+    margin: 6px;
+}
+</style>
+
+<br/>
+
+```shell
+setfont ter-132b
+cat /sys/firmware/efi/fw_platform_size
+ip link
+ping ping.archlinux.org
+timedatectl
+fdisk -l
+free -h
+```
+
+```shell
+fdisk /dev/sda
+    g    n <enter> <enter> +1G    t <enter> 1
+         n <enter> <enter> +16G   t <enter> 19
+         n <enter> <enter> <enter>
+    p w
+```
+
+```shell
+mkfs.ext4 /dev/sda3
+mkswap /dev/sda2
+mkfs.fat -F32 /dev/sda1
+mount /dev/sda3 /mnt
+mount --mkdir /dev/sda1 /mnt/boot
+swapon /dev/sda2
+lscpu
+```
+
+```shell
+pacstrap -K /mnt base base-devel linux linux-firmware \
+                 vim sudo networkmanager openssh man-db man-pages texinfo intel-ucode
+genfstab -U /mnt >> /mnt/etc/fstab
+arch-chroot -S /mnt
+ln -sf /usr/share/zoneinfo/Asia/Tokyo /etc/localtime
+hwclock --systohc
+passwd
+bootctl install
+```
+
+```shell
+vim /boot/loader/loader.conf
+    default arch.conf
+    timeout 3
+    console-mode max
+    editor no
+```
+
+```shell
+vim /boot/loader/entries/arch.conf
+    title Arch Linux
+    linux /vmlinuz-linux
+    initrd /initramfs-linux.img
+    options root=UUID=... rw
+```
+
+```shell
+bootctl update
+vim /etc/hostname
+systemctl enable NetworkManager
+sudo systemctl enable sshd
+reboot
+EDITOR=vim visudo
+useradd -m -G wheel -s /bin/bash <username>
+passwd <username>
+```
+
+## Add ZFS Support
+
+```shell
+sudo pacman -S --needed git base-devel
+mkdir repos
+cd repos
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+yay -S zfs-utils zfs-dkms
+sudo modprobe zfs
+```
+```shell
+sudo vim /etc/pacman.conf
+    IgnorePkg = linux linux-headers
+```

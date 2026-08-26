@@ -28,34 +28,34 @@ layout: minimal
 </hgroup>
 
 
-<a href="https://skypattern.jp" style="padding: 16px; border-radius: 6px; margin-block: 30px; display: flex; gap: 24px; box-shadow: none; border: 1px solid #8888;">
-        <img
-                width="64px"
-                src="http://skypattern.jp/editor/skypatternfavi.svg"
-                style="float: left;"
-                alt="logo"
-        />
-        <div>
-            {% if page.lang == "jp" %}
-            <strong>【広告】</strong>
-            {% else %}
-            <strong>【Ad】</strong>
-            {% endif %}
-            <strong>skypattern.jp</strong>
-            {% if page.lang == "jp" %}
-                裁縫師やデザイナー向けのブラウザベース型紙作成ソフトウェア。
-                数式と幾何学プリミティブを使ってカスタム型紙を構築できます。
-                無料アカウントを今すぐ作成しませんか。
-            {% else %}
-                Try out Browser-based pattern drafting software for clothing designers.
-                Build custom patterns using mathematical formulas and geometric primitives.
-                Make your free account now!
-            {% endif %}
-        </div>
-</a>
 
 {{content}}
 
 
 <hr/>
 
+<a href="https://skypattern.jp" style="padding: 16px; border-radius: 6px; margin-block: 30px; display: flex; gap: 24px; box-shadow: none; border: 1px solid #8888;">
+    <img
+            width="64px"
+            src="http://skypattern.jp/editor/skypatternfavi.svg"
+            style="float: left;"
+            alt="logo"
+    />
+    <div>
+        {% if page.lang == "jp" %}
+        <strong>【広告】</strong>
+        {% else %}
+        <strong>【Ad】</strong>
+        {% endif %}
+        <strong>skypattern.jp</strong>
+        {% if page.lang == "jp" %}
+        裁縫師やデザイナー向けのブラウザベース型紙作成ソフトウェア。
+        数式と幾何学プリミティブを使ってカスタム型紙を構築できます。
+        無料アカウントを今すぐ作成しませんか。
+        {% else %}
+        Try out Browser-based pattern drafting software for clothing designers.
+        Build custom patterns using mathematical formulas and geometric primitives.
+        Make your free account now!
+        {% endif %}
+    </div>
+</a>
