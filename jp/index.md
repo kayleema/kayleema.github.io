@@ -41,7 +41,7 @@ lang: jp
 * 旅行体験レベルアップする！
 
 
-### <img width="32px" class="favicon" src="/images/favicons/favicon-clock.png" /> ⏰ タイムボード
+### <img width="32px" class="favicon" src="/images/favicons/favicon-clock.png" /> タイムボード
 
 * **[timeboard.kaylee.jp](https://timeboard.kaylee.jp)** ← 今すぐ試してみてください！
 * オンラインでもオフラインでもサクサク動く、カウントダウンタイマーのボードです。

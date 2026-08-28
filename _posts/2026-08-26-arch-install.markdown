@@ -98,3 +98,47 @@ sudo modprobe zfs
 sudo vim /etc/pacman.conf
     IgnorePkg = linux linux-headers
 ```
+
+## Add KDE DE
+```shell
+sudo pacman -S plasma-meta plasma-login-manager dolphin konsole ark gwenview
+sudo systemctl isolate graphical
+sudo systemctl enable plasma-login-manager
+sudo systemctl set-default multi-user
+```
+
+## Add Tailscale
+
+```shell
+sudo pacman -S tailscale
+sudo systemctl enable --now tailscaled
+sudo tailscale up
+tailscale status
+```
+
+## More fun things:
+
+```shell
+vim .bashrc
+    MAGENTA="\[$(tput setaf 5)\]"
+    YELLOW="\[$(tput setaf 3)\]"
+    RESET="\[$(tput sgr0)\]"
+    PS1='['"$MAGENTA"'\u@\h'"$RESET"' '"$YELLOW"'\W'"$RESET"']\$ '
+sudo vim /etc/ssh/sshd_config
+    Banner /etc/issue.net
+sudo vim /etc/issue.net
+```
+
+## Fun Apps
+
+```shell
+sudo pacman -S fastfetch btop
+sudo pacman -S inkscape gimp rawtherapee blender
+sudo pacman -S kicad kicad-library kicad-library-3d anki
+yay -S visual-studio-code-bin
+```
+
+## Docker/Kubernetes
+
+...
+
