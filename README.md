@@ -1,6 +1,7 @@
 Run locally
 ============
 ``` shell
-bundle install --path vendor/bundle
+bundle config set --local path 'vendor/bundle'
+bundle install
 bundle exec jekyll serve
 ```

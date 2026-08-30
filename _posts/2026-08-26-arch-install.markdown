@@ -124,6 +124,9 @@ vim .bashrc
     YELLOW="\[$(tput setaf 3)\]"
     RESET="\[$(tput sgr0)\]"
     PS1='['"$MAGENTA"'\u@\h'"$RESET"' '"$YELLOW"'\W'"$RESET"']\$ '
+```
+
+```shell
 sudo vim /etc/ssh/sshd_config
     Banner /etc/issue.net
 sudo vim /etc/issue.net
@@ -134,11 +137,18 @@ sudo vim /etc/issue.net
 ```shell
 sudo pacman -S fastfetch btop
 sudo pacman -S inkscape gimp rawtherapee blender
-sudo pacman -S kicad kicad-library kicad-library-3d anki
+sudo pacman -S kicad kicad-library kicad-library-3d
+sudo pacman -S anki
 yay -S visual-studio-code-bin
+```
+
+## Dev tools
+
+```shell
+sudo pacman -S ruby
+echo 'export PATH="$HOME/.local/share/gem/ruby/3.4.0/bin:$PATH"' >> ~/.bashrc
 ```
 
 ## Docker/Kubernetes
 
 ...
-
